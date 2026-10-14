@@ -16,3 +16,7 @@ nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
   menuButton.setAttribute('aria-expanded', 'false');
 }));
 document.getElementById('year').textContent = new Date().getFullYear();
+// 準備中カードはリンク先へ移動しないようにします。
+document.querySelectorAll('[data-placeholder="true"]').forEach(card => {
+  card.addEventListener('click', event => event.preventDefault());
+});
