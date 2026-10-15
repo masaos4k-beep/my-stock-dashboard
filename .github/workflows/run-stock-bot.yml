@@ -31,7 +31,7 @@ jobs:
     # 4. あなたのPythonスクリプトを実行してHTMLを生成
     - name: Pythonスクリプトの実行
       run: |
-        market_dashboard_live.py  # 💡 ご自身のPythonファイル名が「main.py」でない場合は、ここを実際のファイル名に書き換えてください。
+        python market_dashboard_live.py  # 💡 ご自身のPythonファイル名が「main.py」でない場合は、ここを実際のファイル名に書き換えてください。
 
     # 5. 生成された新しいHTMLファイルを、GitHubに自動で上書き保存（コミット）する
     - name: 生成されたHTMLをGitHubに保存
