@@ -1,5 +1,3 @@
-!pip install -q yfinance pandas
-
 import json
 import pandas as pd
 import yfinance as yf
