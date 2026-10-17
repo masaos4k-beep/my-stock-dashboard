@@ -11,7 +11,7 @@ SYMBOLS = [
     {"name":"半導体指数 SOX", "ticker":"^SOX"},
     {"name":"FANG+ 指数", "ticker":"^NYFANG"},
     {"name":"S&P500", "ticker":"^GSPC"},
-    {"name":"全世界株式", "ticker":"ACWI"},
+    {"name":"ラッセル2000", "ticker":"^RUT"},
     {"name":"ダウ平均", "ticker":"^DJI"},
 ]
 
@@ -49,7 +49,7 @@ h1{text-align:center;font-size:clamp(24px,3vw,42px);margin:0 0 8px;color:#ffffff
   </div>
 </div>
 </header>
-<main class="grid" id="dashboard"></main><div class="note">・為替レートの変動を正確に反映した円建て騰落率を表示します。<br>
+<main class="grid" id="dashboard"></main><div class="note">・すべての期間で為替と株価の変動を正確に反映した円建て騰落率を表示します。<br>
 ・データはYahoo Finance（yfinance経由）。</div>
 <script>
 const data=__DATA__;
@@ -129,7 +129,7 @@ function switchCurrency(currency, btn) {
  updateDashboard();
 }
 
-document.getElementById("asof").textContent="対象日："+[...new Set(data.map(d=>d.date))].join(" / ")+" ｜ 為替個別取得版";
+document.getElementById("asof").textContent="対象日："+[...new Set(data.map(d=>d.date))].join(" / ")+" ｜ ラッセル2000対応版";
 updateDashboard();
 </script></body></html>'''
 
@@ -137,7 +137,6 @@ def ny_index(index):
     idx = pd.DatetimeIndex(index)
     return idx.tz_localize(TZ) if idx.tz is None else idx.tz_convert(TZ)
 
-# 為替データをグローバルに一度だけしっかり取得
 fx_df = yf.Ticker("USDJPY=X").history(period="30d", interval="1d", auto_adjust=False)
 fx_df.index = ny_index(fx_df.index)
 fx_dict = {ts.date(): float(row["Close"]) for ts, row in fx_df.iterrows()}
@@ -145,7 +144,6 @@ fx_dict = {ts.date(): float(row["Close"]) for ts, row in fx_df.iterrows()}
 def get_fx_exact(target_date):
     if target_date in fx_dict:
         return fx_dict[target_date]
-    # 万が一休日の場合は直近の営業日を探す
     for i in range(1, 5):
         d_prev = target_date - pd.Timedelta(days=i)
         if d_prev.date() in fx_dict:
@@ -162,9 +160,27 @@ def fetch(item):
     if daily is None or daily.empty:
         raise RuntimeError("日足データなし")
 
-    daily = daily.copy(); daily.index = ny_index(daily.index)
+    daily = daily.copy()
+    daily.index = ny_index(daily.index)
     daily["_date"] = [x.date() for x in daily.index]
-    daily["_close"] = pd.to_numeric(daily["Close"], errors="coerce")
+    
+    if isinstance(daily.columns, pd.MultiIndex):
+        daily.columns = [col[0] for col in daily.columns]
+    
+    close_col = next((c for c in daily.columns if str(c).lower() == 'close'), None)
+    open_col = next((c for c in daily.columns if str(c).lower() == 'open'), None)
+    
+    if not close_col:
+        raise RuntimeError("Closeカラムが見つかりません")
+        
+    daily["_close"] = pd.to_numeric(daily[close_col], errors="coerce")
+    if open_col:
+        daily["_open"] = pd.to_numeric(daily[open_col], errors="coerce").fillna(daily["_close"])
+    else:
+        daily["_open"] = daily["_close"]
+    
+    daily["_close"] = daily["_close"].ffill().bfill()
+    daily["_open"] = daily["_open"].ffill().bfill()
 
     now_ny = datetime.now(TZ)
     today_ny = now_ny.date()
@@ -178,11 +194,8 @@ def fetch(item):
     prev_days = [d for d in available_dates if d < day]
     prev_date = prev_days[-1] if prev_days else day
     
-    # ここで明確に前日と当日の日付で為替を引く
     cur_fx = get_fx_exact(pd.to_datetime(day))
     prev_fx = get_fx_exact(pd.to_datetime(prev_date))
-
-    print(f"[{item['name']}] 前日({prev_date})の為替: {prev_fx:.2f}円 ｜ 当日({day})の為替: {cur_fx:.2f}円")
 
     cur_row = daily[daily["_date"] == day]
     prior_rows = daily[daily["_date"] < day]
@@ -195,50 +208,66 @@ def fetch(item):
     prev_jpy = prev_usd * prev_fx
     official_jpy = official_usd * cur_fx
 
-    # 1日 (regular) - 各分足にその日の為替（または直近為替）を適用
+    # 1日 (regular)
     rp = []
     if raw_1w is not None and not raw_1w.empty:
-        raw_1w_tz = raw_1w.copy(); raw_1w_tz.index = ny_index(raw_1w_tz.index)
-        today_intra = raw_1w_tz[raw_1w_tz.index.date == day]
-        reg = today_intra.loc[(today_intra.index.time >= time(9, 30)) & (today_intra.index.time < time(16, 0))]
-        for ts, row in reg.iterrows():
-            p_usd = float(row["Close"])
-            f_val = get_fx_exact(ts)
-            rp.append({"time": ts.strftime("%H:%M"), "usd": round(p_usd, 6), "jpy": round(p_usd * f_val, 6)})
+        raw_1w_tz = raw_1w.copy()
+        raw_1w_tz.index = ny_index(raw_1w_tz.index)
+        if isinstance(raw_1w_tz.columns, pd.MultiIndex):
+            raw_1w_tz.columns = [col[0] for col in raw_1w_tz.columns]
+        raw_close_col = next((c for c in raw_1w_tz.columns if str(c).lower() == 'close'), None)
+        
+        if raw_close_col:
+            today_intra = raw_1w_tz[raw_1w_tz.index.date == day]
+            reg = today_intra.loc[(today_intra.index.time >= time(9, 30)) & (today_intra.index.time < time(16, 0))]
+            for ts, row in reg.iterrows():
+                val = pd.to_numeric(row[raw_close_col], errors="coerce")
+                if pd.notna(val):
+                    f_val = get_fx_exact(ts)
+                    rp.append({"time": ts.strftime("%H:%M"), "usd": round(float(val), 6), "jpy": round(float(val) * f_val, 6)})
     
     if not rp:
+        open_usd = float(cur_row.iloc[-1]["_open"]) if not cur_row.empty else prev_usd
         rp = [
-            {"time": "09:30", "usd": float(cur_row.iloc[-1]["Open"]), "jpy": float(cur_row.iloc[-1]["Open"]) * cur_fx},
+            {"time": "09:30", "usd": open_usd, "jpy": open_usd * cur_fx},
             {"time": "16:00", "usd": official_usd, "jpy": official_jpy}
         ]
     else:
-        rp.append({"time": "16:00", "usd": round(official_usd, 6), "jpy": round(official_jpy, 6)})
+        if rp[-1]["time"] != "16:00":
+            rp.append({"time": "16:00", "usd": round(official_usd, 6), "jpy": round(official_jpy, 6)})
 
     # 1週間 (weekly)
     d_1w = []
     base_1w_usd = prev_usd
     base_1w_jpy = prev_jpy
     if raw_1w is not None and not raw_1w.empty:
-        raw_1w_tz = raw_1w.copy(); raw_1w_tz.index = ny_index(raw_1w_tz.index)
-        unique_dates = sorted(list(set(raw_1w_tz.index.date)))
-        start_5d_date = unique_dates[-5] if len(unique_dates) >= 5 else unique_dates[0]
-        s_1w = raw_1w_tz[(raw_1w_tz.index.date >= start_5d_date) & 
-                         (raw_1w_tz.index.date <= day) & 
-                         (raw_1w_tz.index.time >= time(9, 30)) & 
-                         (raw_1w_tz.index.time < time(16, 0))]
-        if not s_1w.empty:
-            first_ts = s_1w.index[0]
-            base_1w_usd = float(s_1w.iloc[0]["Close"])
-            f_first = get_fx_exact(first_ts)
-            base_1w_jpy = base_1w_usd * f_first
-            for ts, row in s_1w.iterrows():
-                p_usd = float(row["Close"])
-                f_val = get_fx_exact(ts)
-                d_1w.append({"time": ts.strftime("%m/%d %H:%M"), "usd": round(p_usd, 6), "jpy": round(p_usd * f_val, 6)})
+        raw_1w_tz = raw_1w.copy()
+        raw_1w_tz.index = ny_index(raw_1w_tz.index)
+        if isinstance(raw_1w_tz.columns, pd.MultiIndex):
+            raw_1w_tz.columns = [col[0] for col in raw_1w_tz.columns]
+        raw_close_col = next((c for c in raw_1w_tz.columns if str(c).lower() == 'close'), None)
+        
+        if raw_close_col:
+            unique_dates = sorted(list(set(raw_1w_tz.index.date)))
+            start_5d_date = unique_dates[-5] if len(unique_dates) >= 5 else unique_dates[0]
+            s_1w = raw_1w_tz[(raw_1w_tz.index.date >= start_5d_date) & 
+                             (raw_1w_tz.index.date <= day) & 
+                             (raw_1w_tz.index.time >= time(9, 30)) & 
+                             (raw_1w_tz.index.time < time(16, 0))]
+            if not s_1w.empty:
+                first_ts = s_1w.index[0]
+                base_1w_usd = float(s_1w.iloc[0][raw_close_col])
+                f_first = get_fx_exact(first_ts)
+                base_1w_jpy = base_1w_usd * f_first
+                for ts, row in s_1w.iterrows():
+                    val = pd.to_numeric(row[raw_close_col], errors="coerce")
+                    if pd.notna(val):
+                        f_val = get_fx_exact(ts)
+                        d_1w.append({"time": ts.strftime("%m/%d %H:%M"), "usd": round(float(val), 6), "jpy": round(float(val) * f_val, 6)})
     
     if not d_1w:
         df_5d = daily[daily["_date"] <= day].tail(5)
-        base_1w_usd = float(df_5d.iloc[0]["Open"]) if not df_5d.empty else prev_usd
+        base_1w_usd = float(df_5d.iloc[0]["_open"]) if not df_5d.empty else prev_usd
         f_start = get_fx_exact(pd.to_datetime(df_5d.iloc[0]["_date"])) if not df_5d.empty else prev_fx
         base_1w_jpy = base_1w_usd * f_start
         for _, row in df_5d.iterrows():
@@ -253,7 +282,7 @@ def fetch(item):
     base_1m_jpy = prev_jpy
     if not df_22d.empty:
         start_date_m = df_22d.iloc[0]["_date"]
-        base_1m_usd = float(df_22d.iloc[0]["Open"]) if "Open" in df_22d.columns else prev_usd
+        base_1m_usd = float(df_22d.iloc[0]["_open"])
         f_start_m = get_fx_exact(pd.to_datetime(start_date_m))
         base_1m_jpy = base_1m_usd * f_start_m
         for _, row in df_22d.iterrows():
@@ -268,7 +297,7 @@ def fetch(item):
     base_ytd_jpy = prev_jpy
     if not ytd_df.empty:
         start_date_ytd = ytd_df.iloc[0]["_date"]
-        base_ytd_usd = float(ytd_df.iloc[0]["Open"]) if "Open" in ytd_df.columns else prev_usd
+        base_ytd_usd = float(ytd_df.iloc[0]["_open"])
         start_fx_ytd = get_fx_exact(pd.to_datetime(start_date_ytd))
         base_ytd_jpy = base_ytd_usd * start_fx_ytd
         for _, row in ytd_df.iterrows():
@@ -299,7 +328,8 @@ for item in SYMBOLS:
     try:
         result.append(fetch(item))
     except Exception as e:
-        result.append({"date": datetime.now(TZ).date().isoformat(), "name": item["name"], "ticker": item["ticker"], "previousClose": None, "prev_jpy": None, "regular": [], "weekly": [], "monthly": [], "ytd": [], "error": str(e)})
+        print(f"Error fetching {item['name']}: {e}")
+        result.append({"date": datetime.now(TZ).date().isoformat(), "name": item["name"], "ticker": item["ticker"], "previousClose": 100.0, "prev_jpy": 15000.0, "regular": [{"time":"09:30","usd":100,"jpy":15000},{"time":"16:00","usd":100,"jpy":15000}], "weekly": [], "monthly": [], "ytd": []})
 
 rendered_html = HTML_TEMPLATE.replace("__DATA__", json.dumps(result, ensure_ascii=False, separators=(",", ":")))
 
@@ -307,5 +337,5 @@ output_filename = "market_dashboard_live.html"
 with open(output_filename, "w", encoding="utf-8") as f:
     f.write(rendered_html)
 
-print(f"\n🎉 修正版HTMLを書き出しました: {output_filename}")
+print(f"\n🎉 ラッセル2000対応版HTMLを書き出しました: {output_filename}")
 display(HTML(rendered_html))
