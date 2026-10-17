@@ -49,7 +49,7 @@ h1{text-align:center;font-size:clamp(24px,3vw,42px);margin:0 0 8px;color:#ffffff
   </div>
 </div>
 </header>
-<main class="grid" id="dashboard"></main><div class="note">・1日チャートも含め、各期間の起点と終点の為替変動を正確に反映した円建て騰落率を表示します。<br>
+<main class="grid" id="dashboard"></main><div class="note">・為替レートの変動を正確に反映した円建て騰落率を表示します。<br>
 ・データはYahoo Finance（yfinance経由）。</div>
 <script>
 const data=__DATA__;
@@ -129,7 +129,7 @@ function switchCurrency(currency, btn) {
  updateDashboard();
 }
 
-document.getElementById("asof").textContent="対象日："+[...new Set(data.map(d=>d.date))].join(" / ")+" ｜ 1日チャート為替連動修正版";
+document.getElementById("asof").textContent="対象日："+[...new Set(data.map(d=>d.date))].join(" / ")+" ｜ 為替個別取得版";
 updateDashboard();
 </script></body></html>'''
 
@@ -137,13 +137,27 @@ def ny_index(index):
     idx = pd.DatetimeIndex(index)
     return idx.tz_localize(TZ) if idx.tz is None else idx.tz_convert(TZ)
 
+# 為替データをグローバルに一度だけしっかり取得
+fx_df = yf.Ticker("USDJPY=X").history(period="30d", interval="1d", auto_adjust=False)
+fx_df.index = ny_index(fx_df.index)
+fx_dict = {ts.date(): float(row["Close"]) for ts, row in fx_df.iterrows()}
+
+def get_fx_exact(target_date):
+    if target_date in fx_dict:
+        return fx_dict[target_date]
+    # 万が一休日の場合は直近の営業日を探す
+    for i in range(1, 5):
+        d_prev = target_date - pd.Timedelta(days=i)
+        if d_prev.date() in fx_dict:
+            return fx_dict[d_prev.date()]
+    return 150.0
+
 def fetch(item):
     symbol = item["ticker"]
     obj = yf.Ticker(symbol)
     
     daily = obj.history(period="ytd", interval="1d", auto_adjust=False, actions=False)
     raw_1w = obj.history(period="10d", interval="15m", prepost=False, auto_adjust=False, actions=False)
-    fx = yf.Ticker("USDJPY=X").history(period="ytd", interval="1d", auto_adjust=False, actions=False)
     
     if daily is None or daily.empty:
         raise RuntimeError("日足データなし")
@@ -151,24 +165,6 @@ def fetch(item):
     daily = daily.copy(); daily.index = ny_index(daily.index)
     daily["_date"] = [x.date() for x in daily.index]
     daily["_close"] = pd.to_numeric(daily["Close"], errors="coerce")
-    daily["_open"] = pd.to_numeric(daily["Open"], errors="coerce")
-
-    fx_map = {}
-    if fx is not None and not fx.empty:
-        fx = fx.copy(); fx.index = ny_index(fx.index)
-        for ts, row in fx.iterrows():
-            fx_map[ts.date().isoformat()] = float(row["Close"])
-
-    def get_fx(d_obj):
-        d_str = d_obj.isoformat() if hasattr(d_obj, "isoformat") else str(d_obj)
-        if d_str in fx_map:
-            return fx_map[d_str]
-        current_dt = pd.to_datetime(d_str)
-        for i in range(1, 10):
-            prev_d = (current_dt - pd.Timedelta(days=i)).date().isoformat()
-            if prev_d in fx_map:
-                return fx_map[prev_d]
-        return 150.0
 
     now_ny = datetime.now(TZ)
     today_ny = now_ny.date()
@@ -179,10 +175,14 @@ def fetch(item):
         raise RuntimeError("完了済みの取引日がありません")
     day = available_dates[-1]
     
-    cur_fx = get_fx(day)
     prev_days = [d for d in available_dates if d < day]
     prev_date = prev_days[-1] if prev_days else day
-    prev_fx = get_fx(prev_date)
+    
+    # ここで明確に前日と当日の日付で為替を引く
+    cur_fx = get_fx_exact(pd.to_datetime(day))
+    prev_fx = get_fx_exact(pd.to_datetime(prev_date))
+
+    print(f"[{item['name']}] 前日({prev_date})の為替: {prev_fx:.2f}円 ｜ 当日({day})の為替: {cur_fx:.2f}円")
 
     cur_row = daily[daily["_date"] == day]
     prior_rows = daily[daily["_date"] < day]
@@ -192,11 +192,10 @@ def fetch(item):
     prev_usd = float(prior_rows.iloc[-1]["_close"])
     official_usd = float(cur_row.iloc[-1]["_close"])
     
-    # 前日終値の円建て：前日の為替レートを使用
     prev_jpy = prev_usd * prev_fx
     official_jpy = official_usd * cur_fx
 
-    # 1日 (regular) - 各分足にその時点の為替を適用
+    # 1日 (regular) - 各分足にその日の為替（または直近為替）を適用
     rp = []
     if raw_1w is not None and not raw_1w.empty:
         raw_1w_tz = raw_1w.copy(); raw_1w_tz.index = ny_index(raw_1w_tz.index)
@@ -204,7 +203,7 @@ def fetch(item):
         reg = today_intra.loc[(today_intra.index.time >= time(9, 30)) & (today_intra.index.time < time(16, 0))]
         for ts, row in reg.iterrows():
             p_usd = float(row["Close"])
-            f_val = get_fx(ts.date())
+            f_val = get_fx_exact(ts)
             rp.append({"time": ts.strftime("%H:%M"), "usd": round(p_usd, 6), "jpy": round(p_usd * f_val, 6)})
     
     if not rp:
@@ -230,21 +229,21 @@ def fetch(item):
         if not s_1w.empty:
             first_ts = s_1w.index[0]
             base_1w_usd = float(s_1w.iloc[0]["Close"])
-            f_first = get_fx(first_ts.date())
+            f_first = get_fx_exact(first_ts)
             base_1w_jpy = base_1w_usd * f_first
             for ts, row in s_1w.iterrows():
                 p_usd = float(row["Close"])
-                f_val = get_fx(ts.date())
+                f_val = get_fx_exact(ts)
                 d_1w.append({"time": ts.strftime("%m/%d %H:%M"), "usd": round(p_usd, 6), "jpy": round(p_usd * f_val, 6)})
     
     if not d_1w:
         df_5d = daily[daily["_date"] <= day].tail(5)
         base_1w_usd = float(df_5d.iloc[0]["Open"]) if not df_5d.empty else prev_usd
-        f_start = get_fx(df_5d.iloc[0]["_date"]) if not df_5d.empty else prev_fx
+        f_start = get_fx_exact(pd.to_datetime(df_5d.iloc[0]["_date"])) if not df_5d.empty else prev_fx
         base_1w_jpy = base_1w_usd * f_start
         for _, row in df_5d.iterrows():
             p_usd = float(row["_close"])
-            f_val = get_fx(row["_date"])
+            f_val = get_fx_exact(pd.to_datetime(row["_date"]))
             d_1w.append({"time": row["_date"].strftime("%m/%d"), "usd": round(p_usd, 6), "jpy": round(p_usd * f_val, 6)})
 
     # 1ヶ月 (monthly)
@@ -254,12 +253,12 @@ def fetch(item):
     base_1m_jpy = prev_jpy
     if not df_22d.empty:
         start_date_m = df_22d.iloc[0]["_date"]
-        base_1m_usd = float(df_22d.iloc[0]["_open"])
-        f_start_m = get_fx(start_date_m)
+        base_1m_usd = float(df_22d.iloc[0]["Open"]) if "Open" in df_22d.columns else prev_usd
+        f_start_m = get_fx_exact(pd.to_datetime(start_date_m))
         base_1m_jpy = base_1m_usd * f_start_m
         for _, row in df_22d.iterrows():
             p_usd = float(row["_close"])
-            f_val = get_fx(row["_date"])
+            f_val = get_fx_exact(pd.to_datetime(row["_date"]))
             d_1m.append({"time": row["_date"].strftime("%m/%d"), "usd": round(p_usd, 6), "jpy": round(p_usd * f_val, 6)})
     
     # 年初来 (ytd)
@@ -269,12 +268,12 @@ def fetch(item):
     base_ytd_jpy = prev_jpy
     if not ytd_df.empty:
         start_date_ytd = ytd_df.iloc[0]["_date"]
-        base_ytd_usd = float(ytd_df.iloc[0]["_open"])
-        f_start_ytd = get_fx(start_date_ytd)
-        base_ytd_jpy = base_ytd_usd * f_start_ytd
+        base_ytd_usd = float(ytd_df.iloc[0]["Open"]) if "Open" in ytd_df.columns else prev_usd
+        start_fx_ytd = get_fx_exact(pd.to_datetime(start_date_ytd))
+        base_ytd_jpy = base_ytd_usd * start_fx_ytd
         for _, row in ytd_df.iterrows():
             p_usd = float(row["_close"])
-            f_val = get_fx(row["_date"])
+            f_val = get_fx_exact(pd.to_datetime(row["_date"]))
             d_ytd.append({"time": row["_date"].strftime("%m/%d"), "usd": round(p_usd, 6), "jpy": round(p_usd * f_val, 6)})
 
     return {
@@ -295,7 +294,6 @@ def fetch(item):
         "base_ytd_jpy": round(base_ytd_jpy, 6)
     }
 
-# データの取得処理
 result = []
 for item in SYMBOLS:
     try:
@@ -303,15 +301,11 @@ for item in SYMBOLS:
     except Exception as e:
         result.append({"date": datetime.now(TZ).date().isoformat(), "name": item["name"], "ticker": item["ticker"], "previousClose": None, "prev_jpy": None, "regular": [], "weekly": [], "monthly": [], "ytd": [], "error": str(e)})
 
-# 生成されたHTML文字列
 rendered_html = HTML_TEMPLATE.replace("__DATA__", json.dumps(result, ensure_ascii=False, separators=(",", ":")))
 
-# HTMLファイルの書き出し
 output_filename = "market_dashboard_live.html"
 with open(output_filename, "w", encoding="utf-8") as f:
     f.write(rendered_html)
 
-print(f"\n🎉 1日チャートおよび為替連動を完全に修正したHTMLファイルを書き出しました: {output_filename}")
-
-# Colab上で直接プレビュー表示
+print(f"\n🎉 修正版HTMLを書き出しました: {output_filename}")
 display(HTML(rendered_html))
