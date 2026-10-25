@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>AIバリューチェーン分析｜株価ダッシュボード</title>
+
+<style>
+:root {
+    color-scheme: dark;
+    --bg: #080b0d;
+    --panel: #111719;
+    --panel2: #151e22;
+    --line: #29363a;
+    --text: #f0f5f3;
+    --muted: #a0b0b2;
+    --accent: #31c487;
+    --blue: #289dff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Noto Sans JP",
+        sans-serif;
+    line-height: 1.8;
+}
+
+a {
+    color: #79bdff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* =====================================================
+   ヘッダー
+   ===================================================== */
+
+header {
+    padding: 10px 5%;
+    border-bottom: 1px solid var(--line);
+    background: #0b1012;
+}
+
+.header-inner {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.site-title {
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.header-btn {
+    display: inline-block;
+    padding: 7px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+    color: var(--text);
+    background: var(--panel);
+    font-size: 13px;
+}
+
+.header-btn.primary {
+    color: #06130d;
+    background: var(--accent);
+    border-color: var(--accent);
+    font-weight: 700;
+}
+
+/* =====================================================
+   タイトル・ヒーロー領域
+   今回の修正：上下の余白を縮小
+   ===================================================== */
+
+.hero {
+    padding: 24px 24px 20px;
+    text-align: center;
+    background:
+        radial-gradient(
+            ellipse at top,
+            rgba(49,196,135,0.10),
+            transparent 65%
+        );
+    border-bottom: 1px solid var(--line);
+}
+
+.hero-label {
+    display: inline-block;
+    color: var(--accent);
+    border: 1px solid rgba(49,196,135,0.45);
+    border-radius: 30px;
+    padding: 3px 13px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.hero h1 {
+    margin: 10px 0 8px;
+    font-size: clamp(28px, 4vw, 46px);
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* =====================================================
+   メインコンテンツ
+   ===================================================== */
+
+main {
+    max-width: 1440px;
+    padding: 24px 16px 60px;
+    margin: auto;
+}
+
+.section {
+    margin: 0 0 36px;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--line);
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.section-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: rgba(49,196,135,0.13);
+    color: var(--accent);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.lead {
+    color: var(--muted);
+    margin: 0 0 18px;
+}
+
+/* =====================================================
+   共通パネル
+   ===================================================== */
+
+.panel {
+    padding: 24px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+}
+
+.panel h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+
+.panel p {
+    margin: 0 0 12px;
+}
+
+.panel p:last-child {
+    margin-bottom: 0;
+}
+
+/* =====================================================
+   ダッシュボード
+   ===================================================== */
+
+.dashboard-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.dashboard-actions p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.action-btn {
+    display: inline-block;
+    padding: 9px 16px;
+    border-radius: 7px;
+    background: var(--blue);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.action-btn:hover {
+    background: #1688ed;
+    text-decoration: none;
+}
+
+.frame-box {
+    background: #000;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.frame-box iframe {
+    display: block;
+    width: 100%;
+    height: 650px;
+    border: 0;
+    background: #080b0d;
+}
+
+.note {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+/* =====================================================
+   カテゴリーカード
+   ===================================================== */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.category {
+    padding: 20px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+}
+
+.category h3 {
+    margin: 0 0 8px;
+    font-size: 19px;
+}
+
+.category p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.category .role {
+    display: inline-block;
+    margin-bottom: 9px;
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.ticker-list {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+    color: #d6e2df;
+    font-size: 13px;
+}
+
+/* =====================================================
+   指数比較テーブル
+   ===================================================== */
+
+.table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--panel);
+    font-size: 14px;
+}
+
+th,
+td {
+    padding: 13px 16px;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background: var(--panel2);
+    color: var(--accent);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* =====================================================
+   強調表示
+   ===================================================== */
+
+.callout {
+    padding: 20px 22px;
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    background: rgba(49,196,135,0.07);
+}
+
+.callout strong {
+    color: var(--accent);
+}
+
+ul {
+    padding-left: 1.4em;
+}
+
+li {
+    margin: 6px 0;
+}
+
+/* =====================================================
+   フッター
+   ===================================================== */
+
+footer {
+    padding: 24px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 12px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 8px;
+}
+
+/* =====================================================
+   タブレット
+   ===================================================== */
+
+@media (max-width: 800px) {
+
+    .hero {
+        padding: 22px 18px 18px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    main {
+        padding: 20px 12px 45px;
+    }
+
+    .section-heading {
+        font-size: 21px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .panel {
+        padding: 18px;
+    }
+
+    .frame-box iframe {
+        height: 700px;
+    }
+}
+
+/* =====================================================
+   スマートフォン
+   ===================================================== */
+
+@media (max-width: 480px) {
+
+    header {
+        padding: 10px 12px;
+    }
+
+    .header-inner {
+        align-items: flex-start;
+    }
+
+    .site-title {
+        font-size: 13px;
+    }
+
+    .header-links {
+        gap: 6px;
+    }
+
+    .header-btn {
+        padding: 6px 9px;
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 20px 14px 16px;
+    }
+
+    .hero h1 {
+        font-size: 27px;
+    }
+
+    .hero p {
+        font-size: 13px;
+    }
+
+    main {
+        padding: 18px 10px 36px;
+    }
+
+    .section-heading {
+        font-size: 19px;
+        gap: 8px;
+    }
+
+    .section-number {
+        flex-basis: 32px;
+        height: 32px;
+    }
+
+    .frame-box iframe {
+        height: 650px;
+    }
+
+    .dashboard-actions {
+        align-items: flex-start;
+    }
+
+    .action-btn {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        padding: 10px 12px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===================================================
+     ヘッダー
+     =================================================== -->
+
+<header>
+    <div class="header-inner">
+
+        <div class="site-title">
+            STOCK MARKET ANALYSIS
+        </div>
+
+        <nav class="header-links">
+
+            <a class="header-btn" href="index.html">
+                トップページ
+            </a>
+
+            <a
+                class="header-btn primary"
+                href="ai_value_chain_analysis.html"
+                target="_blank"
+                rel="noopener"
+            >
+                ダッシュボードを単独で開く ↗
+            </a>
+
+        </nav>
+
+    </div>
+</header>
+
+
+<!-- ===================================================
+     タイトル
+     =================================================== -->
+
+<section class="hero">
+
+    <div class="hero-label">
+        AI VALUE CHAIN ANALYSIS
+    </div>
+
+    <h1>
+        AIバリューチェーン分析
+    </h1>
+
+    <p>
+        AI産業を構成する7つの領域に分け、
+        株価の動きと主要指数の関連性を比較する。
+        半導体から電力、クラウド、分析、セキュリティまで、
+        AIを支える産業構造を俯瞰します。
+    </p>
+
+</section>
+
+
+<main>
+
+    <!-- =================================================
+         01 株価ダッシュボード
+         ================================================= -->
+
+    <section class="section" id="dashboard">
+
+        <h2 class="section-heading">
+            <span class="section-number">01</span>
+            株価ダッシュボード
+        </h2>
+
+        <p class="lead">
+            下のダッシュボードでは、期間を切り替えながら
+            AI関連カテゴリーと主要指数の動きを比較できます。
+        </p>
+
+        <div class="dashboard-actions">
+
+            <p>
+                1日・1週間・1ヶ月・年初来を切り替えて確認できます。
+            </p>
+
+            <a
+                class="action-btn"
+                href="ai_value_chain_analysis.html"
+                target="_blank"
+                rel="noopener"
+            >
+                ダッシュボードを大きく表示 ↗
+            </a>
+
+        </div>
+
+        <div class="frame-box">
+
+            <iframe
+                id="dashboard-frame"
+                src="ai_value_chain_analysis.html"
+                title="AIバリューチェーン株価ダッシュボード"
+                loading="eager"
+            ></iframe>
+
+        </div>
+
+        <p class="note">
+            ※表示に時間がかかる場合は、ダッシュボードを単独で開いてください。
+        </p>
+
+    </section>
+
+
+    <!-- =================================================
+         02 分析の目的
+         ================================================= -->
+
+    <section class="section" id="purpose">
+
+        <h2 class="section-heading">
+            <span class="section-number">02</span>
+            分析の目的
+        </h2>
+
+        <div class="panel">
+
+            <h3>
+                AI関連株をひとまとめにしない
+            </h3>
+
+            <p>
+                AI産業は、半導体だけで成立しているわけではありません。
+                データセンター、電力、クラウド基盤、データ分析、
+                セキュリティ、エンドユーザー向けサービスなど、
+                複数の領域が組み合わさってAIを支えています。
+            </p>
+
+            <p>
+                このダッシュボードでは、AI関連企業を7つのカテゴリーに分類し、
+                各カテゴリーの株価動向を比較できるようにしています。
+            </p>
+
+            <p>
+                また、S&amp;P500、NASDAQ100、SOX、FANG+、POWR、NQCYBRを
+                比較対象に加え、指数ごとにどのカテゴリーとの関連性を
+                重視しているかをドットで表現しています。
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         03 7つのカテゴリー
+         ================================================= -->
+
+    <section class="section" id="categories">
+
+        <h2 class="section-heading">
+            <span class="section-number">03</span>
+            AIバリューチェーンの7カテゴリー
+        </h2>
+
+        <p class="lead">
+            各カテゴリーの企業は、分析用に選定した代表銘柄です。
+            すべての関連企業を網羅した一覧ではありません。
+        </p>
+
+        <div class="cards">
+
+            <article class="category">
+
+                <span class="role">01 / ENERGY</span>
+
+                <h3>エネルギー（電力）</h3>
+
+                <p>
+                    AIの学習や推論、データセンターの稼働を支える
+                    電力供給・電力インフラの領域です。
+                </p>
+
+                <div class="ticker-list">
+                    代表銘柄：CEG、GEV、VST
+                </div>
+
+            </article>
+
+
+            <article class="category">
+
+                <span class="role">02 / SEMICONDUCTOR</span>
+
+                <h3>半導体（チップ）</h3>
+
+                <p>
+                    AIの学習や推論に必要な計算能力を提供する
+                    GPU、半導体設計、製造関連の領域です。
+                </p>
+
+                <div class="ticker-list">
+                    代表銘柄：NVDA、AMD、AVGO、TSM、ASML、ARM、MU
+                </div>
+
+            </article>
+
+
+            <article class="category">
+
+                <span class="role">03 / DATA CENTER</span>
+
+                <h3>データセンター（物理インフラ）</h3>
+
+                <p>
+                    サーバー、設備、施設など、
+                    AIシステムを物理的に稼働させるための基盤です。
+                </p>
+
+                <div class="ticker-list">
+                    代表銘柄：EQIX、DLR、SMCI
+                </div>
+
+            </article>
+
+
+            <article class="category">
+
+                <span class="role">04 / CLOUD</span>
+
+                <h3>クラウド（プラットフォーム）</h3>
+
+                <p>
+                    AIモデルやアプリケーションを開発・運用するための
+                    クラウド基盤を提供する領域です。
+                </p>
+
+                <div class="ticker-list">
+                    代表銘柄：MSFT、AMZN、GOOGL、META
+                </div>
+
+            </article>
+
+
+            <article class="category">
+
+                <span class="role">05 / ANALYSIS</span>
+
+                <h3>分析（学習・差別化の源泉）</h3>
+
+                <p>
+                    データ分析、AIを活用した意思決定、
+                    データ基盤や分析ソフトウェアに関わる領域です。
+                </p>
+
+                <div class="ticker-list">
+                    代表銘柄：PLTR、SNOW、DDOG
+                </div>
+
+            </article>
+
+
+            <article class="category">
+
+                <span class="role">06 / SECURITY</span>
+
+                <h3>セキュリティ（安全性・信頼性の確保）</h3>
+
+                <p>
+                    クラウドや企業システム、ネットワークを保護し、
+                    安全なAI活用を支える領域です。
+                </p>
+
+                <div class="ticker-list">
+                    代表銘柄：PANW、CRWD、S
+                </div>
+
+            </article>
+
+
+            <article class="category">
+
+                <span class="role">07 / SERVICE</span>
+
+                <h3>サービス・アプリ（エンドユーザー）</h3>
+
+                <p>
+                    AIを業務や日常のサービスに組み込み、
+                    利用者に具体的な機能や価値を届ける領域です。
+                </p>
+
+                <div class="ticker-list">
+                    代表銘柄：NOW、ADBE、CRM
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         04 比較対象指数
+         ================================================= -->
+
+    <section class="section" id="indices">
+
+        <h2 class="section-heading">
+            <span class="section-number">04</span>
+            比較対象の6指数
+        </h2>
+
+        <div class="table-wrap">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>指数・商品</th>
+                        <th>コード</th>
+                        <th>分析上の位置づけ</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>S&amp;P500</td>
+                        <td>^GSPC</td>
+                        <td>米国株式市場全体との比較基準</td>
+                    </tr>
+
+                    <tr>
+                        <td>NASDAQ100</td>
+                        <td>^NDX</td>
+                        <td>大型成長株・テクノロジー株との比較</td>
+                    </tr>
+
+                    <tr>
+                        <td>SOX</td>
+                        <td>^SOX</td>
+                        <td>半導体関連株との比較</td>
+                    </tr>
+
+                    <tr>
+                        <td>FANG+</td>
+                        <td>FNGS</td>
+                        <td>大型成長株を中心とする銘柄群との比較</td>
+                    </tr>
+
+                    <tr>
+                        <td>POWR</td>
+                        <td>POWR</td>
+                        <td>電力・エネルギー関連の比較対象</td>
+                    </tr>
+
+                    <tr>
+                        <td>NQCYBR</td>
+                        <td>CIBR</td>
+                        <td>サイバーセキュリティ関連の比較対象</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <p class="note">
+            ※コードはプログラム内の設定を掲載しています。
+            FNGSやCIBRは指数そのものではなく、比較に使用している上場商品です。
+            データ取得元でのティッカーの有効性や商品仕様は、必要に応じて確認してください。
+        </p>
+
+    </section>
+
+
+    <!-- =================================================
+         05 ドットマトリクス
+         ================================================= -->
+
+    <section class="section" id="matrix">
+
+        <h2 class="section-heading">
+            <span class="section-number">05</span>
+            ドットマトリクスの見方
+        </h2>
+
+        <div class="panel">
+
+            <h3>
+                ドットの数は、カテゴリーとの関連度を表す設定値
+            </h3>
+
+            <p>
+                ダッシュボード下部では、各指数と7カテゴリーの関係を
+                ドットの数で表しています。
+            </p>
+
+            <ul>
+
+                <li>
+                    <strong>ドットが多い：</strong>
+                    分析上、そのカテゴリーとの関連性を強く設定している。
+                </li>
+
+                <li>
+                    <strong>ドットが少ない：</strong>
+                    分析上、そのカテゴリーとの関連性を弱く設定している。
+                </li>
+
+                <li>
+                    <strong>緑色：</strong>
+                    対象カテゴリーの表示期間中の変化率が0%以上。
+                </li>
+
+                <li>
+                    <strong>赤色：</strong>
+                    対象カテゴリーの表示期間中の変化率が0%未満。
+                </li>
+
+            </ul>
+
+            <p>
+                ドット数はプログラム内で指定した値であり、
+                市場データから自動計算された相関係数や構成比ではありません。
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         06 株価データの読み方
+         ================================================= -->
+
+    <section class="section" id="method">
+
+        <h2 class="section-heading">
+            <span class="section-number">06</span>
+            株価データの読み方
+        </h2>
+
+        <div class="cards">
+
+            <article class="category">
+
+                <h3>1日表示</h3>
+
+                <p>
+                    前日終値を100とした基準で、
+                    5分足データの変化を表示します。
+                </p>
+
+            </article>
+
+
+            <article class="category">
+
+                <h3>1週間表示</h3>
+
+                <p>
+                    取得期間の最初の値を100とし、
+                    1時間足データの変化を比較します。
+                </p>
+
+            </article>
+
+
+            <article class="category">
+
+                <h3>1ヶ月表示</h3>
+
+                <p>
+                    直近約22営業日分のデータを使用し、
+                    期間初値を100として比較します。
+                </p>
+
+            </article>
+
+
+            <article class="category">
+
+                <h3>年初来表示</h3>
+
+                <p>
+                    取得データのうち、当年のデータを使って
+                    年初からの変化を比較します。
+                </p>
+
+            </article>
+
+        </div>
+
+        <div class="callout" style="margin-top:18px;">
+
+            <strong>重要：</strong>
+
+            カテゴリーの値は、選定した構成銘柄を時価総額で加重して算出しています。
+            指数の騰落率とカテゴリーの騰落率は、構成銘柄や計算方法が異なるため、
+            完全に同じ条件の比較ではありません。
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         07 分析上の注意点
+         ================================================= -->
+
+    <section class="section" id="caution">
+
+        <h2 class="section-heading">
+            <span class="section-number">07</span>
+            分析上の注意点
+        </h2>
+
+        <div class="panel">
+
+            <ul>
+
+                <li>
+                    株価データはYahoo Finance経由で取得しており、
+                    データの欠損や取得タイミングの違いが発生する場合があります。
+                </li>
+
+                <li>
+                    時価総額を取得できなかった銘柄は、
+                    プログラム上の代替値を使用します。
+                    その場合、加重平均の精度に影響する可能性があります。
+                </li>
+
+                <li>
+                    カテゴリーは分析用に選定した銘柄群であり、
+                    業界全体を代表するとは限りません。
+                </li>
+
+                <li>
+                    ドット数は分析者が設定した分類上の目安であり、
+                    統計的な相関関係を表すものではありません。
+                </li>
+
+                <li>
+                    過去の株価変動やカテゴリー間の同時変動は、
+                    将来の値動きを保証するものではありません。
+                </li>
+
+            </ul>
+
+            <p>
+                本ページは市場分析を目的とした情報提供であり、
+                特定の金融商品の売買を推奨するものではありません。
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         08 まとめ
+         ================================================= -->
+
+    <section class="section" id="summary">
+
+        <h2 class="section-heading">
+            <span class="section-number">08</span>
+            まとめ
+        </h2>
+
+        <div class="panel">
+
+            <p>
+                AI関連株を分析するときは、半導体だけでなく、
+                電力、データセンター、クラウド、分析、セキュリティ、
+                サービス・アプリまで、産業全体を分けて考えることが重要です。
+            </p>
+
+            <p>
+                本ダッシュボードでは、7カテゴリーの株価変動と
+                6つの比較対象を並べることで、
+                AI関連市場のどの領域が相対的に強いか、弱いかを
+                観察するための材料を提供します。
+            </p>
+
+            <p>
+                期間を切り替えて短期と中期の動きを比較し、
+                単一の銘柄や指数だけでは見えにくい市場の変化を
+                多角的に確認するために活用できます。
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- =====================================================
+     フッター
+     ===================================================== -->
+
+<footer>
+
+    <div>
+        AIバリューチェーン株価ダッシュボード
+    </div>
+
+    <p>
+        <a href="index.html">トップページ</a>
+        |
+        <a href="ai_value_chain_analysis.html">ダッシュボード</a>
+    </p>
+
+    <div>
+        本ページは情報提供を目的としており、
+        投資判断はご自身の責任で行ってください。
+    </div>
+
+</footer>
+
+</body>
+</html>

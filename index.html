@@ -3,54 +3,75 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#071426">
-  <meta name="description" content="株式を中心に、お金・経済・金融政策の情報を深掘り。データとチャートで、ニュースの裏側を考える投資分析コンテンツ。">
-  <title>株式を中心とした、お金の情報の裏側まで。｜Beyond the Headlines</title>
+  <meta name="theme-color" content="#f7f3eb">
+  <meta name="description" content="60歳からの人生を、お金・健康・暮らしの視点から考える情報サイト。資産形成や株式市場のデータ分析も紹介します。">
+  <title>60歳から、もっと自由に。</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="トップページ">
-      <span class="brand-mark">BH</span>
-      <span class="brand-copy"><strong>BEYOND THE HEADLINES</strong><small>知るほど、未来は変わる。</small></span>
-    </a>
+    <a class="brand" href="#top" aria-label="トップページ"><span class="brand-mark">60+</span><span class="brand-copy"><strong>60歳から、もっと自由に。</strong><small>お金・健康・暮らしを考える</small></span></a>
     <button class="menu-toggle" aria-label="メニューを開く" aria-expanded="false">☰</button>
-    <nav class="main-nav" aria-label="メインナビゲーション">
-      <a href="#contents">コンテンツ</a><a href="#categories">テーマ別に探す</a><a href="#about">このサイトについて</a>
-    </nav>
+    <nav class="main-nav" aria-label="メインナビゲーション"><a href="#latest-articles">最新記事</a><a href="#life-topics">暮らしとお金</a><a href="#contents">株式分析ツール</a></nav>
   </header>
 
   <main id="top">
-    <section class="hero" aria-label="サイト紹介">
-      <img class="hero-image" src="assets/hero-banner.png" alt="株式・経済・金融政策をテーマにしたサイトのイメージ">
-      <div class="hero-shade"></div>
-      <div class="hero-content">
-        <p class="eyebrow">INVESTING · ECONOMY · DATA</p>
-        <h1>見出しの、その先へ。<br><span>お金の流れを読み解く。</span></h1>
-        <p class="hero-lead">株式を中心に、経済・金融政策・市場データを深掘り。<br>ニュースを知るだけでなく、その背景と次の一手を考えます。</p>
-        <a class="primary-button" href="#contents">分析コンテンツを見る <span>↓</span></a>
+
+
+    <!-- 株式市場ウォッチ：常時表示 -->
+
+<!-- MARKET WATCH：株価と市場ニュース -->
+<section class="market-watch section-wrap" id="market-watch">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">MARKET WATCH</p>
+      <h2>米国株市場の動き</h2>
+    </div>
+    <p id="market-watch-date">市場データを読み込み中…</p>
+  </div>
+
+  <div class="market-watch-panel">
+
+    <div class="market-watch-indices" id="market-watch-indices">
+      <div class="market-watch-loading">株価データを取得しています…</div>
+    </div>
+
+    <div class="market-watch-news">
+      <div class="market-watch-news-heading">
+        <span class="market-watch-dot"></span>
+        <h3>市場を動かすニュース</h3>
       </div>
-      <div class="hero-caption">BEYOND THE HEADLINES <span>— 知るほど、未来は変わる —</span></div>
-    </section>
 
-    <section class="intro section-wrap" id="about">
-      <div><p class="section-kicker">ABOUT THIS SITE</p><h2>数字の向こう側に、<br>投資のヒントを。</h2></div>
-      <p class="intro-text">株価の動きには、企業業績だけでなく、金利・為替・政策・投資家心理など、さまざまな要因が関わっています。このサイトでは、チャートやデータを使って情報を整理し、資産形成に役立つ視点をわかりやすく紹介します。</p>
-    </section>
+      <ul id="market-watch-headlines">
+        <li>ニュースを読み込み中…</li>
+      </ul>
 
-    <section class="categories section-wrap" id="categories">
-      <div class="section-heading"><div><p class="section-kicker">EXPLORE BY TOPIC</p><h2>テーマから探す</h2></div><p>気になるテーマから、関連コンテンツへ。</p></div>
-      <div class="category-grid">
-        <a class="category-card" href="#contents" data-category="株式市場"><span class="category-icon">↗</span><strong>株式市場</strong><small>S&P500・NASDAQ・日本株</small></a>
-        <a class="category-card" href="#contents" data-category="AI・テクノロジー"><span class="category-icon">⌘</span><strong>AI・テクノロジー</strong><small>AIバリューチェーン・半導体</small></a>
-        <a class="category-card" href="#contents" data-category="経済・金融政策"><span class="category-icon">◎</span><strong>経済・金融政策</strong><small>金利・インフレ・FRB・日銀</small></a>
-        <a class="category-card" href="#contents" data-category="投資戦略"><span class="category-icon">◇</span><strong>投資戦略</strong><small>資産配分・出口戦略・検証</small></a>
+
+    </div>
+  </div>
+
+  <!-- 株価ダッシュボードを読み込むための非表示フレーム -->
+  <iframe
+    id="market-watch-source"
+    src="market_dashboard.html"
+    title="株価データ取得用"
+    aria-hidden="true"
+    tabindex="-1">
+  </iframe>
+</section>
+
+    
+    <section class="latest-articles section-wrap" id="latest-articles">
+      <div class="section-heading"><div><p class="section-kicker">LATEST ARTICLES</p><h2>新しい記事から読む</h2></div><p>お金、投資、健康、これからの生き方。</p></div>
+      <div class="article-grid" id="latest-articles-grid" aria-live="polite">
+        <p class="article-empty">記事一覧を読み込んでいます…</p>
       </div>
+      <p class="article-index-link"><a href="articles.html">すべての記事を見る <span>↗</span></a></p>
     </section>
 
-    <section class="content-section" id="contents">
+<section class="content-section" id="contents">
       <div class="section-wrap">
-        <div class="section-heading"><div><p class="section-kicker">ANALYSIS LIBRARY</p><h2>分析コンテンツ</h2></div><p>データ・チャート・シミュレーションで深掘り。</p></div>
+        <div class="section-heading"><div><p class="section-kicker">DATA & INSIGHTS</p><h2>データで読み解く、お金と暮らし</h2></div><p>株式市場から年金・医療費・健康寿命まで、数字をもとに考えます。</p></div>
         <div class="filter-row" role="group" aria-label="コンテンツの絞り込み">
           <button class="filter-chip active" data-filter="すべて">すべて</button>
           <button class="filter-chip" data-filter="株式市場">株式市場</button>
@@ -60,16 +81,16 @@
         </div>
         <div class="content-grid" id="content-grid">
           <!-- 公開済みコンテンツ：hrefには同じリポジトリ内のHTMLファイル名を設定しています。 -->
-          <a class="content-card featured" href="market_dashboard_live.html" data-category="株式市場"><div class="card-art art-market"><span>MARKET DASHBOARD</span><b>米国市場をまとめて確認</b></div><div class="card-body"><span class="tag">株式市場</span><h3>米国株価ダッシュボード</h3><p>主要な米国株価指数や市場データを、ひとつの画面で確認する。</p><span class="card-link">ダッシュボードを開く <b>↗</b></span></div></a>
-          <a class="content-card" href="SP500_2026_target.html" data-category="株式市場"><div class="card-art art-chart"><span>S&amp;P 500 · FORECAST</span><b>年末の株価水準を考える</b></div><div class="card-body"><span class="tag">株式市場</span><h3>S&amp;P500 年末株価予測</h3><p>各種データをもとに、S&amp;P500の年末目標水準を考える。</p><span class="card-link">予測を見る <b>↗</b></span></div></a>
-          <a class="content-card" href="sp500_per_chart_full.html" data-category="株式市場"><div class="card-art art-policy"><span>S&amp;P 500 · P/E</span><b>株価の評価水準を追う</b></div><div class="card-body"><span class="tag">株式市場</span><h3>予想PER推移</h3><p>S&amp;P500の予想PERの推移から、市場の評価水準を読み解く。</p><span class="card-link">PERチャートを見る <b>↗</b></span></div></a>
-          <a class="content-card" href="sp500_eps_price_updated.html" data-category="株式市場"><div class="card-art art-chart"><span>PRICE · EPS</span><b>株価と利益の関係</b></div><div class="card-body"><span class="tag">株式市場</span><h3>株価・EPSチャート</h3><p>S&amp;P500の株価と1株当たり利益（EPS）の動きを比較する。</p><span class="card-link">チャートを見る <b>↗</b></span></div></a>
-          <a class="content-card" href="sp500_drawdown_style.html" data-category="株式市場"><div class="card-art art-flow"><span>YEAR-TO-DATE · DRAWDOWN</span><b>高値からの下落を確認</b></div><div class="card-body"><span class="tag">株式市場</span><h3>年初来ドローダウン推移</h3><p>年初来の高値から、株価がどの程度下落しているかを追う。</p><span class="card-link">推移を見る <b>↗</b></span></div></a>
-          <a class="content-card" href="ytd_animation_vertical.html" data-category="株式市場"><div class="card-art art-market"><span>YTD · INDEX COMPARISON</span><b>主要指数の成績を比較</b></div><div class="card-body"><span class="tag">株式市場</span><h3>主要指数騰落率比較</h3><p>主要株価指数の年初来騰落率を、動きのあるチャートで比較する。</p><span class="card-link">比較チャートを見る <b>↗</b></span></div></a>
-          <a class="content-card featured" href="ai_value_chain_analysis.html" data-category="AI・テクノロジー"><div class="card-art art-ai"><span>AI VALUE CHAIN</span><b>AI産業のつながりを分析</b></div><div class="card-body"><span class="tag">AI・テクノロジー</span><h3>AIバリューチェーン分析</h3><p>電力・半導体からクラウド、分析、AI応用まで、関連企業をつながりで捉える。</p><span class="card-link">分析を見る <b>↗</b></span></div></a>
-          <a class="content-card" href="ai_value_chain.heatmap.html" data-category="AI・テクノロジー"><div class="card-art art-heat"><span>AI STOCK · HEATMAP</span><b>関連株の強弱を一目で</b></div><div class="card-body"><span class="tag">AI・テクノロジー</span><h3>AI関連株ヒートマップ</h3><p>AI関連企業の騰落を色分けし、カテゴリーごとの強弱を俯瞰する。</p><span class="card-link">ヒートマップを見る <b>↗</b></span></div></a>
-          <a class="content-card" href="ai_value_chain_category_ytd.html" data-category="AI・テクノロジー"><div class="card-art art-chart"><span>AI STOCK · YTD</span><b>AI関連株の騰落率を比較</b></div><div class="card-body"><span class="tag">AI・テクノロジー</span><h3>AI株騰落率</h3><p>AIバリューチェーンのカテゴリー別に、株価の年初来騰落率を比較する。</p><span class="card-link">騰落率を見る <b>↗</b></span></div></a>
-          <a class="content-card" href="ai_value_chain_global_map.html" data-category="AI・テクノロジー"><div class="card-art art-global"><span>AI · GLOBAL MAP</span><b>世界に広がるAI産業</b></div><div class="card-body"><span class="tag">AI・テクノロジー</span><h3>AIグローバルマップ</h3><p>世界のAI関連企業と、産業のつながりを地図で可視化する。</p><span class="card-link">マップを見る <b>↗</b></span></div></a>
+          <a class="content-card featured" href="market_report.html" data-category="株式市場"><div class="card-art art-market"><span>MARKET DASHBOARD</span><b>米国市場をまとめて確認</b></div><div class="card-body"><span class="tag">株式市場</span><h3>米国株価ダッシュボード</h3><p>主要な米国株価指数や市場データを、ひとつの画面で確認する。</p><span class="card-link">ダッシュボードを開く <b>↗</b></span></div></a>
+          <a class="content-card" href="3indices_drawdown_report.html" data-category="株式市場"><div class="card-art art-chart"><span>3 INDICES DRAWDOWN</span><b>3指数の年初来ドローダウン</b></div><div class="card-body"><span class="tag">株式市場</span><h3>S&amp;P500 年末株価予測</h3><p>各種データをもとに、S&amp;P500の年末目標水準を考える。</p><span class="card-link">予測を見る <b>↗</b></span></div></a>
+          <a class="content-card" href="SP500_2026_target_report.html" data-category="株式市場"><div class="card-art art-chart"><span>S&amp;P 500 · FORECAST</span><b>年末の株価水準を考える</b></div><div class="card-body"><span class="tag">株式市場</span><h3>S&amp;P500 年末株価予測</h3><p>各種データをもとに、S&amp;P500の年末目標水準を考える。</p><span class="card-link">予測を見る <b>↗</b></span></div></a>
+          <a class="content-card" href="3indices_per_chart_report.html" data-category="株式市場"><div class="card-art art-policy"><span>S&amp;P 500 · P/E</span><b>株価の評価水準を追う</b></div><div class="card-body"><span class="tag">株式市場</span><h3>予想PER推移</h3><p>S&amp;P500の予想PERの推移から、市場の評価水準を読み解く。</p><span class="card-link">PERチャートを見る <b>↗</b></span></div></a>
+          <a class="content-card" href="3indices_eps_price_report.html" data-category="株式市場"><div class="card-art art-chart"><span>PRICE · EPS</span><b>株価と利益の関係</b></div><div class="card-body"><span class="tag">株式市場</span><h3>株価・EPSチャート</h3><p>S&amp;P500の株価と1株当たり利益（EPS）の動きを比較する。</p><span class="card-link">チャートを見る <b>↗</b></span></div></a>
+          <a class="content-card" href="3indices_drawdown_report.html" data-category="株式市場"><div class="card-art art-flow"><span>YEAR-TO-DATE · DRAWDOWN</span><b>高値からの下落を確認</b></div><div class="card-body"><span class="tag">株式市場</span><h3>年初来ドローダウン推移</h3><p>年初来の高値から、株価がどの程度下落しているかを追う。</p><span class="card-link">推移を見る <b>↗</b></span></div></a>
+          <a class="content-card" href="ytd_Index_comparison_report.html" data-category="株式市場"><div class="card-art art-market"><span>YTD · INDEX COMPARISON</span><b>主要指数の成績を比較</b></div><div class="card-body"><span class="tag">株式市場</span><h3>主要指数騰落率比較</h3><p>主要株価指数の年初来騰落率を、動きのあるチャートで比較する。</p><span class="card-link">比較チャートを見る <b>↗</b></span></div></a>
+          <a class="content-card featured" href="ai_value_chain_analysis_report.html" data-category="AI・テクノロジー"><div class="card-art art-ai"><span>AI VALUE CHAIN</span><b>AI産業のつながりを分析</b></div><div class="card-body"><span class="tag">AI・テクノロジー</span><h3>AIバリューチェーン分析</h3><p>電力・半導体からクラウド、分析、AI応用まで、関連企業をつながりで捉える。</p><span class="card-link">分析を見る <b>↗</b></span></div></a>
+          <a class="content-card" href="ai_value_chain_heatmap_report.html" data-category="AI・テクノロジー"><div class="card-art art-heat"><span>AI STOCK · HEATMAP</span><b>関連株の強弱を一目で</b></div><div class="card-body"><span class="tag">AI・テクノロジー</span><h3>AI関連株ヒートマップ</h3><p>AI関連企業の騰落を色分けし、カテゴリーごとの強弱を俯瞰する。</p><span class="card-link">ヒートマップを見る <b>↗</b></span></div></a>
+          <a class="content-card" href="ai_value_chain_global_map_report.html" data-category="AI・テクノロジー"><div class="card-art art-global"><span>AI · GLOBAL MAP</span><b>世界に広がるAI産業</b></div><div class="card-body"><span class="tag">AI・テクノロジー</span><h3>AIグローバルマップ</h3><p>世界のAI関連企業と、産業のつながりを地図で可視化する。</p><span class="card-link">マップを見る <b>↗</b></span></div></a>
 
           <!-- 追加予定のコンテンツ：公開後にリンクを設定します。 -->
           <a class="content-card" href="#" data-category="投資戦略" data-placeholder="true" aria-disabled="true"><div class="card-art art-sim"><span>MONTE CARLO</span><b>未来を確率で考える</b></div><div class="card-body"><span class="tag">投資戦略</span><h3>モンテカルロ・シミュレーション</h3><p>リターンと変動幅から、資産形成の将来を複数パターンで検証。</p><span class="card-link">準備中 <b>…</b></span></div></a>
@@ -82,10 +103,10 @@
       </div>
     </section>
 
-    <section class="closing section-wrap"><p class="section-kicker">KEEP LEARNING</p><h2>知る。考える。<span>自分の未来をつくる。</span></h2><p>見出しだけではわからない、お金と市場の背景を一緒に読み解いていきましょう。</p><a class="primary-button" href="#contents">コンテンツ一覧へ <span>↑</span></a></section>
+    <section class="closing section-wrap"><p class="section-kicker">YOUR NEXT CHAPTER</p><h2>これからの人生を、<span>自分らしく。</span></h2><p>知ることから、選択肢が広がります。</p><a class="soft-button" href="#latest-articles">最新記事を読む <span>↑</span></a></section>
   </main>
 
-  <footer class="site-footer"><a class="footer-brand" href="#top">BEYOND THE HEADLINES</a><span>知るほど、未来は変わる。</span><small>© <span id="year"></span> Beyond the Headlines</small></footer>
+  <footer class="site-footer"><a class="footer-brand" href="#top">60歳から、もっと自由に。</a><span>お金・健康・暮らしを考える</span><small>© <span id="year"></span> 60歳から、もっと自由に。</small></footer>
   <script src="script.js"></script>
 </body>
 </html>

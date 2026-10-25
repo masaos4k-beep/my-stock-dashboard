@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#071426">
+<title>米国市場ニュース分析・株価ダッシュボード｜Beyond the Headlines</title>
+<style>
+:root{color-scheme:dark;--bg:#07111f;--panel:#101d2e;--line:#26374d;--text:#eef4fb;--muted:#a9b8cb;--accent:#65b8ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,"Noto Sans JP","Meiryo",sans-serif;line-height:1.65}
+.wrap{max-width:1500px;margin:auto;padding:24px}.toplink{display:inline-block;color:var(--accent);text-decoration:none;margin-bottom:16px}
+section{margin-top:26px}h2{font-size:clamp(20px,3vw,27px);margin:0 0 14px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
+.report-date{color:var(--muted);font-size:13px;margin-top:-6px;margin-bottom:14px}
+.driver{padding:16px 0;border-top:1px solid var(--line)}.driver:first-of-type{border-top:0;padding-top:0}
+.driver h3{margin:0 0 7px;font-size:18px}.driver p{margin:0;color:#d3deeb;white-space:pre-wrap}
+.source{display:inline-block;margin-top:8px;color:var(--accent);font-size:13px}.status{color:var(--muted)}
+.framebox{overflow:hidden;border:1px solid var(--line);border-radius:12px;background:#050505}
+.framebox iframe {
+ width: 100%;
+ height: 1005px;
+}
+iframe{display:block;width:100%;height:1100px;border:0;background:#050505}
+.open-link{display:inline-block;margin:12px 0 0;color:var(--accent)}footer{color:var(--muted);font-size:12px;margin:26px 0 8px}
+@media(max-width:650px){.wrap{padding:12px}.panel{padding:16px}iframe{height:1400px}}
+</style></head>
+<body><main class="wrap">
+<a class="toplink" href="index.html">← トップページへ戻る</a>
+<section aria-labelledby="market-heading"><h2 id="market-heading">主要米国株価指数</h2>
+<div class="framebox"><iframe src="market_dashboard.html" title="米国株マーケット・ダッシュボード" loading="lazy"></iframe></div>
+<a class="open-link" href="market_dashboard.html" target="_blank" rel="noopener">株価ダッシュボードを別タブで開く ↗</a></section>
+<section aria-labelledby="news-heading"><h2 id="news-heading">市場ニュース分析</h2>
+<div class="panel"><div id="report-date" class="report-date"></div><div id="drivers"><p class="status">ニュース分析を読み込んでいます…</p></div></div></section>
+<footer>※ ニュース分析は market_analysis.json を読み込みます。株価データは埋め込み先のダッシュボードに表示される内容です。投資判断はご自身でご確認ください。</footer>
+</main>
+<script>
+const esc = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+async function loadReport() {
+ const target = document.getElementById("drivers");
+ try {
+  const response = await fetch("market_analysis.json", {cache:"no-store"});
+  if (!response.ok) throw new Error("market_analysis.json が見つかりません");
+  const report = await response.json();
+  document.getElementById("report-date").textContent = report.report_date ? "分析日：" + report.report_date : "";
+  const drivers = Array.isArray(report.drivers) ? report.drivers : [];
+  if (!drivers.length) { target.innerHTML = '<p class="status">現在、表示できるニュース分析はありません。</p>'; return; }
+  target.innerHTML = drivers.map(item => `<article class="driver"><h3>${esc(item.title || "市場の注目点")}</h3><p>${esc(item.detail || "")}</p>${item.source_url ? `<a class="source" href="${esc(item.source_url)}" target="_blank" rel="noopener">${esc(item.source_title || "出典記事")} ↗</a>` : ""}</article>`).join("");
+ } catch (error) {
+  target.innerHTML = '<p class="status">ニュース分析を読み込めませんでした。market_analysis.json がリポジトリのルートにアップロードされているか確認してください。</p>';
+ }
+}
+loadReport();
+</script></body></html>

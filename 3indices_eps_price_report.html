@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>米国株3指数の株価・予想EPS分析 | 株価分析レポート</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: #0b1220;
+        color: #e5e7eb;
+        font-family: "Meiryo", "Noto Sans JP", sans-serif;
+        line-height: 1.8;
+    }
+
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+
+    .back-link {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: #60a5fa;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .back-link:hover {
+        text-decoration: underline;
+    }
+
+    h1 {
+        margin: 0 0 12px;
+        color: #ffffff;
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    h2 {
+        margin-top: 36px;
+        padding-left: 12px;
+        border-left: 4px solid #3b82f6;
+        color: #ffffff;
+        font-size: 22px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        color: #93c5fd;
+        font-size: 17px;
+    }
+
+    p {
+        margin: 12px 0;
+    }
+
+    .lead {
+        color: #cbd5e1;
+        font-size: 16px;
+    }
+
+    .panel {
+        margin-top: 24px;
+        padding: 24px;
+        background: #111c2e;
+        border: 1px solid #263449;
+        border-radius: 12px;
+    }
+
+    .chart-panel {
+        margin-top: 24px;
+        padding: 12px;
+        background: #111111;
+        border: 1px solid #263449;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .chart-frame {
+        display: block;
+        width: 100%;
+        height: 600px;
+        border: none;
+        background: #111111;
+    }
+
+    .legend-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 20px;
+    }
+
+    .legend-card {
+        padding: 18px;
+        background: #172235;
+        border: 1px solid #334155;
+        border-radius: 8px;
+    }
+
+    .legend-card h3 {
+        margin: 0 0 8px;
+    }
+
+    .price-color {
+        color: #ff9800;
+    }
+
+    .eps-color {
+        color: #b0b0b0;
+    }
+
+    .index-card {
+        margin-top: 16px;
+        padding: 20px;
+        background: #111c2e;
+        border: 1px solid #263449;
+        border-radius: 10px;
+    }
+
+    .index-card h3 {
+        margin-top: 0;
+    }
+
+    .note {
+        margin-top: 20px;
+        padding: 16px 20px;
+        background: #172235;
+        border-left: 4px solid #f59e0b;
+        border-radius: 6px;
+        color: #cbd5e1;
+        font-size: 14px;
+    }
+
+    .formula {
+        margin: 20px 0;
+        padding: 18px;
+        background: #0b1220;
+        border: 1px solid #334155;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #93c5fd;
+    }
+
+    .footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #263449;
+        color: #94a3b8;
+        font-size: 13px;
+    }
+
+    @media (max-width: 900px) {
+        .chart-frame {
+            height: 540px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .container {
+            padding: 16px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .panel {
+            padding: 16px;
+        }
+
+        .chart-panel {
+            padding: 4px;
+        }
+
+        .chart-frame {
+            height: 500px;
+        }
+
+        .legend-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <a class="back-link" href="index.html">
+        ← ホームページに戻る
+    </a>
+
+    <header>
+        <h1>米国株3指数の株価・予想EPS分析</h1>
+
+        <p class="lead">
+            S&amp;P 500・NASDAQ 100・SOX（半導体）について、
+            年初来の株価と1年予想EPSの推移を比較します。
+            株価の変化だけでなく、企業利益の見通しとの関係を確認するためのチャートです。
+        </p>
+    </header>
+
+
+    <!-- チャート -->
+
+    <section class="chart-panel">
+
+        <iframe
+            class="chart-frame"
+            src="3indices_eps_price_chart.html"
+            title="米国株3指数の株価と1年予想EPSの推移"
+            loading="lazy">
+        </iframe>
+
+    </section>
+
+
+    <!-- チャートの見方 -->
+
+    <section class="panel">
+
+        <h2>1. チャートの見方</h2>
+
+        <div class="legend-grid">
+
+            <div class="legend-card">
+                <h3 class="price-color">オレンジ線：株価</h3>
+                <p>
+                    各指数の年初来の価格推移を示します。
+                    市場で実際に形成されている価格の動きを確認できます。
+                </p>
+            </div>
+
+            <div class="legend-card">
+                <h3 class="eps-color">グレー線：1年予想EPS</h3>
+                <p>
+                    株価と予想PERから計算した、1株当たりの予想利益に相当する値です。
+                    将来の利益見通しの変化を考えるための参考情報として利用します。
+                </p>
+            </div>
+
+        </div>
+
+        <p>
+            上部のボタンを押すと、S&amp;P 500・NASDAQ 100・SOXを切り替えられます。
+            左側の縦軸は株価、右側の縦軸は1年予想EPSを示します。
+        </p>
+
+        <div class="note">
+            株価とEPSでは数値の大きさや単位が異なるため、
+            左右の縦軸は別々に設定されています。
+            線の高さだけを見て両者の大小を比較することはできません。
+        </div>
+
+    </section>
+
+
+    <!-- EPSの計算方法 -->
+
+    <section class="panel">
+
+        <h2>2. 予想EPSの計算方法</h2>
+
+        <p>
+            このチャートでは、株価とCSVから取得した予想PERを使い、
+            予想EPSを次の式で計算しています。
+        </p>
+
+        <div class="formula">
+            予想EPS ＝ 株価 ÷ 予想PER
+        </div>
+
+        <p>
+            例えば、株価が6,000ドル、予想PERが20倍であれば、
+            計算上の予想EPSは300ドルになります。
+        </p>
+
+        <p>
+            そのため、このチャートのEPSは、独立した利益予想データを直接取得したものではありません。
+            株価と予想PERから逆算した値です。
+        </p>
+
+        <div class="note">
+            株価と予想PERのデータ期間や定義が一致していない場合、
+            計算値にずれが生じる可能性があります。
+            また、PERの変化とEPSの変化を解釈する際には、
+            この計算方法を踏まえる必要があります。
+        </div>
+
+    </section>
+
+
+    <!-- 株価とEPSの関係 -->
+
+    <section>
+
+        <h2>3. 株価とEPSの関係を考える</h2>
+
+        <div class="index-card">
+
+            <h3>① 株価と予想EPSがともに上昇する場合</h3>
+
+            <p>
+                利益見通しの改善と株価の上昇が同時に見られる状態です。
+                利益成長への期待が株価に反映されている可能性があります。
+            </p>
+
+        </div>
+
+        <div class="index-card">
+
+            <h3>② 株価が横ばいで、予想EPSが上昇する場合</h3>
+
+            <p>
+                株価が大きく動かなくても、予想EPSが上昇すれば、
+                計算上の予想PERは低下する方向に動きます。
+                利益見通しに対する株価の評価が変化している可能性があります。
+            </p>
+
+        </div>
+
+        <div class="index-card">
+
+            <h3>③ 株価が上昇し、予想EPSが横ばいの場合</h3>
+
+            <p>
+                予想EPSが一定であれば、株価の上昇は予想PERの上昇につながります。
+                市場の成長期待や投資家の評価が高まっている可能性があります。
+            </p>
+
+        </div>
+
+        <div class="index-card">
+
+            <h3>④ 株価と予想EPSがともに下落する場合</h3>
+
+            <p>
+                株価の下落と利益見通しの悪化が同時に生じている可能性があります。
+                ただし、株価とEPSの変化の原因はそれぞれ確認する必要があります。
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- 指数別の特徴 -->
+
+    <section>
+
+        <h2>4. 3指数を比較するポイント</h2>
+
+        <div class="index-card">
+
+            <h3>S&amp;P 500</h3>
+
+            <p>
+                米国株式市場を幅広く代表する指数です。
+                米国企業全体の利益見通しと株価の関係を確認する際の
+                基準として利用できます。
+            </p>
+
+        </div>
+
+        <div class="index-card">
+
+            <h3>NASDAQ 100</h3>
+
+            <p>
+                大型の成長企業を多く含む指数です。
+                成長期待や金利環境の変化などが、株価と利益見通しに
+                どのように表れているかを考える手がかりになります。
+            </p>
+
+        </div>
+
+        <div class="index-card">
+
+            <h3>SOX（半導体）</h3>
+
+            <p>
+                半導体関連企業の動向を把握するための指数です。
+                半導体需要、設備投資、AI関連投資などを背景とした
+                利益見通しと株価の変化を確認できます。
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- 分析上の注意 -->
+
+    <section class="panel">
+
+        <h2>5. 分析上の注意点</h2>
+
+        <ul>
+            <li>
+                予想EPSは、株価を予想PERで割って算出した計算値です。
+            </li>
+            <li>
+                予想PERのデータが更新されると、計算上のEPSも変化します。
+            </li>
+            <li>
+                株価と予想EPSの関係だけで、将来の株価を予測することはできません。
+            </li>
+            <li>
+                金利、為替、景気、企業業績、地政学リスクなども株価に影響します。
+            </li>
+            <li>
+                本チャートは市場分析の参考情報であり、将来の株価や投資成果を保証するものではありません。
+            </li>
+        </ul>
+
+    </section>
+
+
+    <footer class="footer">
+
+        <p>
+            株価分析レポート｜
+            米国株3指数の株価・予想EPS分析
+        </p>
+
+        <a class="back-link" href="index.html">
+            ← ホームページに戻る
+        </a>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
+

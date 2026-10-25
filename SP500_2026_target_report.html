@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>S&P500 年末8,000ポイント目標分析</title>
+
+    <meta
+        name="description"
+        content="S&P500の年末8,000ポイント目標に向け、年初来騰落率、過去20年平均、過去の値動きを比較する分析レポートです。"
+    >
+
+    <style>
+        :root {
+            --bg: #0b1220;
+            --panel: #111c2e;
+            --panel-border: #26364d;
+            --text: #e5e7eb;
+            --muted: #a7b3c5;
+            --accent: #60a5fa;
+            --orange: #f59e0b;
+            --green: #4ade80;
+            --red: #f87171;
+            --yellow: #fbbf24;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                "Noto Sans JP",
+                Meiryo,
+                sans-serif;
+            line-height: 1.85;
+        }
+
+        .container {
+            width: min(1400px, 100%);
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        header {
+            margin-bottom: 28px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 18px;
+            padding: 9px 16px;
+            border: 1px solid var(--panel-border);
+            border-radius: 8px;
+            color: var(--accent);
+            text-decoration: none;
+            background: var(--panel);
+            transition: background 0.2s ease;
+        }
+
+        .back-link:hover {
+            background: #1b2b43;
+            color: #bfdbfe;
+        }
+
+        h1 {
+            margin: 8px 0 12px;
+            font-size: clamp(1.8rem, 4vw, 2.7rem);
+            line-height: 1.4;
+            color: #ffffff;
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--panel-border);
+            font-size: clamp(1.3rem, 3vw, 1.7rem);
+            color: #ffffff;
+        }
+
+        h3 {
+            margin-top: 24px;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+            color: #bfdbfe;
+        }
+
+        p {
+            margin: 10px 0 16px;
+        }
+
+        .lead {
+            color: var(--muted);
+            font-size: 1.05rem;
+        }
+
+        .updated-note {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .section {
+            margin: 28px 0;
+            padding: 24px;
+            border: 1px solid var(--panel-border);
+            border-radius: 14px;
+            background: var(--panel);
+        }
+
+        /* チャート表示領域 */
+        .chart-frame {
+            width: 100%;
+            height: 850px;
+            overflow: hidden;
+            border: 1px solid var(--panel-border);
+            border-radius: 10px;
+            background: #000000;
+        }
+
+        .chart-frame iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .highlight {
+            padding: 16px 18px;
+            border-left: 4px solid var(--orange);
+            border-radius: 6px;
+            background: #211d12;
+        }
+
+        .highlight strong {
+            color: var(--orange);
+        }
+
+        .info-box {
+            padding: 16px 18px;
+            border-left: 4px solid var(--accent);
+            border-radius: 6px;
+            background: #0d1727;
+        }
+
+        .warning {
+            padding: 16px 18px;
+            border-left: 4px solid var(--yellow);
+            border-radius: 6px;
+            background: #211d12;
+        }
+
+        .warning strong {
+            color: var(--yellow);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .card {
+            padding: 18px;
+            border: 1px solid var(--panel-border);
+            border-radius: 10px;
+            background: #0d1727;
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        .card p {
+            margin-bottom: 0;
+            color: var(--muted);
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .footer {
+            margin-top: 36px;
+            padding: 24px 0 12px;
+            border-top: 1px solid var(--panel-border);
+            color: var(--muted);
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 900px) {
+            .container {
+                padding: 18px;
+            }
+
+            .chart-frame {
+                height: 750px;
+            }
+
+            .section {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 650px) {
+            .container {
+                padding: 12px;
+            }
+
+            .section {
+                margin: 18px 0;
+                padding: 15px;
+            }
+
+            .chart-frame {
+                height: 680px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .lead {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <header>
+        <a class="back-link" href="index.html">
+            ← トップページへ戻る
+        </a>
+
+        <h1>S&P500 年末8,000ポイント目標分析</h1>
+
+        <p class="lead">
+            S&P500は2026年末に8,000ポイントへ到達できるのか。
+            過去20年の平均的な値動きや、今年の年初来騰落率と比較し、
+            目標までの距離を可視化します。
+        </p>
+
+        <p class="updated-note">
+            対象指数：S&P500（^GSPC）｜目標値：8,000ポイント
+        </p>
+    </header>
+
+
+    <!-- チャート -->
+    <section class="section">
+        <h2>1. 年末8,000ポイント目標チャート</h2>
+
+        <p>
+            今年のS&P500の値動きを、過去20年平均および指定した年の平均と比較します。
+            オレンジ色の線は今年の実績、水平の破線は8,000ポイントに到達するために
+            必要な年初来騰落率を示しています。
+        </p>
+
+        <div class="chart-frame">
+            <iframe
+                src="SP500_2026_target.html"
+                title="S&P500 年末8,000ポイント目標チャート"
+                loading="lazy">
+            </iframe>
+        </div>
+
+        <p class="updated-note">
+            チャートはGitHub Actionsで生成されたHTMLを読み込んでいます。
+            最新の状況を確認するには、チャート生成ワークフローを再実行してください。
+        </p>
+    </section>
+
+
+    <!-- 目標の見方 -->
+    <section class="section">
+        <h2>2. 8,000ポイントまで、あとどれくらい？</h2>
+
+        <div class="highlight">
+            <strong>注目するのは、現在の株価から目標までに必要な上昇率です。</strong>
+            <br>
+            チャート内には、最新のS&P500の終値を基準に、
+            8,000ポイントまでの残りポイントと必要上昇率を表示しています。
+        </div>
+
+        <h3>表示内容の読み方</h3>
+
+        <ul>
+            <li>
+                <strong>最新株価：</strong>
+                Yahoo Financeから取得した最新のS&P500終値です。
+            </li>
+            <li>
+                <strong>残りポイント：</strong>
+                8,000ポイントから最新株価を引いた値です。
+            </li>
+            <li>
+                <strong>必要上昇率：</strong>
+                最新株価から8,000ポイントに到達するために必要な上昇率です。
+            </li>
+            <li>
+                <strong>目標ライン：</strong>
+                8,000ポイントを年初の株価に対する騰落率に換算して表示しています。
+            </li>
+        </ul>
+
+        <div class="info-box">
+            <strong>計算式</strong>
+            <p>
+                残りポイント ＝ 8,000 − 最新株価
+            </p>
+            <p>
+                必要上昇率 ＝（8,000 ÷ 最新株価 − 1）× 100
+            </p>
+        </div>
+    </section>
+
+
+    <!-- 過去との比較 -->
+    <section class="section">
+        <h2>3. 過去の値動きと比較する</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>過去20年平均</h3>
+                <p>
+                    過去20年の各年について、年初の終値を0%として騰落率を計算し、
+                    営業日順に平均した線です。S&P500の平均的な年間推移を確認できます。
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>トランプ政権下平均（指定年）</h3>
+                <p>
+                    プログラムで指定した2017年、2018年、2019年、2020年、2025年の
+                    年初来騰落率を平均した線です。
+                    この5年の比較用データであり、政権下の全期間を表すものではありません。
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>2026年の実績</h3>
+                <p>
+                    2026年の最初の営業日の終値を0%として、
+                    最新データまでの値動きを表示します。
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>8,000ポイント目標</h3>
+                <p>
+                    目標株価を年初の株価に対する騰落率に換算し、
+                    今年の実績と比較できるようにした水平線です。
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- 目標到達の考え方 -->
+    <section class="section">
+        <h2>4. 年末8,000ポイントをどう考えるか</h2>
+
+        <p>
+            目標株価に到達するかどうかを考える際には、
+            現在の株価から必要な上昇率を計算することが出発点になります。
+        </p>
+
+        <p>
+            そのうえで、過去の値動きと比較し、
+            必要な上昇率が過去の平均的な年間推移に照らしてどの程度なのかを確認します。
+        </p>
+
+        <p>
+            ただし、過去の平均は将来の値動きを保証するものではありません。
+            株価は企業利益、金利、景気、投資家心理など複数の要因によって変動します。
+        </p>
+
+        <div class="warning">
+            <strong>目標株価は予測の確実性を意味しません。</strong>
+            <p>
+                8,000ポイントは、この分析で設定している目標値です。
+                特定の金融機関による最新の公式予想として確認したものではありません。
+                実際の投資判断では、各金融機関の最新レポートや公表条件も確認してください。
+            </p>
+        </div>
+    </section>
+
+
+    <!-- 注意点 -->
+    <section class="section">
+        <h2>5. 分析上の注意点</h2>
+
+        <ul>
+            <li>
+                <strong>過去20年平均：</strong>
+                各年の騰落率を営業日順に平均した値であり、
+                実際に投資した場合のリターンを直接示すものではありません。
+            </li>
+            <li>
+                <strong>営業日数：</strong>
+                チャートでは1年を最大252営業日として比較しています。
+                実際の営業日数や休日の配置は年によって異なります。
+            </li>
+            <li>
+                <strong>配当：</strong>
+                チャートは株価指数の価格データを使用しています。
+                配当を含むトータルリターンとは異なる場合があります。
+            </li>
+            <li>
+                <strong>データ更新：</strong>
+                最新株価はデータ取得時点の値です。
+                市場の最新の値動きが常に反映されているとは限りません。
+            </li>
+            <li>
+                <strong>予測の限界：</strong>
+                過去の平均的な推移と今年の値動きが似ていても、
+                年末の株価が同じように推移するとは限りません。
+            </li>
+        </ul>
+    </section>
+
+
+    <!-- まとめ -->
+    <section class="section">
+        <h2>6. まとめ</h2>
+
+        <p>
+            このチャートは、S&P500の年末8,000ポイントという目標に対し、
+            現在の株価から必要な上昇率を算出し、過去の値動きと比較するためのものです。
+        </p>
+
+        <p>
+            目標までの距離だけでなく、過去20年平均や指定年平均と今年の実績を比較することで、
+            現在の値動きを長期的な視点で捉えることができます。
+        </p>
+
+        <p>
+            目標値だけを見て判断するのではなく、企業利益、PER、金利などの情報と組み合わせて、
+            市場の状況を総合的に考えることが重要です。
+        </p>
+    </section>
+
+
+    <footer class="footer">
+        <a class="back-link" href="index.html">
+            ← トップページへ戻る
+        </a>
+
+        <p>
+            株価分析レポート｜S&P500 年末8,000ポイント目標分析
+        </p>
+    </footer>
+
+</div>
+</body>
+</html>
