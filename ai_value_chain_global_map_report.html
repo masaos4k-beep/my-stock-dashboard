@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIバリューチェーン・グローバルマップ | 分析レポート</title>
+<style>
+:root{
+  --bg:#080b0d; --panel:#0d1316; --panel2:#111a1e; --border:#29363a;
+  --text:#edf4f2; --muted:#a8b8b9; --accent:#31c487; --blue:#289dff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;
+  line-height:1.8;
+}
+.wrap{max-width:1440px;margin:0 auto;padding:22px 24px 40px}
+a{color:#75c8ff;text-decoration:none}
+a:hover{text-decoration:underline}
+.hero{
+  padding:14px 24px 16px;margin-bottom:22px;
+  background:linear-gradient(135deg,#101a1e,#0b1012);
+  border:1px solid var(--border);border-radius:14px;
+}
+.eyebrow{font-size:12px;letter-spacing:.12em;color:var(--accent);font-weight:800}
+h1{font-size:clamp(24px,3vw,36px);line-height:1.35;margin:6px 0 8px}
+.lead{color:#c1cece;margin:0;max-width:1000px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.button{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:8px 14px;border:1px solid var(--border);border-radius:8px;
+  background:#152126;color:var(--text);font-weight:700;font-size:14px;
+}
+.button.primary{background:var(--blue);border-color:var(--blue);color:white}
+section{margin-bottom:24px}
+.panel{
+  background:var(--panel);border:1px solid var(--border);border-radius:12px;
+  padding:20px 22px;
+}
+h2{font-size:21px;line-height:1.45;margin:0 0 12px;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:16px;margin:0 0 6px;color:var(--accent)}
+p{margin:8px 0;color:#d3dddd}
+.small{font-size:13px;color:var(--muted)}
+.dashboard-actions{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:10px;margin-bottom:8px}
+.frame-box{width:100%;overflow:hidden;border:1px solid var(--border);border-radius:12px;background:#080b0d}
+.frame-box iframe{display:block;width:100%;height:540px;border:0;background:#080b0d}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.card{padding:16px;background:var(--panel2);border:1px solid var(--border);border-radius:10px}
+ul{margin:8px 0 0;padding-left:1.3em;color:#d3dddd}
+li{margin:5px 0}
+.notice{border-left:3px solid var(--accent);padding:10px 14px;background:#0d1917;border-radius:0 8px 8px 0;color:#d8e6e1}
+footer{border-top:1px solid var(--border);padding-top:16px;margin-top:28px;color:var(--muted);font-size:13px}
+@media(max-width:800px){
+ .wrap{padding:12px 12px 28px}
+ .hero{padding:14px}
+ .panel{padding:15px}
+ .frame-box iframe{height:500px}
+ .grid{grid-template-columns:1fr}
+}
+@media(max-width:480px){
+ h1{font-size:23px}
+ .frame-box iframe{height:460px}
+ .button{font-size:13px;padding:8px 10px}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="hero">
+    <div class="eyebrow">AI VALUE CHAIN / GLOBAL VIEW</div>
+    <h1>AIバリューチェーン・グローバルマップ</h1>
+    <p class="lead">AI産業を支える企業を、電力・半導体から分析・サービスまでのバリューチェーンに沿って整理し、世界地図上で株価の騰落率を比較するダッシュボードです。</p>
+    <div class="actions">
+      <a class="button" href="index.html">← トップページへ戻る</a>
+      <a class="button primary" href="ai_value_chain_global_map.html" target="_blank" rel="noopener">マップを単独で開く ↗</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="panel">
+      <h2>グローバルマップ</h2>
+      <p>期間ボタンを切り替えると、各企業の株価騰落率を「1日・1週間・1ヶ月・年初来」で確認できます。緑は上昇、赤は下落を示し、右側のカラーバーで変動幅を読み取れます。</p>
+      <div class="dashboard-actions">
+        <a class="button" href="ai_value_chain_global_map.html" target="_blank" rel="noopener">大きな画面で表示 ↗</a>
+      </div>
+      <div class="frame-box">
+        <iframe src="ai_value_chain_global_map.html" title="AIバリューチェーン・グローバルマップ" loading="eager"></iframe>
+      </div>
+      <p class="small">※ マップが表示されない場合は、「マップを単独で開く」を選択してください。</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="panel">
+      <h2>AIバリューチェーンの見方</h2>
+      <p>AI関連企業をひとまとめにするのではなく、AIを動かすための基盤から、AIを活用するサービスまで、役割ごとに分けて観察します。</p>
+      <div class="grid">
+        <div class="card">
+          <h3>電力・半導体</h3>
+          <p>AIデータセンターの稼働を支える電力と、計算処理を担う半導体です。AI需要の拡大が設備投資や半導体需要にどう反映されているかを確認します。</p>
+        </div>
+        <div class="card">
+          <h3>データセンター・クラウド</h3>
+          <p>計算資源やデータ処理環境を提供する領域です。AIサービスの普及に伴うインフラ需要を観察する視点になります。</p>
+        </div>
+        <div class="card">
+          <h3>セキュリティ・分析</h3>
+          <p>システムやデータを守る企業、データから洞察を引き出す企業をまとめています。AIの導入が企業向けソフトウェアに与える影響を見る領域です。</p>
+        </div>
+        <div class="card">
+          <h3>サービス</h3>
+          <p>企業の業務や制作活動を支援するソフトウェア企業です。AI機能の実装が既存サービスの競争力や収益機会にどう結びつくかを考える材料になります。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="panel">
+      <h2>読み取る際のポイント</h2>
+      <ul>
+        <li><strong>期間をそろえて比較する：</strong>短期の値動きと、1ヶ月・年初来の動きは分けて確認します。</li>
+        <li><strong>同じカテゴリ内で比較する：</strong>同じ役割を担う企業同士で、上昇・下落の広がりを観察します。</li>
+        <li><strong>株価の変動だけで結論を出さない：</strong>騰落率は市場の評価を示す一つの材料です。業績、バリュエーション、金利、為替なども合わせて確認してください。</li>
+        <li><strong>為替の影響に注意する：</strong>米国以外の市場に上場する企業も含まれています。表示は各銘柄の株価変動率を中心とした比較であり、円換算の投資リターンとは異なります。</li>
+      </ul>
+      <div class="notice" style="margin-top:14px">
+        このページは情報整理・学習を目的としたもので、特定銘柄の売買を推奨するものではありません。データ取得元や市場の休場状況により、表示値が遅延・欠損する場合があります。
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <a href="index.html">← トップページへ戻る</a>
+    <span>　|　AIバリューチェーン・グローバルマップ</span>
+  </footer>
+</main>
+</body>
+</html>

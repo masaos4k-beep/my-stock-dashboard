@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>AIバリューチェーン期間別ヒートマップ分析</title>
+
+<style>
+:root {
+    color-scheme: dark;
+    --bg: #080b0d;
+    --panel: #111719;
+    --panel2: #151e22;
+    --line: #29363a;
+    --text: #f0f5f3;
+    --muted: #a0b0b2;
+    --accent: #31c487;
+    --blue: #289dff;
+    --red: #ef4444;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Noto Sans JP",
+        sans-serif;
+    line-height: 1.8;
+}
+
+a {
+    color: #79bdff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ヘッダー */
+
+header {
+    padding: 10px 5%;
+    border-bottom: 1px solid var(--line);
+    background: #0b1012;
+}
+
+.header-inner {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.site-title {
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.header-btn {
+    display: inline-block;
+    padding: 7px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+    color: var(--text);
+    background: var(--panel);
+    font-size: 13px;
+}
+
+.header-btn.primary {
+    color: #06130d;
+    background: var(--accent);
+    border-color: var(--accent);
+    font-weight: 700;
+}
+
+/* タイトル */
+
+.hero {
+    padding: 14px 24px 16px;
+    text-align: center;
+    background:
+        radial-gradient(
+            ellipse at top,
+            rgba(49,196,135,0.08),
+            transparent 65%
+        );
+    border-bottom: 1px solid var(--line);
+}
+
+.hero-label {
+    display: inline-block;
+    color: var(--accent);
+    border: 1px solid rgba(49,196,135,0.45);
+    border-radius: 30px;
+    padding: 3px 13px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.hero h1 {
+    margin: 6px 0;
+    font-size: clamp(26px, 3vw, 36px);
+    line-height: 1.25;
+}
+    
+.hero p {
+    max-width: 850px;
+    margin: 0 auto;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* メイン */
+
+main {
+    max-width: 1440px;
+    padding: 28px 16px 60px;
+    margin: auto;
+}
+
+.section {
+    margin-bottom: 24px;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid var(--line);
+    font-size: 23px;
+    line-height: 1.4;
+}
+
+.section-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: rgba(49,196,135,0.13);
+    color: var(--accent);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.lead {
+    color: var(--muted);
+    margin: 0 0 10px;
+    line-height: 1.6;
+}
+
+/* パネル */
+
+.panel {
+    padding: 22px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+}
+
+.panel h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.panel p {
+    margin: 0 0 12px;
+}
+
+.panel p:last-child {
+    margin-bottom: 0;
+}
+
+/* ダッシュボード */
+
+.dashboard-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.dashboard-actions p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.action-btn {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 7px;
+    background: var(--blue);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.action-btn:hover {
+    background: #1688ed;
+    text-decoration: none;
+}
+
+.frame-box {
+    background: #000;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.frame-box iframe {
+    display: block;
+    width: 100%;
+    height: 720px;
+    border: 0;
+    background: #080b0d;
+}
+
+.note {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+/* 2列カード */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.card {
+    padding: 20px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.card-label {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* テーブル */
+
+.table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--panel);
+    font-size: 14px;
+}
+
+th, td {
+    padding: 13px 16px;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background: var(--panel2);
+    color: var(--accent);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* 強調ボックス */
+
+.callout {
+    padding: 20px 22px;
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    background: rgba(49,196,135,0.07);
+}
+
+.callout strong {
+    color: var(--accent);
+}
+
+ul {
+    padding-left: 1.4em;
+}
+
+li {
+    margin: 6px 0;
+}
+
+/* フッター */
+
+footer {
+    padding: 24px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 12px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 8px;
+}
+
+/* タブレット */
+
+@media (max-width: 800px) {
+    .hero {
+        padding: 24px 18px;
+    }
+
+    main {
+        padding: 22px 12px 45px;
+    }
+
+    .section-heading {
+        font-size: 21px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .panel {
+        padding: 17px;
+    }
+
+    .frame-box iframe {
+        height: 680px;
+    }
+}
+
+/* スマートフォン */
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 12px;
+    }
+
+    .header-inner {
+        align-items: flex-start;
+    }
+
+    .site-title {
+        font-size: 13px;
+    }
+
+    .header-links {
+        gap: 6px;
+    }
+
+    .header-btn {
+        padding: 6px 9px;
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 22px 14px;
+    }
+
+    .hero h1 {
+        font-size: 27px;
+    }
+
+    .hero p {
+        font-size: 13px;
+    }
+
+    main {
+        padding: 18px 10px 36px;
+    }
+
+    .section-heading {
+        font-size: 19px;
+        gap: 8px;
+    }
+
+    .section-number {
+        flex-basis: 32px;
+        height: 32px;
+    }
+
+    .frame-box iframe {
+        height: 620px;
+    }
+
+    .action-btn {
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 10px 12px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-inner">
+
+        <div class="site-title">
+            STOCK MARKET ANALYSIS
+        </div>
+
+        <nav class="header-links">
+
+            <a class="header-btn" href="index.html">
+                トップページ
+            </a>
+
+            <a
+                class="header-btn primary"
+                href="ai_value_chain_heatmap.html"
+                target="_blank"
+                rel="noopener"
+            >
+                ヒートマップを単独で開く ↗
+            </a>
+
+        </nav>
+    </div>
+</header>
+
+
+<section class="hero">
+
+    <div class="hero-label">
+        AI VALUE CHAIN HEATMAP
+    </div>
+
+    <h1>
+        AIバリューチェーン期間別ヒートマップ
+    </h1>
+
+    <p>
+        AI産業を構成する7つのカテゴリーについて、
+        主要企業の株価騰落率を色で可視化します。
+        期間を切り替えながら、AI関連市場の強弱を比較します。
+    </p>
+
+</section>
+
+
+<main>
+
+    <!-- 01 ダッシュボード -->
+
+    <section class="section" id="dashboard">
+
+        <h2 class="section-heading">
+            <span class="section-number">01</span>
+            期間別ヒートマップ
+        </h2>
+
+        <p class="lead">
+            右上のボタンで「1日」「1週間」「1ヶ月」「年初来」を切り替えられます。
+            色と表示される騰落率を確認し、各カテゴリーの動きを比較してください。
+        </p>
+
+        <div class="dashboard-actions">
+
+            <p>
+                緑は上昇、赤は下落を示します。
+                各ボックスの面積は、銘柄の時価総額を反映しています。
+            </p>
+
+            <a
+                class="action-btn"
+                href="ai_value_chain_heatmap.html"
+                target="_blank"
+                rel="noopener"
+            >
+                ダッシュボードを大きく表示 ↗
+            </a>
+
+        </div>
+
+        <div class="frame-box">
+
+            <iframe
+                src="ai_value_chain_heatmap.html"
+                title="AIバリューチェーン期間別ヒートマップ"
+                loading="eager"
+            ></iframe>
+
+        </div>
+
+        <p class="note">
+            ※表示領域が小さい場合や操作しにくい場合は、ダッシュボードを単独で開いてください。
+        </p>
+
+    </section>
+
+
+    <!-- 02 分析の目的 -->
+
+    <section class="section" id="purpose">
+
+        <h2 class="section-heading">
+            <span class="section-number">02</span>
+            分析の目的
+        </h2>
+
+        <div class="panel">
+
+            <h3>AI関連株を7つの領域に分けて観察する</h3>
+
+            <p>
+                AI産業は半導体だけで構成されているわけではありません。
+                AIの計算能力を担う半導体、処理を支えるデータセンター、
+                クラウド基盤、電力供給、分析ソフトウェア、
+                セキュリティ、エンドユーザー向けサービスが相互に関係しています。
+            </p>
+
+            <p>
+                このヒートマップでは、代表銘柄をカテゴリーごとにまとめ、
+                騰落率を色で表現することで、どの領域に強さや弱さが見られるかを
+                直感的に把握できるようにしています。
+            </p>
+
+            <p>
+                ただし、これは選定した銘柄群の比較であり、
+                AI産業全体を完全に再現するものではありません。
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- 03 ヒートマップの見方 -->
+
+    <section class="section" id="how-to-read">
+
+        <h2 class="section-heading">
+            <span class="section-number">03</span>
+            ヒートマップの見方
+        </h2>
+
+        <div class="cards">
+
+            <article class="card">
+
+                <span class="card-label">COLOR</span>
+
+                <h3>色で騰落率を確認する</h3>
+
+                <p>
+                    緑系の色は上昇、赤系の色は下落を示します。
+                    色の濃さはカラースケール上の騰落率に対応します。
+                    右側のカラーバーで数値の目安を確認できます。
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <span class="card-label">SIZE</span>
+
+                <h3>面積で時価総額を比較する</h3>
+
+                <p>
+                    各銘柄のボックス面積は、プログラムで取得した時価総額を
+                    基にしています。面積が大きい銘柄ほど、
+                    ヒートマップ内で大きく表示されます。
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <span class="card-label">PERIOD</span>
+
+                <h3>期間を切り替える</h3>
+
+                <p>
+                    1日、1週間、1ヶ月、年初来の4つの期間を切り替えて、
+                    短期的な値動きと、より長い期間の変化を比較します。
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <span class="card-label">DETAIL</span>
+
+                <h3>銘柄名と騰落率を読む</h3>
+
+                <p>
+                    十分な表示面積がある銘柄では、銘柄名と騰落率が表示されます。
+                    ボックスにカーソルを合わせると、追加情報を確認できます。
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- 04 7カテゴリー -->
+
+    <section class="section" id="categories">
+
+        <h2 class="section-heading">
+            <span class="section-number">04</span>
+            AIバリューチェーンの7カテゴリー
+        </h2>
+
+        <p class="lead">
+            以下は、この分析で用いるカテゴリーの位置づけです。
+            個々の銘柄の分類は分析用の設定に基づいています。
+        </p>
+
+        <div class="table-wrap">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>カテゴリー</th>
+                        <th>役割</th>
+                        <th>代表銘柄の例</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>エネルギー（電力）</td>
+                        <td>AIの稼働に必要な電力やエネルギーインフラを支える</td>
+                        <td>CEG、GEV、VST</td>
+                    </tr>
+
+                    <tr>
+                        <td>半導体（チップ）</td>
+                        <td>AIの学習・推論に必要な計算能力を提供する</td>
+                        <td>NVDA、AMD、AVGO、TSM、ASML、ARM、MU</td>
+                    </tr>
+
+                    <tr>
+                        <td>データセンター</td>
+                        <td>サーバーや設備など、AIを稼働させる物理基盤を担う</td>
+                        <td>EQIX、DLR、SMCI</td>
+                    </tr>
+
+                    <tr>
+                        <td>クラウド</td>
+                        <td>AIの開発・運用に必要な計算基盤やサービスを提供する</td>
+                        <td>MSFT、AMZN、GOOGL、META</td>
+                    </tr>
+
+                    <tr>
+                        <td>分析</td>
+                        <td>データ分析やAIを活用した意思決定を支える</td>
+                        <td>PLTR、SNOW、DDOG</td>
+                    </tr>
+
+                    <tr>
+                        <td>セキュリティ</td>
+                        <td>システムやネットワークを保護し、安全な利用を支える</td>
+                        <td>PANW、CRWD、S</td>
+                    </tr>
+
+                    <tr>
+                        <td>サービス・アプリ</td>
+                        <td>AIを利用者向けのサービスや業務アプリケーションに組み込む</td>
+                        <td>NOW、ADBE、CRM</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- 05 期間の考え方 -->
+
+    <section class="section" id="periods">
+
+        <h2 class="section-heading">
+            <span class="section-number">05</span>
+            4つの期間を比較する
+        </h2>
+
+        <div class="table-wrap">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>表示期間</th>
+                        <th>確認するポイント</th>
+                        <th>注意点</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>1日</td>
+                        <td>直近の市場反応や当日の強弱</td>
+                        <td>短期的なニュースや市場環境に左右されやすい</td>
+                    </tr>
+
+                    <tr>
+                        <td>1週間</td>
+                        <td>数営業日単位の方向性</td>
+                        <td>取得時刻や休場日の影響に注意する</td>
+                    </tr>
+
+                    <tr>
+                        <td>1ヶ月</td>
+                        <td>短期的な流れが継続しているか</td>
+                        <td>期間初値と取得データの範囲を確認する</td>
+                    </tr>
+
+                    <tr>
+                        <td>年初来</td>
+                        <td>年初からの相対的な強弱</td>
+                        <td>銘柄ごとの計算基準やデータ取得状況に注意する</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <div class="callout" style="margin-top:18px;">
+
+            <strong>分析のポイント：</strong>
+
+            1日だけの値動きで判断せず、1週間、1ヶ月、年初来を切り替えながら、
+            上昇・下落が特定のカテゴリーに集中しているかを確認します。
+
+        </div>
+
+    </section>
+
+
+    <!-- 06 投資分析への活用 -->
+
+    <section class="section" id="application">
+
+        <h2 class="section-heading">
+            <span class="section-number">06</span>
+            投資分析への活用
+        </h2>
+
+        <div class="panel">
+
+            <h3>市場全体とAI関連領域の強弱を比較する</h3>
+
+            <p>
+                例えば、半導体が下落する一方でクラウドや分析カテゴリーが上昇している場合、
+                AI関連株全体が同じ方向に動いているわけではないことが分かります。
+            </p>
+
+            <p>
+                また、短期では下落していても年初来では上昇している銘柄があれば、
+                直近の調整と、それまでの上昇傾向を区別して考える材料になります。
+            </p>
+
+            <p>
+                こうした比較は、AI関連市場の動きを整理するために役立ちます。
+                ただし、ヒートマップは値動きを可視化するものであり、
+                株価の将来予測や売買タイミングを直接示すものではありません。
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- 07 データと注意点 -->
+
+    <section class="section" id="caution">
+
+        <h2 class="section-heading">
+            <span class="section-number">07</span>
+            データと分析上の注意点
+        </h2>
+
+        <div class="panel">
+
+            <ul>
+
+                <li>
+                    株価データはYahoo Finance経由で取得する構成です。
+                    取得時刻やデータの更新状況によって、表示結果が変わる場合があります。
+                </li>
+
+                <li>
+                    時価総額は取得できた銘柄情報に基づいています。
+                    データを取得できない場合、プログラムの代替値が使われる可能性があります。
+                </li>
+
+                <li>
+                    日本株や韓国株は、現地通貨の時価総額を米ドル換算する処理を含みます。
+                    為替レートの取得状況によって換算値が変わります。
+                </li>
+
+                <li>
+                    騰落率は、取得した期間の価格を使って計算しています。
+                    1日表示と、それ以外の期間では取得方法や基準が異なるため、
+                    厳密な同一条件での比較ではありません。
+                </li>
+
+                <li>
+                    カテゴリーは分析用に選定した銘柄群であり、
+                    業界全体の動きを完全に表すものではありません。
+                </li>
+
+                <li>
+                    株価の上昇・下落は、企業業績、金利、為替、投資家心理など、
+                    複数の要因によって変化します。
+                    ヒートマップの色だけで原因を断定することはできません。
+                </li>
+
+            </ul>
+
+            <p>
+                本ページは情報提供を目的とした分析資料であり、
+                特定の金融商品の売買を推奨するものではありません。
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- 08 まとめ -->
+
+    <section class="section" id="summary">
+
+        <h2 class="section-heading">
+            <span class="section-number">08</span>
+            まとめ
+        </h2>
+
+        <div class="panel">
+
+            <p>
+                AI関連市場を理解するには、半導体だけでなく、
+                電力、データセンター、クラウド、分析、セキュリティ、
+                サービス・アプリまで、産業全体を分けて観察することが重要です。
+            </p>
+
+            <p>
+                期間別ヒートマップを利用すると、各カテゴリーの株価騰落率と
+                時価総額の大きさを同時に確認できます。
+                期間を切り替えることで、短期的な変動と年初来の動きを比較できます。
+            </p>
+
+            <p>
+                ヒートマップは市場の状況を整理するための道具です。
+                ほかの市場データや企業業績、バリュエーションなどと組み合わせて、
+                多角的に分析することをおすすめします。
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div>
+        AIバリューチェーン期間別ヒートマップ分析
+    </div>
+
+    <p>
+        <a href="index.html">トップページ</a>
+        |
+        <a href="ai_value_chain_heatmap.html">ヒートマップ</a>
+    </p>
+
+    <div>
+        投資判断はご自身の責任で行ってください。
+    </div>
+
+</footer>
+
+</body>
+</html>

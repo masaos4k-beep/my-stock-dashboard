@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>米国株3指数の予想PER分析 | 株価分析レポート</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: #0b1220;
+        color: #e5e7eb;
+        font-family:
+            "Meiryo",
+            "Noto Sans JP",
+            sans-serif;
+        line-height: 1.8;
+    }
+
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+
+    .back-link {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: #60a5fa;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .back-link:hover {
+        text-decoration: underline;
+    }
+
+    h1 {
+        margin: 0 0 12px;
+        color: #ffffff;
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    h2 {
+        margin-top: 36px;
+        padding-left: 12px;
+        border-left: 4px solid #3b82f6;
+        color: #ffffff;
+        font-size: 22px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        color: #93c5fd;
+        font-size: 17px;
+    }
+
+    p {
+        margin: 12px 0;
+    }
+
+    .lead {
+        color: #cbd5e1;
+        font-size: 16px;
+    }
+
+    .panel {
+        margin-top: 24px;
+        padding: 24px;
+        background: #111c2e;
+        border: 1px solid #263449;
+        border-radius: 12px;
+    }
+
+    .chart-panel {
+        margin-top: 24px;
+        padding: 12px;
+        background: #111111;
+        border: 1px solid #263449;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .chart-frame {
+        width: 100%;
+        height: 650px;
+        border: none;
+        display: block;
+        background: #111111;
+    }
+
+    .zone-grid {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+    .zone {
+        padding: 16px;
+        border-radius: 8px;
+        background: #172235;
+        border: 1px solid #334155;
+    }
+
+    .zone h3 {
+        margin: 0 0 8px;
+        font-size: 15px;
+    }
+
+    .zone p {
+        margin: 0;
+        font-size: 13px;
+        color: #cbd5e1;
+    }
+
+    .blue {
+        color: #64c8ff;
+    }
+
+    .green {
+        color: #5ce1d2;
+    }
+
+    .white {
+        color: #ffffff;
+    }
+
+    .orange {
+        color: #ffc04d;
+    }
+
+    .red {
+        color: #ff6b6b;
+    }
+
+    .index-card {
+        margin-top: 16px;
+        padding: 20px;
+        background: #111c2e;
+        border: 1px solid #263449;
+        border-radius: 10px;
+    }
+
+    .index-card h3 {
+        margin-top: 0;
+    }
+
+    .note {
+        margin-top: 20px;
+        padding: 16px 20px;
+        background: #172235;
+        border-left: 4px solid #f59e0b;
+        border-radius: 6px;
+        color: #cbd5e1;
+        font-size: 14px;
+    }
+
+    .footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #263449;
+        color: #94a3b8;
+        font-size: 13px;
+    }
+
+    @media (max-width: 900px) {
+        .zone-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .chart-frame {
+            height: 560px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .container {
+            padding: 16px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .panel {
+            padding: 16px;
+        }
+
+        .chart-panel {
+            padding: 4px;
+        }
+
+        .chart-frame {
+            height: 520px;
+        }
+
+        .zone-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <a class="back-link" href="index.html">
+        ← ホームページに戻る
+    </a>
+
+    <header>
+        <h1>米国株3指数の予想PER分析</h1>
+
+        <p class="lead">
+            S&amp;P 500・NASDAQ 100・SOXの予想PERを比較し、
+            株価が企業利益に対してどのような水準にあるのかを分析します。
+        </p>
+    </header>
+
+
+    <!-- チャート -->
+
+    <section class="chart-panel">
+
+        <iframe
+            class="chart-frame"
+            src="3indices_per_chart_chart.html"
+            title="S&P 500・NASDAQ 100・SOXの予想PER推移"
+            loading="lazy">
+        </iframe>
+
+    </section>
+
+
+    <!-- 予想PERの説明 -->
+
+    <section class="panel">
+
+        <h2>1. 予想PERとは？</h2>
+
+        <p>
+            PER（株価収益率）は、株価が企業利益の何倍で評価されているかを
+            示す指標です。
+        </p>
+
+        <p>
+            予想PERは、将来の予想利益をもとに計算します。
+            株価だけでなく、企業利益の見通しも反映するため、
+            市場の評価水準を考える際に利用できます。
+        </p>
+
+        <p>
+            一般に、予想PERが低下すると、利益予想に対する株価の評価が
+            低くなっている可能性があります。
+            反対に、予想PERが上昇すると、将来の利益成長への期待などが
+            株価に織り込まれている可能性があります。
+        </p>
+
+        <div class="note">
+            予想PERが低ければ必ず割安、高ければ必ず割高というわけではありません。
+            利益成長率、金利、景気、企業利益の予想修正なども合わせて確認する必要があります。
+        </div>
+
+    </section>
+
+
+    <!-- PERの評価ゾーン -->
+
+    <section class="panel">
+
+        <h2>2. S&amp;P 500のPER評価ゾーン</h2>
+
+        <p>
+            チャートでは、予想PERの水準を5段階に分けています。
+            それぞれのゾーンは、相対的な評価水準を把握するための目安です。
+        </p>
+
+        <div class="zone-grid">
+
+            <div class="zone">
+                <h3 class="blue">割安感が強い</h3>
+                <p>18倍未満</p>
+            </div>
+
+            <div class="zone">
+                <h3 class="green">やや割安</h3>
+                <p>18～20倍</p>
+            </div>
+
+            <div class="zone">
+                <h3 class="white">妥当な水準</h3>
+                <p>20～22倍</p>
+            </div>
+
+            <div class="zone">
+                <h3 class="orange">やや割高</h3>
+                <p>22～24倍</p>
+            </div>
+
+            <div class="zone">
+                <h3 class="red">割高感が強い</h3>
+                <p>24倍超</p>
+            </div>
+
+        </div>
+
+        <div class="note">
+            上記は本チャートで採用している独自の評価基準です。
+            市場全体に共通する絶対的な割安・割高の基準ではありません。
+        </div>
+
+    </section>
+
+
+    <!-- 3指数の比較 -->
+
+    <section>
+
+        <h2>3. 3指数を比較するポイント</h2>
+
+        <div class="index-card">
+
+            <h3>S&amp;P 500</h3>
+
+            <p>
+                米国株式市場を幅広く代表する指数です。
+                米国企業全体の利益見通しに対して、市場がどの程度の評価を
+                与えているかを確認する際の基準として利用できます。
+            </p>
+
+        </div>
+
+        <div class="index-card">
+
+            <h3>NASDAQ 100</h3>
+
+            <p>
+                大型の成長企業を多く含む指数です。
+                予想PERの変化を確認することで、成長期待や金利動向などが
+                株価評価に与える影響を考える手がかりになります。
+            </p>
+
+        </div>
+
+        <div class="index-card">
+
+            <h3>SOX（半導体）</h3>
+
+            <p>
+                半導体関連企業の動向を把握するための指数です。
+                半導体需要や設備投資、AI関連投資などを背景とした
+                利益見通しと市場評価の変化を確認する際に役立ちます。
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- 分析方法 -->
+
+    <section class="panel">
+
+        <h2>4. チャートの活用方法</h2>
+
+        <h3>① 予想PERの方向を確認する</h3>
+
+        <p>
+            予想PERが上昇しているのか、低下しているのかを確認します。
+            株価の動きと合わせて見ることで、評価水準の変化を把握しやすくなります。
+        </p>
+
+        <h3>② 3指数の評価水準を比較する</h3>
+
+        <p>
+            S&amp;P 500・NASDAQ 100・SOXを切り替え、それぞれの予想PERが
+            どのように推移しているかを比較します。
+            ただし、指数ごとに企業構成や成長特性が異なるため、
+            PERの数値だけで単純に優劣を判断することはできません。
+        </p>
+
+        <h3>③ 利益予想と合わせて考える</h3>
+
+        <p>
+            株価が横ばいでも、企業利益の予想が増加すれば、
+            予想PERが低下することがあります。
+            この場合、株価の変化だけでは見えにくい評価水準の変化が
+            生じている可能性があります。
+        </p>
+
+    </section>
+
+
+    <!-- 注意事項 -->
+
+    <section class="panel">
+
+        <h2>5. 分析上の注意点</h2>
+
+        <ul>
+            <li>
+                予想PERは、将来の利益予想の変化によっても変動します。
+            </li>
+            <li>
+                金利、景気、為替、地政学リスクなども株価評価に影響します。
+            </li>
+            <li>
+                指数によって企業構成や成長率が異なるため、
+                同じPERでも意味合いが異なる場合があります。
+            </li>
+            <li>
+                本チャートは市場分析の参考情報であり、
+                将来の株価や投資成果を保証するものではありません。
+            </li>
+        </ul>
+
+    </section>
+
+
+    <footer class="footer">
+
+        <p>
+            株価分析レポート｜
+            米国株3指数の予想PER分析
+        </p>
+
+        <a class="back-link" href="index.html">
+            ← ホームページに戻る
+        </a>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
+
