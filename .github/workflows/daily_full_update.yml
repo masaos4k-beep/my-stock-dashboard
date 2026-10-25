@@ -106,13 +106,6 @@ jobs:
             echo "生成ファイルに変更はありません。"
           else
             git commit -m "Daily update: market charts and AI analysis"
+            git push origin HEAD:main
           fi
-
-          git fetch origin main
-
-          if git log -1 --pretty=%s | grep -q "^Daily update:"; then
-            echo "生成ファイルはすでにコミット済みです。"
-          fi
-
-          git push origin HEAD:main
 
