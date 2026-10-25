@@ -110,8 +110,9 @@ jobs:
 
           git fetch origin main
 
-          if ! git diff --quiet || ! git diff --cached --quiet; then
-            echo "未コミットの変更が残っています。"
-            git status --short
-            exit 1
+          if git log -1 --pretty=%s | grep -q "^Daily update:"; then
+            echo "生成ファイルはすでにコミット済みです。"
           fi
+
+          git push origin HEAD:main
+
