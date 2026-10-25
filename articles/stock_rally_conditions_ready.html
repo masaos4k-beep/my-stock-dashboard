@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="今回の下落を演出して儲かったひとたち">
+  <meta name="article-date" content="2026-10-23">
+  <meta name="article-category" content="米国株">
+  <meta name="theme-color" content="#f7f4ed">
+  <title>もっていればやがて上昇する米国株｜Beyond the Headlines</title>
+  <style>
+    :root {
+      --bg: #f7f4ed;
+      --paper: #fffdf8;
+      --ink: #17283d;
+      --muted: #657184;
+      --line: #e4dfd4;
+      --gold: #b18a43;
+      --navy: #10233b;
+      --soft: #f0ece2;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP",
+                   "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      line-height: 1.9; font-size: 16px;
+    }
+    a { color: #245783; }
+    .site-header {
+      background: rgba(255,253,248,.96); border-bottom: 1px solid var(--line);
+      padding: 14px 22px; position: sticky; top: 0; z-index: 5;
+    }
+    .header-inner { max-width: 980px; margin: auto; display:flex; justify-content:space-between; align-items:center; gap:16px; }
+    .brand { color: var(--ink); text-decoration:none; font-size:12px; letter-spacing:.12em; font-weight:800; }
+    .brand small { display:block; color:var(--muted); letter-spacing:.02em; font-size:11px; font-weight:500; }
+    .back-link { font-size:13px; text-decoration:none; color:var(--muted); white-space:nowrap; }
+    .article-wrap { max-width: 850px; margin: 0 auto; padding: 36px 22px 80px; }
+    .eyebrow { color:var(--gold); font-size:12px; font-weight:800; letter-spacing:.16em; margin:0 0 10px; }
+    h1 { font-size: clamp(30px, 5vw, 48px); line-height:1.35; letter-spacing:.015em; margin:0; }
+    .subtitle { color:var(--muted); font-size:clamp(17px,2.6vw,21px); margin:15px 0 22px; line-height:1.65; }
+    .meta { color:var(--muted); font-size:13px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:10px 0; }
+    .lead { font-size:18px; line-height:2; margin:30px 0; }
+    .callout { background:var(--paper); border:1px solid var(--line); border-left:4px solid var(--gold); padding:18px 22px; border-radius:8px; margin:28px 0; }
+    h2 { font-size:clamp(22px,3.5vw,29px); line-height:1.5; margin:48px 0 16px; padding-bottom:10px; border-bottom:1px solid var(--line); }
+    h3 { font-size:19px; margin:24px 0 8px; }
+    p { margin: 0 0 18px; }
+    .chart-section { background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:18px; margin:24px 0 30px; box-shadow:0 5px 20px rgba(23,40,61,.035); }
+    .chart-label { font-size:12px; color:var(--gold); font-weight:800; letter-spacing:.1em; margin:0 0 4px; }
+    .chart-section h3 { margin:0 0 8px; }
+    .chart-note { color:var(--muted); font-size:13px; line-height:1.7; margin:8px 0 12px; }
+    .framebox { overflow:hidden; border:1px solid #242b35; border-radius:9px; background:#050505; }
+    iframe { display:block; width:100%; border:0; background:#050505; }
+    /* Chart pages include their own large canvas; keep the embed viewport close to the visible chart. */
+    .chart-market iframe { height:650px; }
+    .chart-per iframe { height:600px; } 
+    .chart-eps iframe { height:600px; }
+    .open-chart { display:inline-block; margin-top:10px; font-size:13px; font-weight:700; text-decoration:none; }
+    .number-list { padding-left:1.35em; }
+    .number-list li { padding-left:.3em; margin-bottom:9px; }
+    .source-list { padding-left:1.25em; font-size:14px; }
+    .source-list li { margin:0 0 10px; overflow-wrap:anywhere; }
+    .disclaimer { margin-top:38px; padding:18px; background:var(--soft); border-radius:8px; color:var(--muted); font-size:13px; }
+    .closing { background:var(--navy); color:#fff; border-radius:14px; padding:24px; margin-top:34px; }
+    .closing h2 { border:0; margin:0 0 10px; padding:0; color:#fff; }
+    .closing p { margin:0; }
+    footer { text-align:center; padding:24px 16px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
+    @media(max-width:650px) {
+      .site-header { padding:12px 15px; }
+      .article-wrap { padding:26px 16px 55px; }
+      .chart-section { padding:12px; }
+      .chart-market iframe { height:520px; }
+      .chart-per iframe, .chart-eps iframe { height:430px; }
+      .lead { font-size:16px; }
+    }
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">BEYOND THE HEADLINES<small>知るほど、未来は変わる。</small></a>
+    <a class="back-link" href="index.html#latest-articles">← トップページへ</a>
+  </div>
+</header>
+
+<main class="article-wrap">
+  <article>
+    <header>
+      <p class="eyebrow">MARKET INSIGHT · US STOCKS</p>
+      <h1>今回の下落を演出したのは？</h1>
+      <p class="subtitle">株が上がっても下がっても稼ぐヘッジファンド。</p>
+      <div class="meta">2026年10月23日　｜　株式市場・投資戦略</div>
+    </header>
+
+    <p class="lead">
+      このところ、米国株は上値の重い展開となっています。AI関連株への期待が大きかっただけに、利益確定やリスクを減らす動きが重なると、株価は一気に下がることがあります。では、今回の下落は何を意味しているのでしょうか。
+    </p>
+    <p>
+      ヘッジファンドによるポジション縮小や空売りの増加と、リスク回避を行ったことが考えられます。今日は深く考えたいと思います。
+    </p>
+
+    <section class="chart-section chart-market" aria-labelledby="market-chart-heading">
+      <p class="chart-label">CHART 01</p>
+      <h3 id="market-chart-heading">まずは、直近の株価を確認する</h3>
+      <p class="chart-note">既存のマーケット・ダッシュボードを表示します。ダッシュボード側で期間を「1カ月」に設定して、NASDAQ100・S&amp;P500・SOXなどの動きを確認してください。</p>
+      <div class="framebox"><iframe src="../market_dashboard.html" title="米国株マーケット・ダッシュボード" loading="lazy"></iframe></div>
+      <a class="open-chart" href="../market_dashboard.html" target="_blank" rel="noopener">株価ダッシュボードを別タブで開く ↗</a>
+    </section>
+
+    <h2>1. 下げ相場でも利益を狙うヘッジファンド</h2>
+    <p>
+      2026年10月19日付の報道では、Goldman Sachsのプライムブローカレッジ・データをもとに、ヘッジファンドが10月15日までの5営業日でテクノロジー株へのエクスポージャーを、少なくとも2016年以来最速のペースで縮小したと伝えられています。同じ週、NASDAQ100は約5.5％下落しました。
+    </p>
+
+  <p>
+      10月の世界株式市場では、新規のロング購入に対して空売りが大きく上回り、Goldman Sachsのデータではショート・レバレッジが過去5年の高い水準に達したと報じられています。
+    </p>
+    <p>
+      空売りは、株価が下がれば利益につながる取引です。今回の下落で利益を得たファンドも多かったことが想定されます。
+    </p>
+  
+    <p>
+      ヘッジファンドは、上昇相場だけで利益を狙う投資家ではありません。買いと売りを組み合わせたり、相場の方向に応じてポジションを変えたりします。しかし、複数の投資家が同時にリスクを減らす局面では、売りが売りを呼び、株価の変動が大きくなることもあります。
+    </p>
+
+    <h2>2. 基本は、企業の利益に伴って上昇する株価</h2>
+    <p>
+      EPS（一株当たり利益）は、企業がどれだけ利益を生み出しているかを見るための重要な指標です。以下のチャートが示すように、EPS上昇と株価上昇が長期的には比例して上昇していることが分かります。
+しかしながら、株価がEPSの動きから離れることがあります。以下のチャートでも、EPSの上下を株価は、行ったり来たりしています。投資家心理や金利、地政学リスク、ポジション調整などが、短い期間の株価を動かすためです。短期目線で、利益を上げたり・リスクを減らしたりしてポジションを変えるヘッジファンドが活発に取引しています。
+    </p>
+    <p>
+      一方、長期投資では、企業が継続的に利益を伸ばせるかどうかが重要になります。利益が成長してもPER(下記参照)が低下すれば、株価はしばらく停滞するかもしれません。それでも利益成長が続き、投資家の評価が落ち着けば、株価が再び利益の伸びを反映していく可能性があります。
+    </p>
+    <section class="chart-section chart-eps" aria-labelledby="eps-chart-heading">
+      <p class="chart-label">CHART 02</p>
+      <h3 id="eps-chart-heading">株価とEPSの動きを比較する</h3>
+      <p class="chart-note">既存の株価・EPS分析ページを表示します。株価の変化だけでなく、企業利益がどのように推移しているかを確認してください。</p>
+      <div class="framebox"><iframe src="../3indices_eps_price_chart.html" title="主要3指数の株価とEPSの比較チャート" loading="lazy"></iframe></div>
+      <a class="open-chart" href="../3indices_eps_price_chart.html" target="_blank" rel="noopener">株価・EPS分析を別タブで開く ↗</a>
+    </section>
+
+
+    <h2>3. PERの低下は、株価上昇の条件になるのか</h2>
+    <p>
+      株価は、企業が生み出す利益だけで決まるわけではありません。投資家がその利益に何倍の評価を与えるか、つまりPER（株価収益率）も大きく影響します。
+    <div class="callout">
+      <strong>株価 ＝ EPS × PER</strong><br>
+      株価とEPS、PERの間には上述の計算式が成り立ちます。
+    </div>
+
+    </p>
+    <p>
+      金利が高止まりする懸念や、AI投資が期待どおりの利益を生むかという不安が強まると、投資家は将来の利益に対して慎重になり、PERが低下することがあります。企業利益の見通しが大きく崩れていないのにPERが下がっているなら、以前より低い評価で株式を買える状態になっている可能性があります。
+    </p>
+    <p>
+      逆に、PERの低下を株の買い時とする考え方もあります。金利や地政学リスクによってPERが低下時に株を購入することによって、割安に株が購入できます。
+    </p>
+    <section class="chart-section chart-per" aria-labelledby="per-chart-heading">
+      <p class="chart-label">CHART 03</p>
+      <h3 id="per-chart-heading">NASDAQ100・S&amp;P500・SOXのPERを確認する</h3>
+      <p class="chart-note">既存のPER分析ページを表示します。現在のPERが過去の水準と比べてどう変化しているかを確認してください。</p>
+      <div class="framebox"><iframe src="../3indices_per_chart_chart.html" title="主要3指数のPER分析チャート" loading="lazy"></iframe></div>
+      <a class="open-chart" href="../3indices_per_chart_chart.html" target="_blank" rel="noopener">PER分析を別タブで開く ↗</a>
+    </section>
+
+
+    <h2>4. 長期投資家は、短期の売買に振り回されない</h2>
+    <p>
+      今回のように、ヘッジファンドのポジション縮小や空売りが目立つ局面では、短期的な値動きが大きくなりがちです。株価が下がったという事実だけで、企業の長期的な成長力まで失われたと判断するのは早計です。
+    </p>
+    <p>今後を考えるうえで、確認したいのは次の3点です。</p>
+    <ol class="number-list">
+      <li><strong>株価：</strong>短期的な売りが一巡し、下落の勢いが弱まっているか。</li>
+      <li><strong>PER：</strong>金利やリスク評価の変化を受けて、評価水準がどこまで調整されたか。</li>
+      <li><strong>EPS：</strong>企業利益や将来の利益見通しが、引き続き成長しているか。</li>
+    </ol>
+    <p>
+      株価上昇への条件は、少しずつ整ってきているのかもしれません。ただし、金利が再び上昇したり、企業の利益見通しが悪化したりすれば、下落が続く可能性もあります。反発の時期を当てようとするより、データを確認しながら、自分の投資方針と資産配分を守ることが大切です。
+    </p>
+
+    <div class="closing">
+      <h2>株価ではなく、その背景を見る。</h2>
+      <p>ヘッジファンドの売買は、短期的な株価を揺さぶります。しかし、長期投資では、企業が利益を生み出し続けられるかどうかが重要です。株価・PER・EPSをセットで観察し、目先の値動きに振り回されない視点を持ちたいと思います。</p>
+    </div>
+
+    <h2>参考記事</h2>
+    <ul class="source-list">
+      <li><a href="https://www.roic.ai/news/hedge-funds-dump-tech-stocks-at-fastest-pace-in-a-decade-10-19-2026" target="_blank" rel="noopener">ROIC AI：Hedge Funds Dump Tech Stocks at Fastest Pace in a Decade（2026年10月19日）</a></li>
+      <li><a href="https://finance.yahoo.com/markets/stocks/articles/hedge-funds-ramping-stock-shorts-195628440.html" target="_blank" rel="noopener">Yahoo Finance：ヘッジファンドの空売り動向に関する記事</a></li>
+      <li><a href="https://hedgeweek.com/news/hedge-fund-short-bets-near-five-year-highs-as-goldman-warns-of-squeeze-risk" target="_blank" rel="noopener">Hedgeweek：ヘッジファンドの空売りとショートスクイーズのリスク</a></li>
+      <li><a href="https://www.reuters.com/markets/wealth/hedge-fund-returns-worsen-this-week-tech-selloff-deepens-2026-10-23/" target="_blank" rel="noopener">Reuters：テクノロジー株下落でヘッジファンドの運用成績が悪化（2026年10月23日）</a></li>
+    </ul>
+
+    <p class="disclaimer">
+      ※ 本記事は市場データや報道をもとにした情報提供を目的としており、特定の金融商品の売買を推奨するものではありません。チャートの表示内容・データ更新時点は各分析ページをご確認ください。投資判断はご自身の目的、リスク許容度、資産状況に応じて行ってください。
+    </p>
+  </article>
+</main>
+<footer>BEYOND THE HEADLINES｜知るほど、未来は変わる。</footer>
+</body>
+</html>
