@@ -114,5 +114,3 @@ jobs:
             git status --short
             exit 1
           fi
-
-          git rebase origin/main
