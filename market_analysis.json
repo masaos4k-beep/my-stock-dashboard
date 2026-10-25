@@ -2,20 +2,14 @@
   "report_date": "2026-10-26",
   "drivers": [
     {
-      "title": "AI関連支出への懸念が再燃",
-      "detail": "Metaなどのハイテク大手による人工知能（AI）関連への巨額投資に対する投資家の懸念が再燃し、大型ハイテク株を中心に売りが広がったことが市場の重石となりました。",
+      "title": "AI支出懸念の再燃でハイテク株が急落",
+      "detail": "Metaを含む主要テック企業のAI関連支出の増大が投資家の警戒感を呼び起こし、NASDAQをはじめとする米国ハイテク株の売りを誘発した。市場ではAI投資の収益性に疑念が生じている。",
       "source_title": "US tech stocks tumble as investors fret over AI spending",
       "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT2xmdU1Ga0VLeGtTMlBVN0tjdEZYUmNHYTZIZnRNWjBRVUs2SGUxU0pKdDRpSGpyZC1ESDNGdDZ2OWQ2UTNjcmQ3RWJtVVpCaXNDOElGQ2lUVHJEdDRIR2VRdXFYZkl0Vm1TX2o4VDVNb2pSNnFpSHNXc2dqbXBIVFU5NGcyc3BWSzZqSXpZMFdKMENIaUFZNjhXdjJnalRObzR30gGoAUFVX3lxTFAzbm1pU1E3Y2ZjTVRTZTk1QzhHVmtaWmNReEJTbENyWHRaOEhqWWQ4Y01VTFdXeE9aaEhzMVJfdVBLckxzMFlqeTlSSDNCM2hkdGhJYjB0ZHZRWW9uak14RUJ6cW42b2lMbW1oYmxkU3d6UjNnUTRxdkRoaFFrT0FNbU8tcnFrWS1lNVNmUV85ZkF1U21qajdpYXFKeXU0T0JVM1Npb0tjTQ?oc=5"
     },
     {
-      "title": "半導体株の売りが市場を圧迫",
-      "detail": "AIへの投資需要持続性に対する疑念から、NVIDIAを含む主要な半導体関連株が急落しました。このセクターの軟調さが、NASDAQをはじめとする指数全体の下げ幅を拡大させた可能性があります。",
-      "source_title": "S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5"
-    },
-    {
-      "title": "原油価格の上昇が相場を悪化",
-      "detail": "中東情勢を背景とした原油価格の上昇が投資家のリスク回避姿勢を強め、ハイテク株売りの一因となりました。これに伴い、債券相場が上昇する一方で株式市場は上値の重い展開となりました。",
+      "title": "長期金利上昇と原油高が市場心理を圧迫",
+      "detail": "債券利回りの上昇や原油価格の高騰が市場全体に重くのしかかり、リスク回避姿勢が強まった。AI関連の成長期待が揺らぐ中で、これらのマクロ経済要因がハイテク株の下落を加速させた。",
       "source_title": "Surging oil prices and fresh tech jitters are hammering stocks",
       "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXp3YnNZOEN0MWQzbzVpYVNUWjFYZUs1aDVrbF9DVlktUm4wYUdHUUo0cmZFSXB6WUhtek1hNVRVd1F6MExBLWZmR3Riblp2UVRxZXg1Wi1yckx6UVJwVUxITUZxd1N4MzVRc19MYm9XdEtDVnExMHVCTU9KZUZ6Z1I2eFBCcE4tTld6Yk5hWUxqMTlFbERXV0xB?oc=5"
     }
