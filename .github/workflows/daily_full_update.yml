@@ -1,0 +1,119 @@
+name: Daily Full Market and AI Update
+
+on:
+  schedule:
+    - cron: "45 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-full-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Pythonをセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 必要なライブラリをインストール
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy yfinance plotly playwright google-genai
+
+      - name: Chromiumをインストール
+        run: python -m playwright install --with-deps chromium
+
+      - name: 市場ダッシュボードを生成
+        run: python scripts/market_dashboard.py
+
+      - name: 市場ニュース分析を生成
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/market_news_analysis.py
+
+      - name: 年初来指数比較を生成
+        run: python scripts/ytd_Index_comparison.py
+
+      - name: S&P500目標チャートを生成
+        run: python scripts/SP500_2026_target.py
+
+      - name: Forward PERデータを取得
+        run: python scripts/3indices_per_capture.py
+
+      - name: Forward PERチャートを生成
+        run: python scripts/3indices_per_chart.py
+
+      - name: 株価・EPSチャートを生成
+        run: python scripts/3indices_eps_price_chart.py
+
+      - name: ドローダウンチャートを生成
+        run: python scripts/3indices_drawdown_chart.py
+
+      - name: AIバリューチェーン分析を生成
+        run: python scripts/ai_value_chain_analysis.py
+
+      - name: AIヒートマップを生成
+        run: python scripts/ai_value_chain_heatmap.py
+
+      - name: AIグローバルマップを生成
+        run: python scripts/ai_value_chain_global_map.py
+
+      - name: 記事一覧JSONを生成
+        run: python scripts/build_article_index.py
+
+      - name: 生成ファイルをまとめてコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            ytd_Index_comparison.html \
+            SP500_2026_target.html \
+            data/forward_pe_3indices_2026.csv \
+            3indices_per_chart_chart.html \
+            3indices_eps_price_chart.html \
+            3indices_drawdown_chart.html \
+            ai_value_chain_analysis.html \
+            ai_value_chain_heatmap.html \
+            ai_value_chain_global_map.html \
+            articles.json \
+            market_analysis.json \
+            market_news.json
+
+          for file in market_dashboard.html market_news_analysis.html; do
+            if [ -f "$file" ]; then
+              git add "$file"
+            else
+              echo "ファイルが見つかりません: $file"
+            fi
+          done
+
+          if git diff --cached --quiet; then
+            echo "生成ファイルに変更はありません。"
+          else
+            git commit -m "Daily update: market charts and AI analysis"
+          fi
+
+          git fetch origin main
+
+          if ! git diff --quiet || ! git diff --cached --quiet; then
+            echo "未コミットの変更が残っています。"
+            git status --short
+            exit 1
+          fi
+
+          git rebase origin/main
+          git push origin HEAD:main
