@@ -21,7 +21,7 @@ jobs:
       - name: リポジトリを取得
         uses: actions/checkout@v4
         with:
-          ref: migration-from-test-environment
+          ref: main
 
       - name: Pythonをセットアップ
         uses: actions/setup-python@v5
