@@ -40,6 +40,7 @@ jobs:
         run: python scripts/market_dashboard.py
 
       - name: 市場ニュース分析を生成
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/market_news_analysis.py
