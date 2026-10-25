@@ -1,17 +1,23 @@
 {
-  "report_date": "2026-10-25",
+  "report_date": "2026-10-26",
   "drivers": [
     {
-      "title": "AIへの過剰投資懸念がハイテク株を圧迫",
-      "detail": "AI技術への巨額の設備投資が収益に結びつくか投資家の疑念が強まり、メタをはじめとする主要ハイテク株の重石となった。将来的なAI需要の不透明感が市場全体のセンチメントを大きく悪化させている。",
-      "source_title": "Nasdaq tumbles while Treasuries soar as Meta rekindles AI spending fears",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjc2Qnc1OUdYaTRkWFNLc1N4MGhZUEk0QWg5UXdkaDdyMF9qcjV2WUFPaW1JeU5oT3VZaTdPdHBpQUYxTy1fb3ctS3NUaWRuS0F3VlJaME9ZVXp2cFJIVEtIaXZUN01PaS1fRi0wQUtaN0VnMzdxMEh0cldyTHRFSVY2czE?oc=5"
+      "title": "AI関連支出への懸念が再燃",
+      "detail": "Metaなどのハイテク大手による人工知能（AI）関連への巨額投資に対する投資家の懸念が再燃し、大型ハイテク株を中心に売りが広がったことが市場の重石となりました。",
+      "source_title": "US tech stocks tumble as investors fret over AI spending",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT2xmdU1Ga0VLeGtTMlBVN0tjdEZYUmNHYTZIZnRNWjBRVUs2SGUxU0pKdDRpSGpyZC1ESDNGdDZ2OWQ2UTNjcmQ3RWJtVVpCaXNDOElGQ2lUVHJEdDRIR2VRdXFYZkl0Vm1TX2o4VDVNb2pSNnFpSHNXc2dqbXBIVFU5NGcyc3BWSzZqSXpZMFdKMENIaUFZNjhXdjJnalRObzR30gGoAUFVX3lxTFAzbm1pU1E3Y2ZjTVRTZTk1QzhHVmtaWmNReEJTbENyWHRaOEhqWWQ4Y01VTFdXeE9aaEhzMVJfdVBLckxzMFlqeTlSSDNCM2hkdGhJYjB0ZHZRWW9uak14RUJ6cW42b2lMbW1oYmxkU3d6UjNnUTRxdkRoaFFrT0FNbU8tcnFrWS1lNVNmUV85ZkF1U21qajdpYXFKeXU0T0JVM1Npb0tjTQ?oc=5"
     },
     {
-      "title": "中東情勢緊迫と原油高が市場を重くする",
-      "detail": "イランを巡る地政学的リスクの高まりに加え、原油価格の急騰がインフレ再燃の懸念を呼び起こし、株式市場全体の売りを加速させた。AI関連の不安と相まって投資家心理を冷やし、株価の急落を招いている。",
-      "source_title": "Markets tumble as concerns about Iran war and high AI spending collide",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSVY4cFhVNmoxak9SOVdrbDh3NkozUkd0Wmc3YmtsWW9PWUFQWFgtb25pX2xhV2liWmxyRktLSjgwRkxLRERjaTk0Y1RyLWdFeVVHNFphUDY4aDZyVWhHdWltNnBtM0JWTTFVRXNjY2prMWZnRlJpeUFMeGxnb1VlOGlFWE5FRGNtNlpEUUtKVVFzT2J5dWc?oc=5"
+      "title": "半導体株の売りが市場を圧迫",
+      "detail": "AIへの投資需要持続性に対する疑念から、NVIDIAを含む主要な半導体関連株が急落しました。このセクターの軟調さが、NASDAQをはじめとする指数全体の下げ幅を拡大させた可能性があります。",
+      "source_title": "S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5"
+    },
+    {
+      "title": "原油価格の上昇が相場を悪化",
+      "detail": "中東情勢を背景とした原油価格の上昇が投資家のリスク回避姿勢を強め、ハイテク株売りの一因となりました。これに伴い、債券相場が上昇する一方で株式市場は上値の重い展開となりました。",
+      "source_title": "Surging oil prices and fresh tech jitters are hammering stocks",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXp3YnNZOEN0MWQzbzVpYVNUWjFYZUs1aDVrbF9DVlktUm4wYUdHUUo0cmZFSXB6WUhtek1hNVRVd1F6MExBLWZmR3Riblp2UVRxZXg1Wi1yckx6UVJwVUxITUZxd1N4MzVRc19MYm9XdEtDVnExMHVCTU9KZUZ6Z1I2eFBCcE4tTld6Yk5hWUxqMTlFbERXV0xB?oc=5"
     }
   ]
 }
