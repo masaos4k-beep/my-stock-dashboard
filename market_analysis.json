@@ -1,17 +1,23 @@
 {
-  "report_date": "2026-10-26",
+  "report_date": "2026-10-27",
   "drivers": [
     {
-      "title": "AI支出懸念の再燃でハイテク株が急落",
-      "detail": "Metaを含む主要テック企業のAI関連支出の増大が投資家の警戒感を呼び起こし、NASDAQをはじめとする米国ハイテク株の売りを誘発した。市場ではAI投資の収益性に疑念が生じている。",
-      "source_title": "US tech stocks tumble as investors fret over AI spending",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT2xmdU1Ga0VLeGtTMlBVN0tjdEZYUmNHYTZIZnRNWjBRVUs2SGUxU0pKdDRpSGpyZC1ESDNGdDZ2OWQ2UTNjcmQ3RWJtVVpCaXNDOElGQ2lUVHJEdDRIR2VRdXFYZkl0Vm1TX2o4VDVNb2pSNnFpSHNXc2dqbXBIVFU5NGcyc3BWSzZqSXpZMFdKMENIaUFZNjhXdjJnalRObzR30gGoAUFVX3lxTFAzbm1pU1E3Y2ZjTVRTZTk1QzhHVmtaWmNReEJTbENyWHRaOEhqWWQ4Y01VTFdXeE9aaEhzMVJfdVBLckxzMFlqeTlSSDNCM2hkdGhJYjB0ZHZRWW9uak14RUJ6cW42b2lMbW1oYmxkU3d6UjNnUTRxdkRoaFFrT0FNbU8tcnFrWS1lNVNmUV85ZkF1U21qajdpYXFKeXU0T0JVM1Npb0tjTQ?oc=5"
+      "title": "ハイテク株の反発とAIへの楽観的見方",
+      "detail": "26日の米国市場では、主要ハイテク企業に対するAI関連の楽観的な見方が広がり、NASDAQ指数の上昇をけん引しました。AI需要への期待感が投資家心理を支え、直近の下落局面からのリバウンドを後押しする結果となりました。",
+      "source_title": "Stock Market Today, Oct. 26: AI Optimism Lifts Nasdaq as Tech Stocks Rebound",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOLVlYOW5FLXE4YjN5WVV3N1FVQUJjVXBrSDVvVTJlVnlLU0QxTkVwODJJUzNJVko0VUtoMmljT1I2VUdmOFJBdTgweDhKSmx3OVhvMTFBZGM1REtubXZ5LVM3VDVtV08xYTIySmlVMEpNdHZKak9aZ21tUXREMGZsbFo2Z1dYSkRjdVFjTWpJWWM5bUdULWFUeEF3cmYxVVdJQTQ0Nk1RWUtqclZGUnE2YWV3RTUtSXROT19VRUp0WGJ4bEZCcVR1bzhDMjFNeEk?oc=5"
     },
     {
-      "title": "長期金利上昇と原油高が市場心理を圧迫",
-      "detail": "債券利回りの上昇や原油価格の高騰が市場全体に重くのしかかり、リスク回避姿勢が強まった。AI関連の成長期待が揺らぐ中で、これらのマクロ経済要因がハイテク株の下落を加速させた。",
-      "source_title": "Surging oil prices and fresh tech jitters are hammering stocks",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXp3YnNZOEN0MWQzbzVpYVNUWjFYZUs1aDVrbF9DVlktUm4wYUdHUUo0cmZFSXB6WUhtek1hNVRVd1F6MExBLWZmR3Riblp2UVRxZXg1Wi1yckx6UVJwVUxITUZxd1N4MzVRc19MYm9XdEtDVnExMHVCTU9KZUZ6Z1I2eFBCcE4tTld6Yk5hWUxqMTlFbERXV0xB?oc=5"
+      "title": "インテルの格上げと半導体株の急伸",
+      "detail": "半導体大手のインテルがウォール街での格上げを受け、株価が5%急騰しました。このポジティブな個別銘柄ニュースが市場全体のセンチメントを改善し、半導体セクターの復調やNASDAQの株価上昇をサポートした可能性があります。",
+      "source_title": "Intel (NASDAQ:INTC) Stock Surges 5% as Wall Street Upgrade Sets US$125 Price Target",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNDN4SFhxV2MyZkpSdlpOZ21lRUM2UjkxRjdtQ3FKbXUyU3pZLXVORExVRDVoX0xFNmwwRHpPNktvZzVqcG1MNVZuMjRXRUdFQmFHX1E1YWJrNENVdHA2LXd6X1o1aXVqVHBqb0RSbDJIVkFaeXl2ag?oc=5"
+    },
+    {
+      "title": "重要イベントを控えた市場の強気姿勢",
+      "detail": "今週予定されている主要ハイテク企業の決算発表やFOMC（連邦公開市場委員会）を控え、投資家が好材料を先回りして織り込もうとする動きが見られました。先行きの不透明感はあるものの、決算への期待が買い意欲を支えています。",
+      "source_title": "U.S. stocks advance ahead of key tech earnings, Fed decision",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT0hfS1lxYXdFclRJLWQ5X1ZOQnBiQk1ZUVNzMU51UEtLbHMwbWJQcmNWcWthRkpYcUVGR3BsSTVUMVZjV2JmRzVFY04ybE9nbmY1UkdyOEdPRWZyNnlfWTJSQ0tRVTlNdTQ2bVZ3NUJZdTFtalFWOWJmTFliMHNnR29Ydm9BNzdm?oc=5"
     }
   ]
 }
