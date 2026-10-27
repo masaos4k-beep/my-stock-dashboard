@@ -1,1 +1,44 @@
+name: AIバリューチェーン・グローバルマップ生成
 
+on:
+  workflow_dispatch:
+  # 毎日、日本時間の午前6時に実行（GitHub ActionsはUTC）
+  schedule:
+    - cron: "0 21 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-global-map:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+
+      - name: Pythonをセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 必要なライブラリをインストール
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pandas yfinance plotly
+
+      - name: グローバルマップHTMLを生成
+        run: python scripts/ai_value_chain_global_map.py
+
+      - name: 生成したHTMLをリポジトリに保存
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ai_value_chain_global_map.html
+          if git diff --cached --quiet; then
+            echo "HTMLに変更はありません。コミットをスキップします。"
+          else
+            git commit -m "Update AI value chain global map"
+            git push
+          fi
