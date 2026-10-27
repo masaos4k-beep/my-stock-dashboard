@@ -1,23 +1,23 @@
 {
-  "report_date": "2026-10-27",
+  "report_date": "2026-10-28",
   "drivers": [
     {
-      "title": "ハイテク株の反発とAIへの楽観的見方",
-      "detail": "26日の米国市場では、主要ハイテク企業に対するAI関連の楽観的な見方が広がり、NASDAQ指数の上昇をけん引しました。AI需要への期待感が投資家心理を支え、直近の下落局面からのリバウンドを後押しする結果となりました。",
-      "source_title": "Stock Market Today, Oct. 26: AI Optimism Lifts Nasdaq as Tech Stocks Rebound",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOLVlYOW5FLXE4YjN5WVV3N1FVQUJjVXBrSDVvVTJlVnlLU0QxTkVwODJJUzNJVko0VUtoMmljT1I2VUdmOFJBdTgweDhKSmx3OVhvMTFBZGM1REtubXZ5LVM3VDVtV08xYTIySmlVMEpNdHZKak9aZ21tUXREMGZsbFo2Z1dYSkRjdVFjTWpJWWM5bUdULWFUeEF3cmYxVVdJQTQ0Nk1RWUtqclZGUnE2YWV3RTUtSXROT19VRUp0WGJ4bEZCcVR1bzhDMjFNeEk?oc=5"
+      "title": "主要ハイテク企業の決算控え期待感",
+      "detail": "今週予定されている主要ハイテク企業の決算発表を控え、投資家がポジション調整や期待感から買いを入れたことが、市場全体の上昇を後押しした可能性がある。",
+      "source_title": "S&P 500, Nasdaq gain as traders gear up for tech earnings, Fed decision this week",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa2IzcThsNWdsOVkycWRIS2dQaGE2b25MdWtKS1NqdUZhU1BGaGJ3MzJNLWJ1eTI4aHdtelNueTVWRFVHRURyMFZOWnlObHB5ZzNkekJSeUphRGVtMV9fS2hvTmozNjFwcHpKUjVJWTVEbEw2MGZ4ekFBRF9qME9OUE5JdlU2SloyVHZEeHVzOVBYS1J5ZnU3QXRzeW1fQWp4bmVvUmZMNWwwTTYzTllfZndmekZ4UGV0WWtyMHljbjlSdjhmYmg0c2daS1E2UkU?oc=5"
     },
     {
-      "title": "インテルの格上げと半導体株の急伸",
-      "detail": "半導体大手のインテルがウォール街での格上げを受け、株価が5%急騰しました。このポジティブな個別銘柄ニュースが市場全体のセンチメントを改善し、半導体セクターの復調やNASDAQの株価上昇をサポートした可能性があります。",
-      "source_title": "Intel (NASDAQ:INTC) Stock Surges 5% as Wall Street Upgrade Sets US$125 Price Target",
-      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNDN4SFhxV2MyZkpSdlpOZ21lRUM2UjkxRjdtQ3FKbXUyU3pZLXVORExVRDVoX0xFNmwwRHpPNktvZzVqcG1MNVZuMjRXRUdFQmFHX1E1YWJrNENVdHA2LXd6X1o1aXVqVHBqb0RSbDJIVkFaeXl2ag?oc=5"
+      "title": "AIモメンタムの再燃が株価を牽引",
+      "detail": "市場において一時的に懸念されていたAI関連の需要や期待感に対し、再び前向きなセンチメントが回復したことが、NASDAQを中心にハイテク株の上昇を促進した。",
+      "source_title": "Wall Street ends higher on revived AI momentum",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5"
     },
     {
-      "title": "重要イベントを控えた市場の強気姿勢",
-      "detail": "今週予定されている主要ハイテク企業の決算発表やFOMC（連邦公開市場委員会）を控え、投資家が好材料を先回りして織り込もうとする動きが見られました。先行きの不透明感はあるものの、決算への期待が買い意欲を支えています。",
-      "source_title": "U.S. stocks advance ahead of key tech earnings, Fed decision",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT0hfS1lxYXdFclRJLWQ5X1ZOQnBiQk1ZUVNzMU51UEtLbHMwbWJQcmNWcWthRkpYcUVGR3BsSTVUMVZjV2JmRzVFY04ybE9nbmY1UkdyOEdPRWZyNnlfWTJSQ0tRVTlNdTQ2bVZ3NUJZdTFtalFWOWJmTFliMHNnR29Ydm9BNzdm?oc=5"
+      "title": "半導体・AI関連株の強さが寄与",
+      "detail": "AI関連や半導体銘柄が市場全体をアウトパフォームする動きを見せ、特にAnthropicのIPOに関する話題や個別銘柄の動きが活発化し、相場全体のサポート材料となった。",
+      "source_title": "Nasdaq rallies as AI and chip stocks outperform",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORWstd19jSEhBR1ZNX2JDa1hnb2hpR2lQaWNkVjhiZFlIRU85bnB5T0lHM19EVmdvNThOUVhpTnFkSDhZNXNpN0U1b28yT1FpSlpkdXFqZTRxMUlCNEhGbWh1MlFlLU5YNk9GNmlUYk1hZGU2T0JwMjB1Tzl3cXNYWWlYUVpocnFq?oc=5"
     }
   ]
 }
