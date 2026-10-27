@@ -642,6 +642,10 @@ fig.update_layout(
         projection_type="equirectangular",
         scope="world",
 
+        # 地図全体を大西洋寄りの標準的な世界地図表示に固定
+        # 企業やカテゴリーの座標は変更しない
+        center=dict(lon=0, lat=10),
+
         showland=True,
         landcolor="#182328",
 
