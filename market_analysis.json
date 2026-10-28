@@ -1,23 +1,23 @@
 {
-  "report_date": "2026-10-28",
+  "report_date": "2026-10-29",
   "drivers": [
     {
-      "title": "主要ハイテク企業の決算控え期待感",
-      "detail": "今週予定されている主要ハイテク企業の決算発表を控え、投資家がポジション調整や期待感から買いを入れたことが、市場全体の上昇を後押しした可能性がある。",
-      "source_title": "S&P 500, Nasdaq gain as traders gear up for tech earnings, Fed decision this week",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa2IzcThsNWdsOVkycWRIS2dQaGE2b25MdWtKS1NqdUZhU1BGaGJ3MzJNLWJ1eTI4aHdtelNueTVWRFVHRURyMFZOWnlObHB5ZzNkekJSeUphRGVtMV9fS2hvTmozNjFwcHpKUjVJWTVEbEw2MGZ4ekFBRF9qME9OUE5JdlU2SloyVHZEeHVzOVBYS1J5ZnU3QXRzeW1fQWp4bmVvUmZMNWwwTTYzTllfZndmekZ4UGV0WWtyMHljbjlSdjhmYmg0c2daS1E2UkU?oc=5"
+      "title": "SKハイニックス好決算で半導体株が上昇",
+      "detail": "SKハイニックスの業績発表を受け、半導体セクターへの期待が高まりNASDAQ先物が上昇した。AI向け需要の強さが再確認され、マイクロンやエヌビディアなどの関連銘柄にもポジティブな影響を及ぼす可能性が示唆されている。",
+      "source_title": "Nasdaq Futures Climb as SK Hynix Adds Fuel to Chip Rally; Fed Decision and Big Tech Earnings in Focus",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdE0tczJvNmRuTndZV3N0ci1XNlYzcmpRNHdCR3FGMFJHbUFrRFMwa1FLQUQxSU1IODZ5WWtUUE5zTjdRQUFYNFFlMlFCcjluUVNKX0d3V2FDb0pBdTNfNDZtRzFWa0o1SWhMR2dJMWJHOF95T1ppV3B4ZmZadkZvTVlQT01KRmxMVm5RbEFFZFo0eGlnZ3ZPajVuZHZ0Ri1GWC0wZnY1cmNIQXh2UGNOY1A4M0xTeDlsWXZ6d05mcWJUMHprZWo4bHJmbnFyZkJqRUJtWU5UWFZWZU5f?oc=5"
     },
     {
-      "title": "AIモメンタムの再燃が株価を牽引",
-      "detail": "市場において一時的に懸念されていたAI関連の需要や期待感に対し、再び前向きなセンチメントが回復したことが、NASDAQを中心にハイテク株の上昇を促進した。",
-      "source_title": "Wall Street ends higher on revived AI momentum",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5"
+      "title": "FRB政策決定とハイテク決算を注視",
+      "detail": "市場はFRBの金利政策決定と主要ハイテク企業の決算発表を控え、様子見の姿勢を見せている。これらは今後の米国市場の方向性を左右する重要な材料として注目されており、ボラティリティが拡大する可能性がある。",
+      "source_title": "S&P 500, Nasdaq Futures Mixed Ahead Of Fed Decision, Big Tech Earnings: GOOGL, MSFT, HOOD, SOFI In Focus - Stocktwits",
+      "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUmtEZTR3R1dabXFuZHBhU2dDdDlyOGNteU5hZHA2Tl9DSzdvYmRXUmtsODV5RWFGQWxRd25jVjlPazdIa1h1YVk0Q0cwWXgwWm05YzNodnRWMUNBUEkzb0FFejltcDliaElFSV9PbzhZazFUQlhtR3kxNTQ3YVRkUGpvVmVNem44YWFhaFhoR2laRzczVWhfVWZNdTM1ei1wMUpMcWtfdE1RbVlLWFo3VzRpYm0wa3NGYmpJWUhxa0thQXgxYUhWMWQ1NTlSRVlZVUVyYWVZdkRrOE1uTWRkVzVQOWV6TXlhWTI0WlhXTmFhSkFDZlVJQlZR?oc=5"
     },
     {
-      "title": "半導体・AI関連株の強さが寄与",
-      "detail": "AI関連や半導体銘柄が市場全体をアウトパフォームする動きを見せ、特にAnthropicのIPOに関する話題や個別銘柄の動きが活発化し、相場全体のサポート材料となった。",
-      "source_title": "Nasdaq rallies as AI and chip stocks outperform",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORWstd19jSEhBR1ZNX2JDa1hnb2hpR2lQaWNkVjhiZFlIRU85bnB5T0lHM19EVmdvNThOUVhpTnFkSDhZNXNpN0U1b28yT1FpSlpkdXFqZTRxMUlCNEhGbWh1MlFlLU5YNk9GNmlUYk1hZGU2T0JwMjB1Tzl3cXNYWWlYUVpocnFq?oc=5"
+      "title": "エヌビディアの調査報道で警戒感",
+      "detail": "米国司法省がエヌビディアによるハギングフェイスの買収について調査を行っていると報じられた。AI分野の規制当局による監視強化が示唆されたことで、ハイテク関連株の投資心理に影響を与える可能性がある。",
+      "source_title": "EXCLUSIVE: US DOJ is inquiring about Nvidia's purchase of Hugging Face, sources say - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQi1pQlpXMFg0djlmZFhkcGFlc3hJWmxKNXIzeFlTOWRxSXd5YWtCX1FRdUdlWWM1NEZxQVpOWktKbVkyWWR1aFRhbFd3SnRRcW5SZTJ0YXRvQTZ6MjlmVmFMVThhSldFTUpseWRtblVrel8tM0VISmVOVmdVend5UTFOTHhKazBXalpIOHVUdkVmcm5YdTI4UWk3MUJObk9GMzRYOEpkeEFXVnhwZXc?oc=5"
     }
   ]
 }
