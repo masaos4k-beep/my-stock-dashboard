@@ -1,23 +1,23 @@
 {
-  "report_date": "2026-10-29",
+  "report_date": "2026-10-30",
   "drivers": [
     {
-      "title": "SKハイニックス好決算で半導体株が上昇",
-      "detail": "SKハイニックスの業績発表を受け、半導体セクターへの期待が高まりNASDAQ先物が上昇した。AI向け需要の強さが再確認され、マイクロンやエヌビディアなどの関連銘柄にもポジティブな影響を及ぼす可能性が示唆されている。",
-      "source_title": "Nasdaq Futures Climb as SK Hynix Adds Fuel to Chip Rally; Fed Decision and Big Tech Earnings in Focus",
-      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdE0tczJvNmRuTndZV3N0ci1XNlYzcmpRNHdCR3FGMFJHbUFrRFMwa1FLQUQxSU1IODZ5WWtUUE5zTjdRQUFYNFFlMlFCcjluUVNKX0d3V2FDb0pBdTNfNDZtRzFWa0o1SWhMR2dJMWJHOF95T1ppV3B4ZmZadkZvTVlQT01KRmxMVm5RbEFFZFo0eGlnZ3ZPajVuZHZ0Ri1GWC0wZnY1cmNIQXh2UGNOY1A4M0xTeDlsWXZ6d05mcWJUMHprZWo4bHJmbnFyZkJqRUJtWU5UWFZWZU5f?oc=5"
+      "title": "Alphabet決算ミスでAI投資懸念が再燃",
+      "detail": "Alphabetの収益が市場予想を下回ったことを受け、AI開発に向けた巨額の設備投資（Capex）の収益性に対する懸念が再び強まりました。これがハイテク株全体への売り材料となり、市場の重石となりました。",
+      "source_title": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5"
     },
     {
-      "title": "FRB政策決定とハイテク決算を注視",
-      "detail": "市場はFRBの金利政策決定と主要ハイテク企業の決算発表を控え、様子見の姿勢を見せている。これらは今後の米国市場の方向性を左右する重要な材料として注目されており、ボラティリティが拡大する可能性がある。",
-      "source_title": "S&P 500, Nasdaq Futures Mixed Ahead Of Fed Decision, Big Tech Earnings: GOOGL, MSFT, HOOD, SOFI In Focus - Stocktwits",
-      "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUmtEZTR3R1dabXFuZHBhU2dDdDlyOGNteU5hZHA2Tl9DSzdvYmRXUmtsODV5RWFGQWxRd25jVjlPazdIa1h1YVk0Q0cwWXgwWm05YzNodnRWMUNBUEkzb0FFejltcDliaElFSV9PbzhZazFUQlhtR3kxNTQ3YVRkUGpvVmVNem44YWFhaFhoR2laRzczVWhfVWZNdTM1ei1wMUpMcWtfdE1RbVlLWFo3VzRpYm0wa3NGYmpJWUhxa0thQXgxYUhWMWQ1NTlSRVlZVUVyYWVZdkRrOE1uTWRkVzVQOWV6TXlhWTI0WlhXTmFhSkFDZlVJQlZR?oc=5"
+      "title": "米ハイテク株が広範囲で下落基調に",
+      "detail": "Alphabetの株価急落が引き金となり、Nasdaqを中心に主要なテクノロジー関連銘柄が軒並み売られました。AI市場への熱狂が続く一方で、成長の持続性に対する慎重な見方が広がり、市場のセンチメントが悪化しています。",
+      "source_title": "Nasdaq sheds 1.4% as Alphabet’s historic drop rattles the markets, U.S. stocks suffer (SP500:)",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVUV6dFhuR01rank3aWpLU2xRekpweVNOWk12SEFGNFhaRlNheGpJRUg0VTB5R09SSEtQWUVjaktfWXVhWmlCdkViS24wREhvd2k4cXRJYWNvcll6Tnp4Y1BKOXlhelBBLXRtcWtWb3g4bzAtNzF5c2RON21felkwaFR5a2NoZE5XNWI2cDRjVDN6RnNtM0lQQTg1aWNCTXZ1U1pWSTc0cS1lVzhBTldfWE1IcmZxaDM1?oc=5"
     },
     {
-      "title": "エヌビディアの調査報道で警戒感",
-      "detail": "米国司法省がエヌビディアによるハギングフェイスの買収について調査を行っていると報じられた。AI分野の規制当局による監視強化が示唆されたことで、ハイテク関連株の投資心理に影響を与える可能性がある。",
-      "source_title": "EXCLUSIVE: US DOJ is inquiring about Nvidia's purchase of Hugging Face, sources say - Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQi1pQlpXMFg0djlmZFhkcGFlc3hJWmxKNXIzeFlTOWRxSXd5YWtCX1FRdUdlWWM1NEZxQVpOWktKbVkyWWR1aFRhbFd3SnRRcW5SZTJ0YXRvQTZ6MjlmVmFMVThhSldFTUpseWRtblVrel8tM0VISmVOVmdVend5UTFOTHhKazBXalpIOHVUdkVmcm5YdTI4UWk3MUJObk9GMzRYOEpkeEFXVnhwZXc?oc=5"
+      "title": "NVIDIAへの独禁法調査報道も影響",
+      "detail": "AI半導体市場を牽引するNVIDIAに対し、米司法省が買収調査を行っているとの報道がなされ、半導体セクターの重圧となりました。AI関連株全般に対する規制リスクや懸念が投資家心理に影を落としています。",
+      "source_title": "Nvidia Stock Declines as Competition Probe—and Spy Report—Presents New AI Concern",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQUhtWFVGeXRmbWVsY083ckRJRUYwOHhEYTZ5cURrdlktQXNyVWk2QllyVVZpRGY3cWg0X3JTNU4xWVBjUTZ4M1pRWWJLR1V3c0FYcGsxQWwzd29jYjRETGpHYnhqMFZpMlk4RG81OFU2NUtUZ3JVaEwxY1NYZkVuYUxabUpWRjNyeVJmbg?oc=5"
     }
   ]
 }
