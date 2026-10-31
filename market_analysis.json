@@ -1,22 +1,16 @@
 {
-  "report_date": "2026-10-31",
+  "report_date": "2026-11-01",
   "drivers": [
     {
-      "title": "ハイテク株への売り加速",
-      "detail": "AI支出が1兆ドル規模に達する中、投資家間でAI関連の収益性や将来の成長に対する懸念が強まり、ハイテク株を中心に大規模な売りが広がった。NASDAQは大幅に下落した。",
-      "source_title": "US tech stocks see sharp falls as AI spending nears $1tn - BBC",
+      "title": "AI関連支出への懸念でハイテク株が急落",
+      "detail": "AIへの巨額投資が1兆ドル規模に達する中、投資家の間でキャッシュバーン（現金の消耗）への懸念が強まりました。これにより大手ハイテク株を中心に売りが加速し、NASDAQなどが大きく値を下げました。",
+      "source_title": "US tech stocks see sharp falls as AI spending nears $1tn",
       "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03MGFhZ3ltOEs3NFpDUTRDQ2ZPbmxPcXFvbWtkSm9kS0pnOW82MjlDbTY4dnlGNkYwSkUxMVJPZU1ZeGVqUFk3YkdZeTUxQzhLemlBbldWVld5NU0?oc=5"
     },
     {
-      "title": "大手ハイテク決算に失望感",
-      "detail": "AmazonやIntelなど主要ハイテク企業の決算内容が市場の期待に届かなかったことが、AI関連株の強気な見通しを揺るがし、セクター全体の売りに拍車をかける結果となった。",
-      "source_title": "U.S. stock futures sink, Nasdaq down 2% as Amazon, Intel earnings underwhelm - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN3BsVkRQZGpDVUx3bC1nOVUxZFVxcTdNdWk5ZHB6SFJpNjlRNjBoNUNFME9TUENNZXVNczFjeFNHM1c0Wloya2dXenBtSlNHRmV5QTc4bUxLaUJIeTc1ZjFBbFpUNHVUNXJOMl95M3QtZGxOcEpmYWJSczExdVNUeF9sOEhWTUlJMVFCOWhzVU9qcS10SkFF?oc=5"
-    },
-    {
-      "title": "Alphabet決算で不安再燃",
-      "detail": "Alphabetの減収を受け、AI関連の巨額資本支出に対する市場の懸念が再燃。AI投資の回収時期や採算性に対する不透明感が投資家心理を悪化させ、株価下落の一因となった。",
-      "source_title": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters - Reuters",
+      "title": "一部企業の決算不振が市場の重石に",
+      "detail": "アルファベットなどの決算内容が市場の期待に届かなかったことが、AI分野の過熱感に対する警戒感を強めました。業績懸念からハイテク株の売却が広がり、市場全体の重石となっています。",
+      "source_title": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters",
       "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5"
     }
   ]
