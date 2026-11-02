@@ -1,17 +1,23 @@
 {
-  "report_date": "2026-11-01",
+  "report_date": "2026-11-03",
   "drivers": [
     {
-      "title": "AI関連支出への懸念でハイテク株が急落",
-      "detail": "AIへの巨額投資が1兆ドル規模に達する中、投資家の間でキャッシュバーン（現金の消耗）への懸念が強まりました。これにより大手ハイテク株を中心に売りが加速し、NASDAQなどが大きく値を下げました。",
-      "source_title": "US tech stocks see sharp falls as AI spending nears $1tn",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03MGFhZ3ltOEs3NFpDUTRDQ2ZPbmxPcXFvbWtkSm9kS0pnOW82MjlDbTY4dnlGNkYwSkUxMVJPZU1ZeGVqUFk3YkdZeTUxQzhLemlBbldWVld5NU0?oc=5"
+      "title": "ハイテク株の調整と決算への警戒",
+      "detail": "主要ハイテク企業の四半期決算発表を控え、投資家の間で不透明感が高まっている。AIブームへの懸念が根強く残る中、相場全体が不安定な値動きとなっており、市場はさらなるボラティリティの上昇に備えている状況です。",
+      "source_title": "Nasdaq retreats following a red October, with elections and big tech earnings ahead",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMDdhMGR4NHJxT2NtNEw3dlJXeWJuQ0VwX2J3Q0ZoQWNCMG9XYjlSZ1VlOTlhQkhCNS1yWDRjaEo5YXAyWEJPN2hreENpaDgyLWk2UXpObVNHVDZBdl9TOGgta1dwNzhmN3VEMU5uYkZ1YzRoSnNnalRzN3FRMjUtRXpiTmVWalBfVzhrUXNpNng?oc=5"
     },
     {
-      "title": "一部企業の決算不振が市場の重石に",
-      "detail": "アルファベットなどの決算内容が市場の期待に届かなかったことが、AI分野の過熱感に対する警戒感を強めました。業績懸念からハイテク株の売却が広がり、市場全体の重石となっています。",
-      "source_title": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5"
+      "title": "Apple株の軟調な動きが重石に",
+      "detail": "まもなく予定されている四半期決算の発表を前に、Apple株が下落傾向を示した。これがS&P 500指数の押し下げ要因の一つとなり、大型ハイテク株全体に対する投資家の慎重姿勢を浮き彫りにしています。",
+      "source_title": "S&P 500 ends down; Apple dips ahead of quarterly report",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnVDQzd0LTF3Vi1BMnJDLWpGaHNIMlJVTDNnVmplMzZnVjRxRTZUUTRsQkVvZ21EN3lXMzA4ZDJnOTQwc01ld2tqT1pGZVN6VmpuVWpzLVVMUU1qcDdnRFdEQUZoM0l6Ym9NYnhfWDctWkZnSC1fLUk0RGxtUmd3WU9zLXdhcTdGTkJvcUxaazZKZEliVjl3bVBfZldDajJMOXZtVkx0NVI4YWlwMkVFbXpMR0ZGQW9wOWxEcTM3QThSdk1fb2c?oc=5"
+    },
+    {
+      "title": "Microsoft株、詐欺懸念で下落",
+      "detail": "Microsoftに関連した新たな詐欺の発生が報じられ、同社の株価が下落した。個別企業の材料が悪材料視され、AI関連銘柄を中心とした市場のボラティリティ拡大に拍車をかける一因となった可能性がある。",
+      "source_title": "Microsoft Stock (NASDAQ:MSFT) Slips as New Scam Emerges",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ0QzLVJOaDZOaHlZNUxLczVHYmNpMTNPcERZb0FUQzdYcUYtajFjMkh5Mldvb3czZU16Wlh4a2pvWnRabVpLc1Iwa1h1MVMzRTRDeC1zU19IMDNmOWxoeFl2dk1zN0sxWGJNcGQ3bEVKRFV1cVY2NmdZZW1WRjR6SGFfbEhSWVJuSnc?oc=5"
     }
   ]
 }
