@@ -1,102 +1,96 @@
 {
-  "collected_at": "2026-11-03T07:22:38.203696+09:00",
+  "collected_at": "2026-11-04T07:22:57.008532+09:00",
   "count": 45,
   "news": [
+    {
+      "title": "Nasdaq ends higher as AI heavyweights rebound ahead of midterm results - Reuters",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5\" target=\"_blank\">Nasdaq ends higher as AI heavyweights rebound ahead of midterm results</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
+      "published": "Tue, 03 Nov 2026 21:15:02 GMT"
+    },
+    {
+      "title": "S&P 500, Nasdaq rise as tech stocks gain ahead of midterm results - Yahoo Finance",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQWE5VTWlqMWhWQjhVTU1PYTc2M2w3ZWJlUWl1UUMzbThRNGVvQkc1YXBxOUdyVDIwYzVHRG9WR3J0VkhxSnhGdlAzNk9WZXduZHBXdkRackxJVmZPLTZZLTFuQnFQMzZWTVF4U28xV3VrNERlV3hwOGFiYWR2SUVmcUtjOXZNeE0yeHRBTkZkZjI2bDdraXdDYg?oc=5\" target=\"_blank\">S&P 500, Nasdaq rise as tech stocks gain ahead of midterm results</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWE5VTWlqMWhWQjhVTU1PYTc2M2w3ZWJlUWl1UUMzbThRNGVvQkc1YXBxOUdyVDIwYzVHRG9WR3J0VkhxSnhGdlAzNk9WZXduZHBXdkRackxJVmZPLTZZLTFuQnFQMzZWTVF4U28xV3VrNERlV3hwOGFiYWR2SUVmcUtjOXZNeE0yeHRBTkZkZjI2bDdraXdDYg?oc=5",
+      "published": "Tue, 03 Nov 2026 17:17:52 GMT"
+    },
+    {
+      "title": "US Tech Stocks Enter Correction on AI and Midterm Election Risks - Bloomberg.com",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNT0c0ajcwSC1TMmdqcklFOVR5M1lxNzFzRHZ0MTBILTlITXBKYXpFbTBaN2dFdnVNbmR4U2Jsa2kyYngzVnp5Tkd3OG9mNmpXd0EwY0ttem9zeGhGRmg3S0ZFNnIyNXNHdE1DSGJNU3E1UkNoR0N1bDFNbjIyUDcyaHJKaDhEQVUtbjlrWXBRZi1WS3IxVnhnMVN2S1NacTczejdUaWVjM1o3Y1A5bnQ5QXdlNA?oc=5\" target=\"_blank\">US Tech Stocks Enter Correction on AI and Midterm Election Risks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT0c0ajcwSC1TMmdqcklFOVR5M1lxNzFzRHZ0MTBILTlITXBKYXpFbTBaN2dFdnVNbmR4U2Jsa2kyYngzVnp5Tkd3OG9mNmpXd0EwY0ttem9zeGhGRmg3S0ZFNnIyNXNHdE1DSGJNU3E1UkNoR0N1bDFNbjIyUDcyaHJKaDhEQVUtbjlrWXBRZi1WS3IxVnhnMVN2S1NacTczejdUaWVjM1o3Y1A5bnQ5QXdlNA?oc=5",
+      "published": "Mon, 02 Nov 2026 21:15:33 GMT"
+    },
+    {
+      "title": "Nvidia and other Big Tech stocks lift as Wall Street waits on midterms - CommBank",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOOWo1N0tBZHVaUnVHSWZzVnNrQVQ5Z2FaU0x0LTB6b2FjUFlUMDdYTm8tMGFMUG9iWmh3MlFQT0dBVVRNMGdsT2JybXFHZUM3cXZTdEFJU0xHbVN4ejdmd2JDZVlPelEzc0FDc0V2blg2SllrVERjRzRLZjQwS1NlYTR1X3FfVXFoUDZWUHlMUzRTOFZkWFEwYzQ0d3JxZFNCS1BXd3Zn?oc=5\" target=\"_blank\">Nvidia and other Big Tech stocks lift as Wall Street waits on midterms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CommBank</font>",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOWo1N0tBZHVaUnVHSWZzVnNrQVQ5Z2FaU0x0LTB6b2FjUFlUMDdYTm8tMGFMUG9iWmh3MlFQT0dBVVRNMGdsT2JybXFHZUM3cXZTdEFJU0xHbVN4ejdmd2JDZVlPelEzc0FDc0V2blg2SllrVERjRzRLZjQwS1NlYTR1X3FfVXFoUDZWUHlMUzRTOFZkWFEwYzQ0d3JxZFNCS1BXd3Zn?oc=5",
+      "published": "Tue, 03 Nov 2026 22:03:35 GMT"
+    },
+    {
+      "title": "Apple drops with most of Wall Street, but gains for other Big Tech stocks cushion the blow - ABC News - Breaking News, Latest News and Videos",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPU1VqaGZrNDVyZWxlbUg5blVSSWhJbDdMUS1BUGZ3Z3BVUmpJdzVkckFnbTJiUUNadEZMazByUGpWNm9nYWM2eFRDTEthSFZYLVRxRWlOVk00UldtcW5kTXN0czd6Vk9VbS1kZGxreFp1WXJUbV9PWk5KODM3ZVJtLUNqX1hNUmFxOHpOWksweHAwd9IBlwFBVV95cUxNUS1pS3NRd1ZGblN2UTQ5cXNUa3k0WVpIV2dKQWt1b19ISVI3N0l0UnNtMGs5eGpTM2FKdF9aaWhQd092VWJxUm4yeUh4TXgyZFlXa0RNamxpU2VjQzRFTWdtV3dQYUlLZG9IbFJrcE9YT3FsZEF5b2x2aTM1SkZ6SWFSa3BuZS1vNWo1YkQ4TGx6WDNlY3lr?oc=5\" target=\"_blank\">Apple drops with most of Wall Street, but gains for other Big Tech stocks cushion the blow</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News - Breaking News, Latest News and Videos</font>",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU1VqaGZrNDVyZWxlbUg5blVSSWhJbDdMUS1BUGZ3Z3BVUmpJdzVkckFnbTJiUUNadEZMazByUGpWNm9nYWM2eFRDTEthSFZYLVRxRWlOVk00UldtcW5kTXN0czd6Vk9VbS1kZGxreFp1WXJUbV9PWk5KODM3ZVJtLUNqX1hNUmFxOHpOWksweHAwd9IBlwFBVV95cUxNUS1pS3NRd1ZGblN2UTQ5cXNUa3k0WVpIV2dKQWt1b19ISVI3N0l0UnNtMGs5eGpTM2FKdF9aaWhQd092VWJxUm4yeUh4TXgyZFlXa0RNamxpU2VjQzRFTWdtV3dQYUlLZG9IbFJrcE9YT3FsZEF5b2x2aTM1SkZ6SWFSa3BuZS1vNWo1YkQ4TGx6WDNlY3lr?oc=5",
+      "published": "Mon, 02 Nov 2026 08:00:00 GMT"
+    },
+    {
+      "title": "US Tech Stocks Rally Strongly With Nasdaq Composite Index Set to Snap Three-Day Losing Streak as Midterm Elections Conclude and Short Covering Expectations Rise - TradingKey",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY1V1dDdJLXBEbXJXSjNCaWdBZVlZd24zWXZIaGZhaGRidnBpT3lRZ3pnWWlwUV96WERZVkhwM3ZSUVphOUtnbzlVcjg2NlNtazZrNUJNdFFXaTFFeHR2S2Rqd3VBMHNtSFBrM1o2dmNPdHFvV2tRbC1OR1p1X1B0R2ZoNUFwUWUwTXczQlA3emRRME1fUFJDX2xYMlVuak53Z0Fzb1NCRUhocEtCdUFkZlczSFdRdVJZY2NRcnNFSXRiQnU2RXgtNzdKalV6UHZD?oc=5\" target=\"_blank\">US Tech Stocks Rally Strongly With Nasdaq Composite Index Set to Snap Three-Day Losing Streak as Midterm Elections Conclude and Short Covering Expectations Rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY1V1dDdJLXBEbXJXSjNCaWdBZVlZd24zWXZIaGZhaGRidnBpT3lRZ3pnWWlwUV96WERZVkhwM3ZSUVphOUtnbzlVcjg2NlNtazZrNUJNdFFXaTFFeHR2S2Rqd3VBMHNtSFBrM1o2dmNPdHFvV2tRbC1OR1p1X1B0R2ZoNUFwUWUwTXczQlA3emRRME1fUFJDX2xYMlVuak53Z0Fzb1NCRUhocEtCdUFkZlczSFdRdVJZY2NRcnNFSXRiQnU2RXgtNzdKalV6UHZD?oc=5",
+      "published": "Tue, 03 Nov 2026 15:15:09 GMT"
+    },
+    {
+      "title": "Stock Market Today: Dow Futures Plunge 323 Points, Apple Sinks, and Iran Strikes Send Oil Soaring - 24/7 Wall St.",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxObWh3bllKRDFaQU4tbnRhVFpNUGVKUjB0WjEwTTh0cnNfbnFYdjZYWDFKRXI3dHhIWGVDQVNxSkoxemg4NGxYM0hvbl9DZVpialRXLXcwRXd4NmVnOXlIQk51Z1lNRjJ5dTh1OTd4WVZpZ21neXdXNmlIYTBKNFZmS1VlUGhZU05RbGJxNlpIMkZ4dEQ5cmNNR3YzTjRVbTdRNXNMV1ROdjlycTI2cl9VRXp4bkp4b0Q0ZTVTdkhyZlpaOHU1LTFFMVJuVWdyYnVheVA5UQ?oc=5\" target=\"_blank\">Stock Market Today: Dow Futures Plunge 323 Points, Apple Sinks, and Iran Strikes Send Oil Soaring</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObWh3bllKRDFaQU4tbnRhVFpNUGVKUjB0WjEwTTh0cnNfbnFYdjZYWDFKRXI3dHhIWGVDQVNxSkoxemg4NGxYM0hvbl9DZVpialRXLXcwRXd4NmVnOXlIQk51Z1lNRjJ5dTh1OTd4WVZpZ21neXdXNmlIYTBKNFZmS1VlUGhZU05RbGJxNlpIMkZ4dEQ5cmNNR3YzTjRVbTdRNXNMV1ROdjlycTI2cl9VRXp4bkp4b0Q0ZTVTdkhyZlpaOHU1LTFFMVJuVWdyYnVheVA5UQ?oc=5",
+      "published": "Tue, 03 Nov 2026 14:17:00 GMT"
+    },
     {
       "title": "S&P 500 ends down; Apple dips ahead of quarterly report - Reuters",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnVDQzd0LTF3Vi1BMnJDLWpGaHNIMlJVTDNnVmplMzZnVjRxRTZUUTRsQkVvZ21EN3lXMzA4ZDJnOTQwc01ld2tqT1pGZVN6VmpuVWpzLVVMUU1qcDdnRFdEQUZoM0l6Ym9NYnhfWDctWkZnSC1fLUk0RGxtUmd3WU9zLXdhcTdGTkJvcUxaazZKZEliVjl3bVBfZldDajJMOXZtVkx0NVI4YWlwMkVFbXpMR0ZGQW9wOWxEcTM3QThSdk1fb2c?oc=5\" target=\"_blank\">S&P 500 ends down; Apple dips ahead of quarterly report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnVDQzd0LTF3Vi1BMnJDLWpGaHNIMlJVTDNnVmplMzZnVjRxRTZUUTRsQkVvZ21EN3lXMzA4ZDJnOTQwc01ld2tqT1pGZVN6VmpuVWpzLVVMUU1qcDdnRFdEQUZoM0l6Ym9NYnhfWDctWkZnSC1fLUk0RGxtUmd3WU9zLXdhcTdGTkJvcUxaazZKZEliVjl3bVBfZldDajJMOXZtVkx0NVI4YWlwMkVFbXpMR0ZGQW9wOWxEcTM3QThSdk1fb2c?oc=5",
-      "published": "Mon, 02 Nov 2026 21:28:35 GMT"
+      "published": "Mon, 02 Nov 2026 10:57:00 GMT"
     },
     {
-      "title": "Nasdaq retreats following a red October, with elections and big tech earnings ahead (DJI:) - Seeking Alpha",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNMDdhMGR4NHJxT2NtNEw3dlJXeWJuQ0VwX2J3Q0ZoQWNCMG9XYjlSZ1VlOTlhQkhCNS1yWDRjaEo5YXAyWEJPN2hreENpaDgyLWk2UXpObVNHVDZBdl9TOGgta1dwNzhmN3VEMU5uYkZ1YzRoSnNnalRzN3FRMjUtRXpiTmVWalBfVzhrUXNpNng?oc=5\" target=\"_blank\">Nasdaq retreats following a red October, with elections and big tech earnings ahead (DJI:)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMDdhMGR4NHJxT2NtNEw3dlJXeWJuQ0VwX2J3Q0ZoQWNCMG9XYjlSZ1VlOTlhQkhCNS1yWDRjaEo5YXAyWEJPN2hreENpaDgyLWk2UXpObVNHVDZBdl9TOGgta1dwNzhmN3VEMU5uYkZ1YzRoSnNnalRzN3FRMjUtRXpiTmVWalBfVzhrUXNpNng?oc=5",
-      "published": "Mon, 02 Nov 2026 19:47:00 GMT"
+      "title": "S&P 500 Edges Up as Oil Falls on US Election Day: Markets Wrap - Bloomberg.com",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGEyREpLdzRYM3VsY3NTclQ1Y2xud2pYNVl6Y0JhZ3RNczRVVjJ0aG43NmgyWkQ5SU85SmtVWGVCU0wySnBTdkhzZXR3R3RpMWloMWdlckxKM3BBUFB4VU9FbzhDQ2l2dm5xZlIwbFZJTHdJQVVyaU1Qc3djSmowcHdGMDNOVUIyMDdURnFwWWpUbmZN?oc=5\" target=\"_blank\">S&P 500 Edges Up as Oil Falls on US Election Day: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGEyREpLdzRYM3VsY3NTclQ1Y2xud2pYNVl6Y0JhZ3RNczRVVjJ0aG43NmgyWkQ5SU85SmtVWGVCU0wySnBTdkhzZXR3R3RpMWloMWdlckxKM3BBUFB4VU9FbzhDQ2l2dm5xZlIwbFZJTHdJQVVyaU1Qc3djSmowcHdGMDNOVUIyMDdURnFwWWpUbmZN?oc=5",
+      "published": "Mon, 02 Nov 2026 22:25:14 GMT"
     },
     {
-      "title": "US stocks erase their rally from the morning as tech and AI stocks keep swinging - WPLG Local 10",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNcGhDWDFRenBMZXlQQ25scUgyMTJ4WnV2RG1ncW9PU1lqd0FHaHZ2LVFuZ2d2LVBtYXB3MmxkaUF1N3hTT2pOYmtYSElJR3RFdDBfVksxT0FHa2YtNEJIZExZNmgtVGt6TFpxa3hUdExYQnIxQmxHWmNTb1RNdzd4U01jU0hRQTNtR1V2eEhHTmxnUUVtTk9fMk5jNFZxZkFCbW1Wc2Rta3NLbTFpdldIX0FwMzlsam9YdGRITEln?oc=5\" target=\"_blank\">US stocks erase their rally from the morning as tech and AI stocks keep swinging</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WPLG Local 10</font>",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcGhDWDFRenBMZXlQQ25scUgyMTJ4WnV2RG1ncW9PU1lqd0FHaHZ2LVFuZ2d2LVBtYXB3MmxkaUF1N3hTT2pOYmtYSElJR3RFdDBfVksxT0FHa2YtNEJIZExZNmgtVGt6TFpxa3hUdExYQnIxQmxHWmNTb1RNdzd4U01jU0hRQTNtR1V2eEhHTmxnUUVtTk9fMk5jNFZxZkFCbW1Wc2Rta3NLbTFpdldIX0FwMzlsam9YdGRITEln?oc=5",
-      "published": "Mon, 02 Nov 2026 05:29:25 GMT"
+      "title": "US Stock Futures Climb as Investors Seek Tech Rebound Following Nasdaq Selloff: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOEZKZjI3T1VUT3hmWjBpNFJxNzZvdWlkTFhOVThNNWt3RUk4S285QmtTeWpBMTVNcF9hVmx6aUs3V2FMdHlJLVJmQWpwM1BxMGNmZE9ZX1h4T2hDLXl5aElqUlZaX2RpMkFMb3JCcFlBcWU5YzcyWWRZRk1SbE56anFHbUpHX1Ny?oc=5\" target=\"_blank\">US Stock Futures Climb as Investors Seek Tech Rebound Following Nasdaq Selloff: Dow Jones, S&P, Nasdaq, Wall Street</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance UK</font>",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOEZKZjI3T1VUT3hmWjBpNFJxNzZvdWlkTFhOVThNNWt3RUk4S285QmtTeWpBMTVNcF9hVmx6aUs3V2FMdHlJLVJmQWpwM1BxMGNmZE9ZX1h4T2hDLXl5aElqUlZaX2RpMkFMb3JCcFlBcWU5YzcyWWRZRk1SbE56anFHbUpHX1Ny?oc=5",
+      "published": "Tue, 03 Nov 2026 14:16:51 GMT"
     },
     {
-      "title": "Microsoft Stock (NASDAQ:MSFT) Slips as New Scam Emerges - TipRanks",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ0QzLVJOaDZOaHlZNUxLczVHYmNpMTNPcERZb0FUQzdYcUYtajFjMkh5Mldvb3czZU16Wlh4a2pvWnRabVpLc1Iwa1h1MVMzRTRDeC1zU19IMDNmOWxoeFl2dk1zN0sxWGJNcGQ3bEVKRFV1cVY2NmdZZW1WRjR6SGFfbEhSWVJuSnc?oc=5\" target=\"_blank\">Microsoft Stock (NASDAQ:MSFT) Slips as New Scam Emerges</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TipRanks</font>",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ0QzLVJOaDZOaHlZNUxLczVHYmNpMTNPcERZb0FUQzdYcUYtajFjMkh5Mldvb3czZU16Wlh4a2pvWnRabVpLc1Iwa1h1MVMzRTRDeC1zU19IMDNmOWxoeFl2dk1zN0sxWGJNcGQ3bEVKRFV1cVY2NmdZZW1WRjR6SGFfbEhSWVJuSnc?oc=5",
-      "published": "Mon, 02 Nov 2026 18:03:27 GMT"
+      "title": "US Stock Market Fails To Recover as $700 Billion Comeback Collapses - Yahoo Finance",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPbzY3ZFlzZS1ZWExBcDNpX3JpLWJMTk9OSzNJS285Q1M5bUFGcnhGVVJYUmoyWk5Uc2dIQ1dzd29VX1Z3WThKWUR5SzI0azFLSG9IZ2Z6T1psVVZMTk1jQkh4NnN4cmZyRDZBa0pibjF5cko3RGYxMmNhTmVxcUxaTmNqMTB6V2kzR3VkWEU2NjU4MmRrUW9HbER3?oc=5\" target=\"_blank\">US Stock Market Fails To Recover as $700 Billion Comeback Collapses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbzY3ZFlzZS1ZWExBcDNpX3JpLWJMTk9OSzNJS285Q1M5bUFGcnhGVVJYUmoyWk5Uc2dIQ1dzd29VX1Z3WThKWUR5SzI0azFLSG9IZ2Z6T1psVVZMTk1jQkh4NnN4cmZyRDZBa0pibjF5cko3RGYxMmNhTmVxcUxaTmNqMTB6V2kzR3VkWEU2NjU4MmRrUW9HbER3?oc=5",
+      "published": "Mon, 02 Nov 2026 22:56:17 GMT"
     },
     {
-      "title": "After Tech Sell-Off, Investors Brace for More Market Volatility - The New York Times",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnVYZlFEd2dVa0N2SXlxM2xacnZiSXRUcEdPZU4wOHhleVV2MmNYU3ZhbEFFYjJsM3pCWjVkdUhEV0s0dWotM1E2VjZVb3d2TzZYVzlWRjI5Mm1TeENpdTB0RjE0ZzBjR1NPRWpNOFQ3Z1ozUjBPZmNTeDJJSVZQVkNiRHE2Uks3aldGbDRReXUxbnNRYVNsRDlQSVc5OWJDa3ZVUkVNZFB4Rzk4RkQ4OA?oc=5\" target=\"_blank\">After Tech Sell-Off, Investors Brace for More Market Volatility</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnVYZlFEd2dVa0N2SXlxM2xacnZiSXRUcEdPZU4wOHhleVV2MmNYU3ZhbEFFYjJsM3pCWjVkdUhEV0s0dWotM1E2VjZVb3d2TzZYVzlWRjI5Mm1TeENpdTB0RjE0ZzBjR1NPRWpNOFQ3Z1ozUjBPZmNTeDJJSVZQVkNiRHE2Uks3aldGbDRReXUxbnNRYVNsRDlQSVc5OWJDa3ZVUkVNZFB4Rzk4RkQ4OA?oc=5",
-      "published": "Mon, 02 Nov 2026 15:16:00 GMT"
+      "title": "Stocks, Bonds Rise as Oil Tumbles on US-Iran Hopes: Markets Wrap - Bloomberg.com",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXhSWUZpNlU1UFZVSEtvY3QwQVB4T3FuYlpCT3lpaE05MThfMFFTZVZWWllFZDZDYkJFdTBIWEx1X1ZMVXlESFdaX3Noc2VSSW1QRHFzYzhPZkowLVNZeWR1N2dBN2hlLXY1VlJ3SHJNR3Ayc29JOXN4cXN3bklZQzN5bEctRER1aGp1eFdUVjhITWM0?oc=5\" target=\"_blank\">Stocks, Bonds Rise as Oil Tumbles on US-Iran Hopes: Markets Wrap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXhSWUZpNlU1UFZVSEtvY3QwQVB4T3FuYlpCT3lpaE05MThfMFFTZVZWWllFZDZDYkJFdTBIWEx1X1ZMVXlESFdaX3Noc2VSSW1QRHFzYzhPZkowLVNZeWR1N2dBN2hlLXY1VlJ3SHJNR3Ayc29JOXN4cXN3bklZQzN5bEctRER1aGp1eFdUVjhITWM0?oc=5",
+      "published": "Mon, 02 Nov 2026 21:49:43 GMT"
     },
     {
-      "title": "Nasdaq ends lower as tech slumps again, offsetting rotation trade and slide in oil - Investing.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPcUw4U2dGOWNjeU5xRDZ5LVNHMFpBcFV3cF9UdDFiWlBrczhqLXZkOElteW8ycHlmU0F6NzZtYUVGYUhJdkJ0X3NOcTZaQWtRN1hqeS00ZmRTdTNSVExPaHdZSllCVjFrTW1PdGUtWkFFR3pmcEFzeFBQSmlxQjZGdmJPeUYtaUt1WXBrcVcwZ0xJdnUzbkhfMHlnS3dmVVRSUG8weF9zZ3o4NzduTmxrQndFeHFKTjBpTzlZNHZKb0NEc25UbTVyZndR?oc=5\" target=\"_blank\">Nasdaq ends lower as tech slumps again, offsetting rotation trade and slide in oil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcUw4U2dGOWNjeU5xRDZ5LVNHMFpBcFV3cF9UdDFiWlBrczhqLXZkOElteW8ycHlmU0F6NzZtYUVGYUhJdkJ0X3NOcTZaQWtRN1hqeS00ZmRTdTNSVExPaHdZSllCVjFrTW1PdGUtWkFFR3pmcEFzeFBQSmlxQjZGdmJPeUYtaUt1WXBrcVcwZ0xJdnUzbkhfMHlnS3dmVVRSUG8weF9zZ3o4NzduTmxrQndFeHFKTjBpTzlZNHZKb0NEc25UbTVyZndR?oc=5",
-      "published": "Mon, 02 Nov 2026 00:35:17 GMT"
+      "title": "Oil tumbles on hopes for US-Iran talks - Financial Times",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOT08zMXJZU1Fibm1jZjRGMXpfTWtSaGNCS1FDWEZXQ3hJTm5vVjQ1S212bVhKdm1BOEJGTUxBcTBnTzhlMERmY0plSkNjdmhwYVY3a3pnUG5XTWVNOEhUcEFaazd3cGl4cWJKUndXNFNZd3EtNGR4S0x2cFNJc19NazBiSVc?oc=5\" target=\"_blank\">Oil tumbles on hopes for US-Iran talks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT08zMXJZU1Fibm1jZjRGMXpfTWtSaGNCS1FDWEZXQ3hJTm5vVjQ1S212bVhKdm1BOEJGTUxBcTBnTzhlMERmY0plSkNjdmhwYVY3a3pnUG5XTWVNOEhUcEFaazd3cGl4cWJKUndXNFNZd3EtNGR4S0x2cFNJc19NazBiSVc?oc=5",
+      "published": "Mon, 02 Nov 2026 04:55:38 GMT"
     },
     {
-      "title": "Tech stocks wipe out $1 trillion in value as concerns deepen about the AI boom - NBC News",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3d4RHVLejNUQk5KamNvZkpmVm9BT1JQUS0xQXNxaHFVVHYwYTJ4TnRIQ0I4RkUwbmR2aWQ4VXRzaDAwdmI4Q3Q4S1lFZlhqNTBxY1p6WDVGdkFxQjdPa05BYWx4TGdsempHY3YzWllDRDRxN2Z0T2w5M1FtVGcydzNaOUdRWWgzYTdfVFJQTDJZU25NOUE?oc=5\" target=\"_blank\">Tech stocks wipe out $1 trillion in value as concerns deepen about the AI boom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3d4RHVLejNUQk5KamNvZkpmVm9BT1JQUS0xQXNxaHFVVHYwYTJ4TnRIQ0I4RkUwbmR2aWQ4VXRzaDAwdmI4Q3Q4S1lFZlhqNTBxY1p6WDVGdkFxQjdPa05BYWx4TGdsempHY3YzWllDRDRxN2Z0T2w5M1FtVGcydzNaOUdRWWgzYTdfVFJQTDJZU25NOUE?oc=5",
-      "published": "Fri, 30 Oct 2026 20:32:30 GMT"
+      "title": "US stocks today: Nasdaq rebounds as chipmakers rally, Apple slides ahead of US midterm results - The Economic Times",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMijwJBVV95cUxNekgtblBrckFORkwxWXE5Rnp6M3Z4ZkhmYlkzU20zaGRpMllldTg1UnhCRjVmdmJTRE9UMXhtYzdURXNNNVBLbVkwRWFSNTlRR2xkczdhams0bmo4Y2dxeFFpdGtzbDE2ZTZ6ZWpKb0FKcUxuUHBUdndFTl9FcnpZT1JwNmVUZUV2bDlSMmk4cjhGMGwtMFVLUmgwR2loaWNrQjh1UWZwRkZYdTBMV3lObWYyQS1BY1NWU21Cb1QxNk5WMHBLRGgwbUlWS29zb0pxbDNIeFZnNXMtZjZ4UTZQTVBScm5uTE5mSHBOT3RwUXJKN3ZPaTlFNmNOdlhaVF9wRkliNVFxeXBKblFocHJz0gGUAkFVX3lxTE9OV0JTQ2FqVTEtVjNHRVkwR3RzbF9sOXhUaVBDQm96WmRSZWItRnVvRWdEY01KTmg3b0RRNG5TOVFhY25adHB0WXhxR3E3OHRVZ3lVdzQ3QWo1b0p4Tng3eXdxblhZam9MR0F6SUV3VHlFTnVpRGY0YW1XSldLbkFlUWpkc05yZTFULU5tS1ZENXRHMENJbk1pUEIxSjZRMXpYRXBfczlLbjhlMDJBYUNHXzlJY2tYMzV6cHBvcExMZVlvV0NhRDlicWExWUxVdGtHR2FIcllReWU3T2lMVmd2Wl91V1Q1YkhnUUpjazU3czdVOXJDT1IxRUZFVWF3bWYzbDlFUnlKYXhDWHgtd2ZlaS0wRg?oc=5\" target=\"_blank\">US stocks today: Nasdaq rebounds as chipmakers rally, Apple slides ahead of US midterm results</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Economic Times</font>",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNekgtblBrckFORkwxWXE5Rnp6M3Z4ZkhmYlkzU20zaGRpMllldTg1UnhCRjVmdmJTRE9UMXhtYzdURXNNNVBLbVkwRWFSNTlRR2xkczdhams0bmo4Y2dxeFFpdGtzbDE2ZTZ6ZWpKb0FKcUxuUHBUdndFTl9FcnpZT1JwNmVUZUV2bDlSMmk4cjhGMGwtMFVLUmgwR2loaWNrQjh1UWZwRkZYdTBMV3lObWYyQS1BY1NWU21Cb1QxNk5WMHBLRGgwbUlWS29zb0pxbDNIeFZnNXMtZjZ4UTZQTVBScm5uTE5mSHBOT3RwUXJKN3ZPaTlFNmNOdlhaVF9wRkliNVFxeXBKblFocHJz0gGUAkFVX3lxTE9OV0JTQ2FqVTEtVjNHRVkwR3RzbF9sOXhUaVBDQm96WmRSZWItRnVvRWdEY01KTmg3b0RRNG5TOVFhY25adHB0WXhxR3E3OHRVZ3lVdzQ3QWo1b0p4Tng3eXdxblhZam9MR0F6SUV3VHlFTnVpRGY0YW1XSldLbkFlUWpkc05yZTFULU5tS1ZENXRHMENJbk1pUEIxSjZRMXpYRXBfczlLbjhlMDJBYUNHXzlJY2tYMzV6cHBvcExMZVlvV0NhRDlicWExWUxVdGtHR2FIcllReWU3T2lMVmd2Wl91V1Q1YkhnUUpjazU3czdVOXJDT1IxRUZFVWF3bWYzbDlFUnlKYXhDWHgtd2ZlaS0wRg?oc=5",
+      "published": "Tue, 03 Nov 2026 21:20:14 GMT"
     },
     {
-      "title": "‘Nasty’: $2.85 trillion share wipe out - News.com.au",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVmtiLUhQNHNNX2I1WW1oWnktTE9KVFZ0OHRyX2Y1LXp1NDA1R01ySERvREh0NVhiMTVfWndlX3o1WDl0RllOM1hLNGduTW9TRWFwU1liS1YwcEZ3bzFCd3ZBQnc1QWIzZnkwNFVFa1lBR2R4Wjl0dURxVkZzbTA0cVZ1Q012OUZMQVlNVzVDdmYwUGJvLXBtYlAwaFNNVGlSZU91WFBMZmdYYWgtVDd2ODBRWk0tdzJhbUJ1X3E2aTZFc2R1QUk5eVowTV9ZVzM4U0hib2lqTWFVTHRfT2ZrQzFXTGhCYWxkNGRmMWJXOXgtUdIB9wFBVV95cUxOR3BVTHNnWF95M2N3ZWNsWkpnRko3Wk5YeVAwM1pHRVczbzdhUDk2aF8yakw0dXpyY2ViZjRBeGlfY3lxUnBwR05xWVQzVEg4Y0laMG5zMTBIa19pRDF2bkVJelNwclc1c1hyM21fZFJlNzJnRDROaDhjT2llanhremFxOHpyUHAyMll1Zlc2WWhXY3JUdElZWWpYbTYwMld5bi1BbWpGRWFWUlE4VnFNS1BqWHhWMHJHVDFtTkNpQzR0YVZza0k3YUZuNHpOV2dUSmlxRk1vZkpXajAwaHRaYzE5aVZ4eDV0c3AxSkUzZkRXZ2dvZ3dJ?oc=5\" target=\"_blank\">‘Nasty’: $2.85 trillion share wipe out</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News.com.au</font>",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVmtiLUhQNHNNX2I1WW1oWnktTE9KVFZ0OHRyX2Y1LXp1NDA1R01ySERvREh0NVhiMTVfWndlX3o1WDl0RllOM1hLNGduTW9TRWFwU1liS1YwcEZ3bzFCd3ZBQnc1QWIzZnkwNFVFa1lBR2R4Wjl0dURxVkZzbTA0cVZ1Q012OUZMQVlNVzVDdmYwUGJvLXBtYlAwaFNNVGlSZU91WFBMZmdYYWgtVDd2ODBRWk0tdzJhbUJ1X3E2aTZFc2R1QUk5eVowTV9ZVzM4U0hib2lqTWFVTHRfT2ZrQzFXTGhCYWxkNGRmMWJXOXgtUdIB9wFBVV95cUxOR3BVTHNnWF95M2N3ZWNsWkpnRko3Wk5YeVAwM1pHRVczbzdhUDk2aF8yakw0dXpyY2ViZjRBeGlfY3lxUnBwR05xWVQzVEg4Y0laMG5zMTBIa19pRDF2bkVJelNwclc1c1hyM21fZFJlNzJnRDROaDhjT2llanhremFxOHpyUHAyMll1Zlc2WWhXY3JUdElZWWpYbTYwMld5bi1BbWpGRWFWUlE4VnFNS1BqWHhWMHJHVDFtTkNpQzR0YVZza0k3YUZuNHpOV2dUSmlxRk1vZkpXajAwaHRaYzE5aVZ4eDV0c3AxSkUzZkRXZ2dvZ3dJ?oc=5",
-      "published": "Sun, 01 Nov 2026 22:33:54 GMT"
-    },
-    {
-      "title": "Nasdaq suffers worst month in over a year as AI nerves roil markets - CNN",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFByUnNNYXM0dTNpeXAwcGJGWnBKODNxWEZFaHFVR3ZwZFpqb2ZSX1VDVjdxVnc2aElIYk1MNFRtd2NEUE81dnZGbGZBN25CRUJIWHJUQnpOdEMxVXlyTUd2UDRFUmlhSE5JMmNKeFpibzgtZw?oc=5\" target=\"_blank\">Nasdaq suffers worst month in over a year as AI nerves roil markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFByUnNNYXM0dTNpeXAwcGJGWnBKODNxWEZFaHFVR3ZwZFpqb2ZSX1VDVjdxVnc2aElIYk1MNFRtd2NEUE81dnZGbGZBN25CRUJIWHJUQnpOdEMxVXlyTUd2UDRFUmlhSE5JMmNKeFpibzgtZw?oc=5",
-      "published": "Fri, 30 Oct 2026 12:08:03 GMT"
-    },
-    {
-      "title": "US tech stocks see sharp falls as AI spending nears $1tn - BBC",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE03MGFhZ3ltOEs3NFpDUTRDQ2ZPbmxPcXFvbWtkSm9kS0pnOW82MjlDbTY4dnlGNkYwSkUxMVJPZU1ZeGVqUFk3YkdZeTUxQzhLemlBbldWVld5NU0?oc=5\" target=\"_blank\">US tech stocks see sharp falls as AI spending nears $1tn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03MGFhZ3ltOEs3NFpDUTRDQ2ZPbmxPcXFvbWtkSm9kS0pnOW82MjlDbTY4dnlGNkYwSkUxMVJPZU1ZeGVqUFk3YkdZeTUxQzhLemlBbldWVld5NU0?oc=5",
-      "published": "Fri, 30 Oct 2026 20:34:46 GMT"
-    },
-    {
-      "title": "AI Stocks Slide: Are Tech ETFs Worth Watching? - Zacks Investment Research",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxONUYzTGRxdkk4WnZfLWpLamxZVmZLLWx1UzRfR0Flcl9GejhtQ3h5c1dkdFJ2ak9EWFNIbS04VTV3Sks4TkEwd25LdHBGUkZRLTEzX3dobXNmTF9zNjJlaDA2NUlsVk1tTWV3eE56cWRWM3J5TjVRWmxsWXRSNTdSdVlNaWU4emMzNXdCNFlB?oc=5\" target=\"_blank\">AI Stocks Slide: Are Tech ETFs Worth Watching?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Zacks Investment Research</font>",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONUYzTGRxdkk4WnZfLWpLamxZVmZLLWx1UzRfR0Flcl9GejhtQ3h5c1dkdFJ2ak9EWFNIbS04VTV3Sks4TkEwd25LdHBGUkZRLTEzX3dobXNmTF9zNjJlaDA2NUlsVk1tTWV3eE56cWRWM3J5TjVRWmxsWXRSNTdSdVlNaWU4emMzNXdCNFlB?oc=5",
-      "published": "Mon, 02 Nov 2026 15:38:24 GMT"
-    },
-    {
-      "title": "Breakfast News: We’re Right There With You - The Motley Fool",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5DYWloZ09lMWhEcDhPeE9CVUY3aFMxVUc5bjBncFpZOEdONG81a01ZZTQ4NHhwYUY5dXFycjltejR4RVlLSk1wdDUzdHpvVEREMTBsUC00Y3A3WHlHd3luS3EyMG1TMTVxYUhrbUNVMUVpZGUwTE5RSWs1Vk0?oc=5\" target=\"_blank\">Breakfast News: We’re Right There With You</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DYWloZ09lMWhEcDhPeE9CVUY3aFMxVUc5bjBncFpZOEdONG81a01ZZTQ4NHhwYUY5dXFycjltejR4RVlLSk1wdDUzdHpvVEREMTBsUC00Y3A3WHlHd3luS3EyMG1TMTVxYUhrbUNVMUVpZGUwTE5RSWs1Vk0?oc=5",
-      "published": "Mon, 02 Nov 2026 12:30:00 GMT"
-    },
-    {
-      "title": "Anthropic's path to the Nasdaq just got a lot bumpier - CNBC",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1samp0RmQyX1c5aFBfNjBzQVluay0zQ2RJbW1jVktrZUZnWTBwTlloNUNnSGJiMFdMNzRQbWFFbFN5T05Nemc5NHJBODBuNEVqQjJ5bzlaR2ZXTjBXb3p1OTRkVmV6M2VJRmthNDBCVdIBdEFVX3lxTE41WkJMbHlKSUdYcnRhc3hWcmFJZWgyYjRBd0tyZ3VoaHgxMnV0dDYzdng4emRyTmtFVU5KOEktT3dTQzRBQlVhUDZGb0l4MndZWU9EWmYwcWR1UkFoOW9KMkV3djdfTzZJNnBEX2tSbVlpb3A2?oc=5\" target=\"_blank\">Anthropic's path to the Nasdaq just got a lot bumpier</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1samp0RmQyX1c5aFBfNjBzQVluay0zQ2RJbW1jVktrZUZnWTBwTlloNUNnSGJiMFdMNzRQbWFFbFN5T05Nemc5NHJBODBuNEVqQjJ5bzlaR2ZXTjBXb3p1OTRkVmV6M2VJRmthNDBCVdIBdEFVX3lxTE41WkJMbHlKSUdYcnRhc3hWcmFJZWgyYjRBd0tyZ3VoaHgxMnV0dDYzdng4emRyTmtFVU5KOEktT3dTQzRBQlVhUDZGb0l4MndZWU9EWmYwcWR1UkFoOW9KMkV3djdfTzZJNnBEX2tSbVlpb3A2?oc=5",
-      "published": "Sat, 31 Oct 2026 11:00:01 GMT"
-    },
-    {
-      "title": "What's Going On With Micron Technology Stock Monday? - Benzinga",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUVNHMWdMcTNpREJuTkFfQmVMSEVHdmgxQkhBczBuREQySGozNDdSZ3k4RENUYUkyMmxwWk9WVVM3Y3FkSDU0RWJyY2haQVVobWNON3IwQU1rWmlGZ05zdUw0R0s1MUV3Skx0VGNGSGJjaTZITGZ1dDBDV0NJQ19qaWJ6Z1VwQXNiY3lFcHd1djVfbWY0WF9FT21CeUVzaFVPMGFWczNvTWw?oc=5\" target=\"_blank\">What's Going On With Micron Technology Stock Monday?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUVNHMWdMcTNpREJuTkFfQmVMSEVHdmgxQkhBczBuREQySGozNDdSZ3k4RENUYUkyMmxwWk9WVVM3Y3FkSDU0RWJyY2haQVVobWNON3IwQU1rWmlGZ05zdUw0R0s1MUV3Skx0VGNGSGJjaTZITGZ1dDBDV0NJQ19qaWJ6Z1VwQXNiY3lFcHd1djVfbWY0WF9FT21CeUVzaFVPMGFWczNvTWw?oc=5",
-      "published": "Mon, 02 Nov 2026 11:46:46 GMT"
-    },
-    {
-      "title": "Tech Stocks Sell-Off Drags Wall Street Toward Its Worst Day Since June - NDTV",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHZDUWZpbWk4RElPQVhONjdQYVItdlgxNUp3bndocDd1Tkh5RHdkYmp6TWhoTllXMl9RMjNLWVBYNVdqNndkZzN0cTNHajdfbXlsVnNTSTNGd3BjOGlKclZ6WVpsdFllUEJldkNKNGZLcklFMHViQ3c1UzIya3RKRW0wS0Y5elo4eF82RkNCMzBqSkVpMlJmMk9BdGgzRzRsWGM0NGJJYWNtWUhWaHZ1U9IBuAFBVV95cUxNUExzdnhBTFpmZ1hxQVNlcnBhTXZwM0JWcnVFYWF6RFhGal83Wl9sVktWeGVSMTZVb09mNnh2cC1kRGpBbXRvMjFCVGh0NXZUWjdGNS1USUNlc2RfRjVRbW9Zb0U4X3RDWDVMTzdEdDBOVFJvM2U5aTI0RzNiS1ZYczkyc01WU0RrcDJTTUhwQkgwNjNDZVZwRmw2UktzcGFYZW5OV1FURjROMGJrQ05oeTJ6ZDN6bTdE?oc=5\" target=\"_blank\">Tech Stocks Sell-Off Drags Wall Street Toward Its Worst Day Since June</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV</font>",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHZDUWZpbWk4RElPQVhONjdQYVItdlgxNUp3bndocDd1Tkh5RHdkYmp6TWhoTllXMl9RMjNLWVBYNVdqNndkZzN0cTNHajdfbXlsVnNTSTNGd3BjOGlKclZ6WVpsdFllUEJldkNKNGZLcklFMHViQ3c1UzIya3RKRW0wS0Y5elo4eF82RkNCMzBqSkVpMlJmMk9BdGgzRzRsWGM0NGJJYWNtWUhWaHZ1U9IBuAFBVV95cUxNUExzdnhBTFpmZ1hxQVNlcnBhTXZwM0JWcnVFYWF6RFhGal83Wl9sVktWeGVSMTZVb09mNnh2cC1kRGpBbXRvMjFCVGh0NXZUWjdGNS1USUNlc2RfRjVRbW9Zb0U4X3RDWDVMTzdEdDBOVFJvM2U5aTI0RzNiS1ZYczkyc01WU0RrcDJTTUhwQkgwNjNDZVZwRmw2UktzcGFYZW5OV1FURjROMGJrQ05oeTJ6ZDN6bTdE?oc=5",
-      "published": "Fri, 30 Oct 2026 18:49:53 GMT"
-    },
-    {
-      "title": "Why Are Semiconductor Stocks Falling Today? Intel Crashes 28%, AMD and Nvidia Slide - Stocks Down Under",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE84Q1dKMEZ2MC1XSDBVSDZYdWx2RktzZElqdDdzOEFFTlBDbjNnVUdKLU5zczkxQjRLRTFQSDlDM0VTdFhCYW1tZ3pJZ0oteWJEcVBhX0lBdkhzRGpjcTZUS29xVVk3a2VMMVVQb0RBamJ6TnRfVk5TMGdpVUc4bHM?oc=5\" target=\"_blank\">Why Are Semiconductor Stocks Falling Today? Intel Crashes 28%, AMD and Nvidia Slide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocks Down Under</font>",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84Q1dKMEZ2MC1XSDBVSDZYdWx2RktzZElqdDdzOEFFTlBDbjNnVUdKLU5zczkxQjRLRTFQSDlDM0VTdFhCYW1tZ3pJZ0oteWJEcVBhX0lBdkhzRGpjcTZUS29xVVk3a2VMMVVQb0RBamJ6TnRfVk5TMGdpVUc4bHM?oc=5",
-      "published": "Fri, 30 Oct 2026 15:55:23 GMT"
+      "title": "Nasdaq climbs as chip and AI-linked stocks bounce back - Reuters",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPX21SVVhfUjZRQ255YlFzVWVEZ3BFMmt3aWlDdkVPVENFOExuRE9KOXZ6WjNqbzdHelUwdzZudy02TjlyNkxVZWcxQmFzZF9NaUE0SFZYaWI3dmxlYTBVdjdULWhLMkNQNnlMUXFaM1J5T1dPMEo3ajhkb0RQLUM3M0pkYlFqbHNKQ1U1c3k5WlUtdjR1UkNCV0JkdjJZTzdIa2c?oc=5\" target=\"_blank\">Nasdaq climbs as chip and AI-linked stocks bounce back</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX21SVVhfUjZRQ255YlFzVWVEZ3BFMmt3aWlDdkVPVENFOExuRE9KOXZ6WjNqbzdHelUwdzZudy02TjlyNkxVZWcxQmFzZF9NaUE0SFZYaWI3dmxlYTBVdjdULWhLMkNQNnlMUXFaM1J5T1dPMEo3ajhkb0RQLUM3M0pkYlFqbHNKQ1U1c3k5WlUtdjR1UkNCV0JkdjJZTzdIa2c?oc=5",
+      "published": "Mon, 19 Oct 2026 07:00:00 GMT"
     },
     {
       "title": "Nvidia, AMD, Dell sink in global tech rout on AI funding worries - CNBC",
@@ -111,52 +105,10 @@
       "published": "Sun, 01 Nov 2026 12:54:35 GMT"
     },
     {
-      "title": "Michael Burry vs AI Stocks: Is the Semiconductor Boom Losing Momentum? - www.equiti.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQVE1OSXJZbGVZVTRsQmJRb2lrS2RSZ1l5Y2ZCbzQwZFNGcndCYkpXaXV6Wmxrb1A3THItbUVwaUJpQWdCSjdaY08tdnJOdU1teWJKRGhRX01nVHJ3T0VvN3gtXzJyVXRtdE5ReWY0TUV6cGZ2c2d0RFdzdHQxeXF0RnlBQ2U3T3pReHdKVjJTQV9zaVpaanAzWWlsYWpVU3AxNVhFa0oxWjdOamtDREdMOFBnbEprUXpSUVB3cw?oc=5\" target=\"_blank\">Michael Burry vs AI Stocks: Is the Semiconductor Boom Losing Momentum?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">www.equiti.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVE1OSXJZbGVZVTRsQmJRb2lrS2RSZ1l5Y2ZCbzQwZFNGcndCYkpXaXV6Wmxrb1A3THItbUVwaUJpQWdCSjdaY08tdnJOdU1teWJKRGhRX01nVHJ3T0VvN3gtXzJyVXRtdE5ReWY0TUV6cGZ2c2d0RFdzdHQxeXF0RnlBQ2U3T3pReHdKVjJTQV9zaVpaanAzWWlsYWpVU3AxNVhFa0oxWjdOamtDREdMOFBnbEprUXpSUVB3cw?oc=5",
-      "published": "Wed, 21 Oct 2026 08:12:08 GMT"
-    },
-    {
-      "title": "These 5 AI chip stocks are must-own into Q4, BofA says - Yahoo Finance",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOOE9ZY0xFdFM5YWRXX3F0TExTRHg1WkFMZzNjYTc2d1dOUDB3RGZZY2R2UkhEQXBRQXlmM0lLU3VYYmhmNW9ZNjU5Ukl1X3pJTTg2YWxIZ2kzeFJ6Z1Y5MkhTblVpcnJ0UV94N19KcmZIZEVoOTZvMjcyRmhzQlRzQ0lveHFaODl5Y2RVWElB?oc=5\" target=\"_blank\">These 5 AI chip stocks are must-own into Q4, BofA says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOE9ZY0xFdFM5YWRXX3F0TExTRHg1WkFMZzNjYTc2d1dOUDB3RGZZY2R2UkhEQXBRQXlmM0lLU3VYYmhmNW9ZNjU5Ukl1X3pJTTg2YWxIZ2kzeFJ6Z1Y5MkhTblVpcnJ0UV94N19KcmZIZEVoOTZvMjcyRmhzQlRzQ0lveHFaODl5Y2RVWElB?oc=5",
-      "published": "Thu, 01 Oct 2026 07:00:00 GMT"
-    },
-    {
-      "title": "Best Semiconductor Stocks to Buy and Hold Through 2030 - The Motley Fool",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkZ6Mi1yODRXM1AxeU9BbVRaTU9YeE9sbkMyUUwyR0QwOVBuR1duc2RVbDJHNlozWl9fams0ZGRuZUxQVTJ4QkFKazhETHVRNnBNVnN1M1pHdjZzbGs5YmZ6UU95ZDdSRmNYVmswbFFJallLTlplMXY3N0ppUUo1TDdtTmVVUERBd2YtdXNoNmRrOUtTUDhv?oc=5\" target=\"_blank\">Best Semiconductor Stocks to Buy and Hold Through 2030</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkZ6Mi1yODRXM1AxeU9BbVRaTU9YeE9sbkMyUUwyR0QwOVBuR1duc2RVbDJHNlozWl9fams0ZGRuZUxQVTJ4QkFKazhETHVRNnBNVnN1M1pHdjZzbGs5YmZ6UU95ZDdSRmNYVmswbFFJallLTlplMXY3N0ppUUo1TDdtTmVVUERBd2YtdXNoNmRrOUtTUDhv?oc=5",
-      "published": "Wed, 14 Oct 2026 07:00:00 GMT"
-    },
-    {
-      "title": "US chip stocks face $2 trillion loss - The American Bazaar",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNRzEwejVpblgwdk5zRWRFRU1KQzk2TEdMUmpxZGUzMnFTbVZsdDRrMmd1eDVWQW1Vc3JwX1VGZ3NZQ0tsUExadTRmaDN1aWlXcGw0czRZYkVyS3BGdWdsQUxmREpCd2pCYm9YeXFGWUdGREpPQUlzM0I1V0hTZlJjTE9HY01ySVhuYjJjeTl0dlBCZWNRclhGdWZHOA?oc=5\" target=\"_blank\">US chip stocks face $2 trillion loss</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The American Bazaar</font>",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRzEwejVpblgwdk5zRWRFRU1KQzk2TEdMUmpxZGUzMnFTbVZsdDRrMmd1eDVWQW1Vc3JwX1VGZ3NZQ0tsUExadTRmaDN1aWlXcGw0czRZYkVyS3BGdWdsQUxmREpCd2pCYm9YeXFGWUdGREpPQUlzM0I1V0hTZlJjTE9HY01ySVhuYjJjeTl0dlBCZWNRclhGdWZHOA?oc=5",
-      "published": "Thu, 15 Oct 2026 07:00:00 GMT"
-    },
-    {
-      "title": "Crypto or NVIDIA? Bitcoin Holds $80K as AI Stocks Sell Off. What Should Investors Buy? - Moomoo",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVjRrT2tCQTU3VzlzQmpDYy1OZHRobnZrWGFQY3ZNVS1FMVhXUHJ1dE5lRGd1T1VHX3U0d3B0WFkwR1lQdy1PWVJqRFBxaHBPaDVxR1UtaEw2RFdvQlFIVG1JbDYyZ0xoVTNjbUI2NUxnYl9DczY0WldnaGhta1NEUlBWWENfcFJkUnZUbFNYUE84b1FsU0ZZSnVrSkk0aFVXbG1yM3B1bTA?oc=5\" target=\"_blank\">Crypto or NVIDIA? Bitcoin Holds $80K as AI Stocks Sell Off. What Should Investors Buy?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVjRrT2tCQTU3VzlzQmpDYy1OZHRobnZrWGFQY3ZNVS1FMVhXUHJ1dE5lRGd1T1VHX3U0d3B0WFkwR1lQdy1PWVJqRFBxaHBPaDVxR1UtaEw2RFdvQlFIVG1JbDYyZ0xoVTNjbUI2NUxnYl9DczY0WldnaGhta1NEUlBWWENfcFJkUnZUbFNYUE84b1FsU0ZZSnVrSkk0aFVXbG1yM3B1bTA?oc=5",
-      "published": "Tue, 20 Oct 2026 07:00:00 GMT"
-    },
-    {
-      "title": "2 Undervalued Semiconductor Stocks to Buy While the Market Is Skeptical of AI Growth - Morningstar",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQdmZTSVhncmtRVlFJTlB3a1hIX2JVRG1vZWh6TURFV1FQVkZlcEdQbHZwSWwyS01LSGU4N0hlQjBBOUY4SDBYQUoxOUlfMnluTC16cC1tX3o2YkkyUHRFeGpJV0RaZVY1U2JDU0U4N3BzeVhYV2lLYVB4dHhBeXl2eVFQQXdPZVJiTEl2ZVc2X01MRnVrb1g1dnhtNXFGY1ZDOVRiSTVQa1prSW5LVmc?oc=5\" target=\"_blank\">2 Undervalued Semiconductor Stocks to Buy While the Market Is Skeptical of AI Growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Morningstar</font>",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdmZTSVhncmtRVlFJTlB3a1hIX2JVRG1vZWh6TURFV1FQVkZlcEdQbHZwSWwyS01LSGU4N0hlQjBBOUY4SDBYQUoxOUlfMnluTC16cC1tX3o2YkkyUHRFeGpJV0RaZVY1U2JDU0U4N3BzeVhYV2lLYVB4dHhBeXl2eVFQQXdPZVJiTEl2ZVc2X01MRnVrb1g1dnhtNXFGY1ZDOVRiSTVQa1prSW5LVmc?oc=5",
-      "published": "Fri, 18 Sep 2026 07:00:00 GMT"
-    },
-    {
-      "title": "Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxONEpraWR3MkhKa1R0dDlkLTJsYXVWU0NsQjIySnpzcTA1dkFyVGNKcGk0RFNjbmF2dnRQZ2ZnR0lGb2thTEdwb3RLRVQyRWdxYmtFV2QxOVVQcHBocEsxVUoyYnJBa0JlZlBZRkRfY0trdGJnRkFOWEljYXowWWNrLXlVQm1sYkJoT2NzMVlMcDV1cWdDSHRjQUpZalFpdHN5cjZyWkxkOXVDMllxR2RiekFTYw?oc=5\" target=\"_blank\">Chip stock pullback sparks worries about AI rally strength, leveraged trades</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONEpraWR3MkhKa1R0dDlkLTJsYXVWU0NsQjIySnpzcTA1dkFyVGNKcGk0RFNjbmF2dnRQZ2ZnR0lGb2thTEdwb3RLRVQyRWdxYmtFV2QxOVVQcHBocEsxVUoyYnJBa0JlZlBZRkRfY0trdGJnRkFOWEljYXowWWNrLXlVQm1sYkJoT2NzMVlMcDV1cWdDSHRjQUpZalFpdHN5cjZyWkxkOXVDMllxR2RiekFTYw?oc=5",
-      "published": "Fri, 17 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "title": "INTC, AMD, NVDA, MU: Chip Stocks Open Mixed Premarket After Worst Week In A Month - TradingView",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS2xMTVhCSzVrNFpVLTVCaXRjM3FIN28wQ1N0aXVSTXozbWdzZjlvZXlkd0luVkFtbURQenlmRWFaVW1zUjE4VUphYS04by1MOFpuLXNDamtxTktKcVprS3Z5WERBdGZmdFRHc2FfQlh4cUU4WEpvOXl6dE1Nblg4WU9KMHdHOGhqOFg0SkMwaUpSNFQwVnJLaExGcTg4MnRkYkpOUkJnemh2dzNrX1hkWGZzOGVSTXNRV2o2NTNPV1BwY1N0MmlJSFRsQ1dyWjNiTUhuVg?oc=5\" target=\"_blank\">INTC, AMD, NVDA, MU: Chip Stocks Open Mixed Premarket After Worst Week In A Month</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS2xMTVhCSzVrNFpVLTVCaXRjM3FIN28wQ1N0aXVSTXozbWdzZjlvZXlkd0luVkFtbURQenlmRWFaVW1zUjE4VUphYS04by1MOFpuLXNDamtxTktKcVprS3Z5WERBdGZmdFRHc2FfQlh4cUU4WEpvOXl6dE1Nblg4WU9KMHdHOGhqOFg0SkMwaUpSNFQwVnJLaExGcTg4MnRkYkpOUkJnemh2dzNrX1hkWGZzOGVSTXNRV2o2NTNPV1BwY1N0MmlJSFRsQ1dyWjNiTUhuVg?oc=5",
-      "published": "Mon, 12 Oct 2026 07:00:00 GMT"
+      "title": "7 Best Semiconductor Stocks for 2026 | Investing - U.S. News - Money",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPdVlocTJ6U2RLbGpQUnpwLWxwSjQ4ZlI3cjR5U204TDlkakhISEo5d3ItaGFVQ1VSdk1UdXBFc1JGYnVqT1ZoN2RKQUREM3dxeDRYbzF5Rl9XeHl6WXZzWWNkY1NRS0pvd0RDYVVLbFRTNHdzR2xyZXpaam1naEc3Y3dR?oc=5\" target=\"_blank\">7 Best Semiconductor Stocks for 2026 | Investing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">U.S. News - Money</font>",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdVlocTJ6U2RLbGpQUnpwLWxwSjQ4ZlI3cjR5U204TDlkakhISEo5d3ItaGFVQ1VSdk1UdXBFc1JGYnVqT1ZoN2RKQUREM3dxeDRYbzF5Rl9XeHl6WXZzWWNkY1NRS0pvd0RDYVVLbFRTNHdzR2xyZXpaam1naEc3Y3dR?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT"
     },
     {
       "title": "Semiconductor stocks trim losses as investors buy the dip - Yahoo Finance",
@@ -165,28 +117,76 @@
       "published": "Fri, 17 Jul 2026 07:00:00 GMT"
     },
     {
-      "title": "2 Super Semiconductor Stocks to Buy and Hold Through the Next Decade - The Motley Fool",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNaDZYdlJoMFZxM005cEdGTWh2VHZFTHEzX205WkZwUnFNS2ZNZ0EwX01Qam9DQ09ucGotcDc3X2RteDA0dDN3aDhfVFpXc0h2cktuRFphUHBYemM3U3l5RkZFQ0pzMDZQLWxQVUhBMExqeTJDVHJjaWJmdUd2Yk5hZ3BKMEdKREthUWQ0MnJNSWVTWC16TF9VNw?oc=5\" target=\"_blank\">2 Super Semiconductor Stocks to Buy and Hold Through the Next Decade</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaDZYdlJoMFZxM005cEdGTWh2VHZFTHEzX205WkZwUnFNS2ZNZ0EwX01Qam9DQ09ucGotcDc3X2RteDA0dDN3aDhfVFpXc0h2cktuRFphUHBYemM3U3l5RkZFQ0pzMDZQLWxQVUhBMExqeTJDVHJjaWJmdUd2Yk5hZ3BKMEdKREthUWQ0MnJNSWVTWC16TF9VNw?oc=5",
-      "published": "Sun, 04 Oct 2026 07:00:00 GMT"
+      "title": "Chip stock pullback sparks worries about AI rally strength, leveraged trades - Reuters",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxONEpraWR3MkhKa1R0dDlkLTJsYXVWU0NsQjIySnpzcTA1dkFyVGNKcGk0RFNjbmF2dnRQZ2ZnR0lGb2thTEdwb3RLRVQyRWdxYmtFV2QxOVVQcHBocEsxVUoyYnJBa0JlZlBZRkRfY0trdGJnRkFOWEljYXowWWNrLXlVQm1sYkJoT2NzMVlMcDV1cWdDSHRjQUpZalFpdHN5cjZyWkxkOXVDMllxR2RiekFTYw?oc=5\" target=\"_blank\">Chip stock pullback sparks worries about AI rally strength, leveraged trades</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONEpraWR3MkhKa1R0dDlkLTJsYXVWU0NsQjIySnpzcTA1dkFyVGNKcGk0RFNjbmF2dnRQZ2ZnR0lGb2thTEdwb3RLRVQyRWdxYmtFV2QxOVVQcHBocEsxVUoyYnJBa0JlZlBZRkRfY0trdGJnRkFOWEljYXowWWNrLXlVQm1sYkJoT2NzMVlMcDV1cWdDSHRjQUpZalFpdHN5cjZyWkxkOXVDMllxR2RiekFTYw?oc=5",
+      "published": "Fri, 17 Jul 2026 07:00:00 GMT"
     },
     {
-      "title": "Nvidia, Micron, AMD sink after SK Hynix results fail to impress, AI trade unwinds - Yahoo Finance",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWUlxWFJRejR0OTFqbFpPV2lDZG52eHl2ZldZTGxTTENpVmV5bUNKbm1iQmtMRVROblBJVDNOcjhaNUlBUHRFbnFFVDRMSDNCQzNhbkl3ajNoUmQ5ZGpFNkpRV3E0VFkza3NJbVF5VzVmRl85VG5lbUhwN3dqV19uUkwxakp6ekxkeFluWXNWcS0wS0xsMXRqQ0Q2VzE1U2hid3BXRkhLVTFOZm9aRGVqai1OVF9HWW85VWpxVzFHaG92VU0wRi01bGlHc3dLNWRq?oc=5\" target=\"_blank\">Nvidia, Micron, AMD sink after SK Hynix results fail to impress, AI trade unwinds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWUlxWFJRejR0OTFqbFpPV2lDZG52eHl2ZldZTGxTTENpVmV5bUNKbm1iQmtMRVROblBJVDNOcjhaNUlBUHRFbnFFVDRMSDNCQzNhbkl3ajNoUmQ5ZGpFNkpRV3E0VFkza3NJbVF5VzVmRl85VG5lbUhwN3dqV19uUkwxakp6ekxkeFluWXNWcS0wS0xsMXRqQ0Q2VzE1U2hid3BXRkhLVTFOZm9aRGVqai1OVF9HWW85VWpxVzFHaG92VU0wRi01bGlHc3dLNWRq?oc=5",
-      "published": "Wed, 29 Jul 2026 07:00:00 GMT"
+      "title": "Best Semiconductor Stocks to Buy and Hold Through 2030 - The Motley Fool",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkZ6Mi1yODRXM1AxeU9BbVRaTU9YeE9sbkMyUUwyR0QwOVBuR1duc2RVbDJHNlozWl9fams0ZGRuZUxQVTJ4QkFKazhETHVRNnBNVnN1M1pHdjZzbGs5YmZ6UU95ZDdSRmNYVmswbFFJallLTlplMXY3N0ppUUo1TDdtTmVVUERBd2YtdXNoNmRrOUtTUDhv?oc=5\" target=\"_blank\">Best Semiconductor Stocks to Buy and Hold Through 2030</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkZ6Mi1yODRXM1AxeU9BbVRaTU9YeE9sbkMyUUwyR0QwOVBuR1duc2RVbDJHNlozWl9fams0ZGRuZUxQVTJ4QkFKazhETHVRNnBNVnN1M1pHdjZzbGs5YmZ6UU95ZDdSRmNYVmswbFFJallLTlplMXY3N0ppUUo1TDdtTmVVUERBd2YtdXNoNmRrOUtTUDhv?oc=5",
+      "published": "Wed, 14 Oct 2026 07:00:00 GMT"
     },
     {
-      "title": "ASML vs. Nvidia: Which AI Semiconductor Stock Is a Better Buy in 2026? - The Motley Fool",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPNC16OU5wTk1GcWl1TjZ6UHhZSmZRZEw5dXh1SEF1ekpfZ0lBSm1HMkJBNFZmSlc2ZlBKUVJaN0s4R3htMjZveG1LbjVIMzBKeEN4LVprZ3A5b3NTdWxsUXdzc2EtaGlRZGdaTGRFYzZDQ3Jfd1pUUjVYRXhVclFYOUhzcHNhYXE5YlBQb2tWOUo4Z1RPVHc3UlRVNmRLYklGSlZraHhmNFI3UGJERkpMazN3?oc=5\" target=\"_blank\">ASML vs. Nvidia: Which AI Semiconductor Stock Is a Better Buy in 2026?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNC16OU5wTk1GcWl1TjZ6UHhZSmZRZEw5dXh1SEF1ekpfZ0lBSm1HMkJBNFZmSlc2ZlBKUVJaN0s4R3htMjZveG1LbjVIMzBKeEN4LVprZ3A5b3NTdWxsUXdzc2EtaGlRZGdaTGRFYzZDQ3Jfd1pUUjVYRXhVclFYOUhzcHNhYXE5YlBQb2tWOUo4Z1RPVHc3UlRVNmRLYklGSlZraHhmNFI3UGJERkpMazN3?oc=5",
-      "published": "Tue, 06 Oct 2026 07:00:00 GMT"
+      "title": "5 Semiconductor Stocks To Buy Now And 1 To Ignore - Forbes",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNaUxTRWN1SXVqNHFRTjRoOTlJcExTUWtMM3k4Rk9vbDlaUnNTWUwtSldVMGExcmktZWVNOG5HRk8xQWlkQXlQMUstNWlmbDBuRmVXWlczZWV5RTdOSHRmbHVvMVQtX3JkTHJCWGc5by1ZdkRLSnlONEhXMVByTmNVaFhrUmU2cmJtaXJlYUZKRlNlUjA?oc=5\" target=\"_blank\">5 Semiconductor Stocks To Buy Now And 1 To Ignore</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaUxTRWN1SXVqNHFRTjRoOTlJcExTUWtMM3k4Rk9vbDlaUnNTWUwtSldVMGExcmktZWVNOG5HRk8xQWlkQXlQMUstNWlmbDBuRmVXWlczZWV5RTdOSHRmbHVvMVQtX3JkTHJCWGc5by1ZdkRLSnlONEhXMVByTmNVaFhrUmU2cmJtaXJlYUZKRlNlUjA?oc=5",
+      "published": "Tue, 21 Jul 2026 07:00:00 GMT"
     },
     {
-      "title": "Europe’s Earnings Growth to Rival US for the First Time in Years - Bloomberg.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNREsxTXlkaXVmSXpCZEtfTTJxUkdwRDZRYWlfc2JNRjBTRGZjWEttOUJkLU52dWdoUlVtVFpSSHIxNnd4X1lvcUMySFlJZ2VqQ0hOZDhIWUV1T0VrWXhqRVJXZ3IyWTJmQ1dmYnh4Z0JHSXFHM2RBQWp6dURLWUl2eTJWR1lmS3FCWURnUElpVUFPdlZidG9VLTB5a3JzYzFPdzRMQ1RweTJNWVUtMnVEdkVJLWxNUQ?oc=5\" target=\"_blank\">Europe’s Earnings Growth to Rival US for the First Time in Years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNREsxTXlkaXVmSXpCZEtfTTJxUkdwRDZRYWlfc2JNRjBTRGZjWEttOUJkLU52dWdoUlVtVFpSSHIxNnd4X1lvcUMySFlJZ2VqQ0hOZDhIWUV1T0VrWXhqRVJXZ3IyWTJmQ1dmYnh4Z0JHSXFHM2RBQWp6dURLWUl2eTJWR1lmS3FCWURnUElpVUFPdlZidG9VLTB5a3JzYzFPdzRMQ1RweTJNWVUtMnVEdkVJLWxNUQ?oc=5",
-      "published": "Thu, 29 Oct 2026 08:18:38 GMT"
+      "title": "These Experts See 'Screaming Buys' in AI Stocks After a Recent Pullback - Investopedia",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNT0g0Z2JwZ0I0ZW5jZ29sbHVfT2ZwRVI0WV9LOVV1ME85S2RsaXg0YkVIdkJDQmtTSlZ4eF9CTmw0TUVtTVNvdmwtd3c5Zkhabzd5QklONDhEbWNUM2NmLWlBWnNlU1lUTWhuN3NEQzVrd2FIbEtMYjdUSm9pbFlmaFR5UXNQamJ6eDRnVmFndTJzaTFHWEFSdTJwaVY0bHZyY3lQby0ybElnWnBGc2gzY0lB?oc=5\" target=\"_blank\">These Experts See 'Screaming Buys' in AI Stocks After a Recent Pullback</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investopedia</font>",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT0g0Z2JwZ0I0ZW5jZ29sbHVfT2ZwRVI0WV9LOVV1ME85S2RsaXg0YkVIdkJDQmtTSlZ4eF9CTmw0TUVtTVNvdmwtd3c5Zkhabzd5QklONDhEbWNUM2NmLWlBWnNlU1lUTWhuN3NEQzVrd2FIbEtMYjdUSm9pbFlmaFR5UXNQamJ6eDRnVmFndTJzaTFHWEFSdTJwaVY0bHZyY3lQby0ybElnWnBGc2gzY0lB?oc=5",
+      "published": "Thu, 02 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Semiconductor Stocks Slide Ahead of NVIDIA Earnings: Intel Falls 5%, AMD Slides 4%, Taiwan Semiconductor Slips 3% - 24/7 Wall St.",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQmFiNk4tUVVKOWFFNXE4NlZrUVVPRVFlTUtTaFZFTnZ3TE5zTG54SmZOamgxNGZ6ZFdZYVV5YkdLVXE2RkliSXVLUENxMTVfc3ZEUGFrdVItUFV2akJaYXQ1VEYwQUJFYUM2Zk5TWHA0eGEwOVR0YTdLMU92Q0J4cTh3RDM5ck5aNk83RGxObGNWZWpJRVpvZDRXWEhmM0JSMHhCejZzOHFGV2lBSWZuS2VQWTN1cUZhRlM4TUplWnJMVVNlXzNqS0tVOWg3WURGdVpEa0FJbE8wNHhPWkxRMFV0UTgtUQ?oc=5\" target=\"_blank\">Semiconductor Stocks Slide Ahead of NVIDIA Earnings: Intel Falls 5%, AMD Slides 4%, Taiwan Semiconductor Slips 3%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQmFiNk4tUVVKOWFFNXE4NlZrUVVPRVFlTUtTaFZFTnZ3TE5zTG54SmZOamgxNGZ6ZFdZYVV5YkdLVXE2RkliSXVLUENxMTVfc3ZEUGFrdVItUFV2akJaYXQ1VEYwQUJFYUM2Zk5TWHA0eGEwOVR0YTdLMU92Q0J4cTh3RDM5ck5aNk83RGxObGNWZWpJRVpvZDRXWEhmM0JSMHhCejZzOHFGV2lBSWZuS2VQWTN1cUZhRlM4TUplWnJMVVNlXzNqS0tVOWg3WURGdVpEa0FJbE8wNHhPWkxRMFV0UTgtUQ?oc=5",
+      "published": "Mon, 24 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Chip stocks shed more than $1 trillion as selloff hits companies powering AI boom - CNBC",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOWm5mYzh3X2p6d2t2clJubjIzc1VBR2txNEU4V2FvVEM5RmNHZGdHOFJOX1cxZlhEMG5zaEpJQ21WRmZncG0tZm1EQVF4ZnFDMTBhMHFKMXBxN0pUaVFaYmtUbTJ5b0ZxVzJXWHpOVkFqNXBxRTNxTU5tQ3VBS0ZsbNIBhgFBVV95cUxQT0hDOFV0dDBHN25YOE5KWGNWdGlvUEhuSF9XVjhpSV9sWDdxSXozSTJwSXNSTFZnZk0zNVc1bGJJTFVkX2Z5MmpYTXRqNjVRekNHN3B4ZlJIdFZmVk9heW0wY3ZiXzFIQUNfM2o5NVNWYmxWb3RXSHBZbHJ4LWNOSWd4SUQwZw?oc=5\" target=\"_blank\">Chip stocks shed more than $1 trillion as selloff hits companies powering AI boom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWm5mYzh3X2p6d2t2clJubjIzc1VBR2txNEU4V2FvVEM5RmNHZGdHOFJOX1cxZlhEMG5zaEpJQ21WRmZncG0tZm1EQVF4ZnFDMTBhMHFKMXBxN0pUaVFaYmtUbTJ5b0ZxVzJXWHpOVkFqNXBxRTNxTU5tQ3VBS0ZsbNIBhgFBVV95cUxQT0hDOFV0dDBHN25YOE5KWGNWdGlvUEhuSF9XVjhpSV9sWDdxSXozSTJwSXNSTFZnZk0zNVc1bGJJTFVkX2Z5MmpYTXRqNjVRekNHN3B4ZlJIdFZmVk9heW0wY3ZiXzFIQUNfM2o5NVNWYmxWb3RXSHBZbHJ4LWNOSWd4SUQwZw?oc=5",
+      "published": "Tue, 28 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Wall Street ends lower on semiconductor selloff as AI spending concerns mount - Reuters",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxON2t3ZXZzXzl6MTZCNnY4U09lU2l4ZWZENmdOZVZuNVF2VzFjYlFleVlLR1FHNlFwbjlvRnZVVjFsOGo1RXBsOGUzVk1xVERVal9SbVFxeG1CdVhSaHZtajFlUDRRZFllalVYdVRGY1J5ZGN1bVFfN2xmRHB0aTdxQjJBRVhIMFI0NWI3SjlXeTdRWUQxaU9rRA?oc=5\" target=\"_blank\">Wall Street ends lower on semiconductor selloff as AI spending concerns mount</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON2t3ZXZzXzl6MTZCNnY4U09lU2l4ZWZENmdOZVZuNVF2VzFjYlFleVlLR1FHNlFwbjlvRnZVVjFsOGo1RXBsOGUzVk1xVERVal9SbVFxeG1CdVhSaHZtajFlUDRRZFllalVYdVRGY1J5ZGN1bVFfN2xmRHB0aTdxQjJBRVhIMFI0NWI3SjlXeTdRWUQxaU9rRA?oc=5",
+      "published": "Tue, 23 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Prediction: This AI Chip Stock Will Be the Biggest Winner of 2027 (Hint: It’s Not Nvidia, AMD, or Broadcom) - The Motley Fool",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ1dsUlo3Q2FTM0d3bkJSX0lkSmtqbklsOU9QRVQwM1N2d1VfQzkyN0N0ZUlydDBqMlBnU2RlTkxDOFBvQ0lNWnBoZXBibUFabEEweHRyWmFsbkNyMUJDLVBIcnNnd01nNkFncWR0YzlhQU13TEdCVnRTQXlKNzNRQnZHQ0taWmFJNGs1NVRQLWZiS240eGc4U08tc1d3UlpTQ0dDRm1qNWZ4Mm80bVZGV1VSMUtpS3p6WE1rZmtoYTl1MW1aTTMwQkdIdWVhNmRvQjAwZncyRHFCeU5i?oc=5\" target=\"_blank\">Prediction: This AI Chip Stock Will Be the Biggest Winner of 2027 (Hint: It’s Not Nvidia, AMD, or Broadcom)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ1dsUlo3Q2FTM0d3bkJSX0lkSmtqbklsOU9QRVQwM1N2d1VfQzkyN0N0ZUlydDBqMlBnU2RlTkxDOFBvQ0lNWnBoZXBibUFabEEweHRyWmFsbkNyMUJDLVBIcnNnd01nNkFncWR0YzlhQU13TEdCVnRTQXlKNzNRQnZHQ0taWmFJNGs1NVRQLWZiS240eGc4U08tc1d3UlpTQ0dDRm1qNWZ4Mm80bVZGV1VSMUtpS3p6WE1rZmtoYTl1MW1aTTMwQkdIdWVhNmRvQjAwZncyRHFCeU5i?oc=5",
+      "published": "Sat, 03 Oct 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Asian chip stocks slide as China competition fears rattle AI trade - Reuters",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNbm9DUFBRMVNrTExpUDkzSlpGZGxTaEtRbTVWZTNjTVlzRklHX0lBVW9fcU5ULTFBbFlZb040TlVRR0pkNGZsRUo1TkhiLU95SzVwX0N0OC1PU2x3bXkySE1ZSmlDcldEZjF1OWR5NnU1M3RVQ3lvQ2pLeHlMNjQxT3dienkwRERwZlhWWlZwMXpTRVQ1czlFVVZReFpoelhHb202ZVB1VnFpR0llQ1Fsd2N0RDNsa0hiRlE?oc=5\" target=\"_blank\">Asian chip stocks slide as China competition fears rattle AI trade</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbm9DUFBRMVNrTExpUDkzSlpGZGxTaEtRbTVWZTNjTVlzRklHX0lBVW9fcU5ULTFBbFlZb040TlVRR0pkNGZsRUo1TkhiLU95SzVwX0N0OC1PU2x3bXkySE1ZSmlDcldEZjF1OWR5NnU1M3RVQ3lvQ2pLeHlMNjQxT3dienkwRERwZlhWWlZwMXpTRVQ1czlFVVZReFpoelhHb202ZVB1VnFpR0llQ1Fsd2N0RDNsa0hiRlE?oc=5",
+      "published": "Tue, 28 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Chip stocks sell off after Samsung earnings fall short of high AI bar - CNBC",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9QOVliTWtHSlRKWVpqMWtWRW1lM0ZOWjdOWjlKTkROUVdPeV9QWW9iRVVpd2lmYlRSMnd6TFZQRDNSeVZqdFplRUtqdGlwcWtFbjZYcTVWdE0xdXZ1WWtHcEhDNDlJakhWWVhWRFNrS0p5ZFd4WWfSAXtBVV95cUxQVXhmZ1lrQnFzd1lfS2pLRVRzX3Rsak0tSU4wVHdQSS01MVlma2NkQXNsTXhqTFZLcncyVGZYTHd3TTBxaGJ2Q1J5bkxsemJMTUdVanNDTUxuenktdVpJOUJPZXRnOTFFU01wb0d1bVhhWXV0MTdVSFdKYzg?oc=5\" target=\"_blank\">Chip stocks sell off after Samsung earnings fall short of high AI bar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QOVliTWtHSlRKWVpqMWtWRW1lM0ZOWjdOWjlKTkROUVdPeV9QWW9iRVVpd2lmYlRSMnd6TFZQRDNSeVZqdFplRUtqdGlwcWtFbjZYcTVWdE0xdXZ1WWtHcEhDNDlJakhWWVhWRFNrS0p5ZFd4WWfSAXtBVV95cUxQVXhmZ1lrQnFzd1lfS2pLRVRzX3Rsak0tSU4wVHdQSS01MVlma2NkQXNsTXhqTFZLcncyVGZYTHd3TTBxaGJ2Q1J5bkxsemJMTUdVanNDTUxuenktdVpJOUJPZXRnOTFFU01wb0d1bVhhWXV0MTdVSFdKYzg?oc=5",
+      "published": "Tue, 07 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "NVIDIA (NVDA): The Best American Semiconductor Stock to Buy According to Analysts - Yahoo Finance",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOV3JXR21Md1Q3Wkw4WExZUndFOWRyYWpxblJQakktS2NRSk1FdGtkMXhwVE8wZXE2NlhfXzhOZEJmd1pVdnpxNjAtMWdFY2dRc2tObmZ5aDNIY05qUjlnQmFtVVFXdUFDNEdZaU9rdmNEMU1IempnNExkSE1EWlNndHhjZVNUc0tYUnpkelJiaDRkUHFMR0VFMVR0NlMyWldlVmc0SXJvRQ?oc=5\" target=\"_blank\">NVIDIA (NVDA): The Best American Semiconductor Stock to Buy According to Analysts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV3JXR21Md1Q3Wkw4WExZUndFOWRyYWpxblJQakktS2NRSk1FdGtkMXhwVE8wZXE2NlhfXzhOZEJmd1pVdnpxNjAtMWdFY2dRc2tObmZ5aDNIY05qUjlnQmFtVVFXdUFDNEdZaU9rdmNEMU1IempnNExkSE1EWlNndHhjZVNUc0tYUnpkelJiaDRkUHFMR0VFMVR0NlMyWldlVmc0SXJvRQ?oc=5",
+      "published": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "S&P 500 Forecast: SPX rises ahead of tech earnings and as the Fed meeting begins - StoneX",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdHRORFctbElFZVJqN25XRGpLVVFPUHZ0d0NHR3JON2drbDgyWk8yNF9IU2lYaW93ZW5aVk9kOTdMeTZTejVMOWo4VkNSdmVSSi1LeHZYcllsWTBoS2Q3NjZlZ2N3TkwzbU9CekExUmljbEM1MDFzTDY5M3RTRFNCZkU1MTRJLThOMk9LWjBvSnh0d0dmYWdxYWFpWWNoWDBGMVQ5QlVFVUttdGhFd2k3bzNOVlp6Z3dXaEh3UnpLYlpTbDZrRTRUUA?oc=5\" target=\"_blank\">S&P 500 Forecast: SPX rises ahead of tech earnings and as the Fed meeting begins</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StoneX</font>",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdHRORFctbElFZVJqN25XRGpLVVFPUHZ0d0NHR3JON2drbDgyWk8yNF9IU2lYaW93ZW5aVk9kOTdMeTZTejVMOWo4VkNSdmVSSi1LeHZYcllsWTBoS2Q3NjZlZ2N3TkwzbU9CekExUmljbEM1MDFzTDY5M3RTRFNCZkU1MTRJLThOMk9LWjBvSnh0d0dmYWdxYWFpWWNoWDBGMVQ5QlVFVUttdGhFd2k3bzNOVlp6Z3dXaEh3UnpLYlpTbDZrRTRUUA?oc=5",
+      "published": "Mon, 02 Nov 2026 05:14:48 GMT"
     },
     {
       "title": "U.S. stock futures flat with Fed rate decision, megacap tech earnings on tap - Yahoo! Finance Canada",
@@ -201,40 +201,10 @@
       "published": "Mon, 26 Oct 2026 17:14:59 GMT"
     },
     {
-      "title": "S&P 500, Nasdaq End Third Straight Week Lower As Investors Move Away From Tech, AI — AMZN, INTC, LLY, RBLX In Focus - TradingView",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSVpGMjlLV0Z4aTBzZ25OaEJvV2NJNW1RcUNDWkxOTTFubzBTX2NHLWgzc2xUWFZfS01DWHB5MkstaThLM2dFUmpITzViSERocjEwOGhvNnd0Um95RUh1dG9pRUxCUVcyNW5rRFgxcTVwLUtZX2VvRUhUVFk5RGZlQkE2Sk5lNldoYzFLWjhEQXZQSEVCOGhyOG93RmpOUVotbUJTZ185eFdBVVhPZmV2RUpaU1piWnRwZDNaWDVKZWVVMTE5MjZFNTRkZloxczN4c3FkUm0wR0JiNkJ6emtQYXNDZTBYbzI2MEVqVjNxUFRGTkRHU2QzMUJzakNzUQ?oc=5\" target=\"_blank\">S&P 500, Nasdaq End Third Straight Week Lower As Investors Move Away From Tech, AI — AMZN, INTC, LLY, RBLX In Focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSVpGMjlLV0Z4aTBzZ25OaEJvV2NJNW1RcUNDWkxOTTFubzBTX2NHLWgzc2xUWFZfS01DWHB5MkstaThLM2dFUmpITzViSERocjEwOGhvNnd0Um95RUh1dG9pRUxCUVcyNW5rRFgxcTVwLUtZX2VvRUhUVFk5RGZlQkE2Sk5lNldoYzFLWjhEQXZQSEVCOGhyOG93RmpOUVotbUJTZ185eFdBVVhPZmV2RUpaU1piWnRwZDNaWDVKZWVVMTE5MjZFNTRkZloxczN4c3FkUm0wR0JiNkJ6emtQYXNDZTBYbzI2MEVqVjNxUFRGTkRHU2QzMUJzakNzUQ?oc=5",
-      "published": "Sat, 31 Oct 2026 00:05:39 GMT"
-    },
-    {
-      "title": "Nasdaq futures rise as SK Hynix sparks chips rally; Fed decision, earnings ahead By Investing.com - Investing.com South Africa",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVEptampCZlBOc0tidWEzdUhSZW90U01fclJlQVhhTFZXQ2hxaXBrTU9NY21NeVZJSGpuV0VwX1hrcWxyb24xMFNhY08tTU5HVDU0aG5OZ1NKRW9XNGtmV1NzQ3lrcnhmcTM3aHpLbWdHMkRNWHBnUllOMkR2OWRaQzg4cTFLbmxCNFRpaGx4T2pUaUVkZlk0Wms2RG1KZS1mRWFOZm9yelQ0VHFkNkx4QnZOajdVSVdQOHp4QlBHTWRCTzdHdWI2cQ?oc=5\" target=\"_blank\">Nasdaq futures rise as SK Hynix sparks chips rally; Fed decision, earnings ahead By Investing.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com South Africa</font>",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVEptampCZlBOc0tidWEzdUhSZW90U01fclJlQVhhTFZXQ2hxaXBrTU9NY21NeVZJSGpuV0VwX1hrcWxyb24xMFNhY08tTU5HVDU0aG5OZ1NKRW9XNGtmV1NzQ3lrcnhmcTM3aHpLbWdHMkRNWHBnUllOMkR2OWRaQzg4cTFLbmxCNFRpaGx4T2pUaUVkZlk0Wms2RG1KZS1mRWFOZm9yelQ0VHFkNkx4QnZOajdVSVdQOHp4QlBHTWRCTzdHdWI2cQ?oc=5",
-      "published": "Wed, 28 Oct 2026 12:26:12 GMT"
-    },
-    {
-      "title": "Why tech volatility is rising ahead of mega-cap earnings - Finimize",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5iT3RmNVFzNGVxQXQ1UVhWZzZHeXVXWGNWckpMT2llVVFHT0R2U3Jna2VHcnIwYWFlMU1xRy12aXpheTJJbFM4NTA0QXowY0RhMU1SanpJT0tyc1ZZRDZkWWM3NldDdEhjNDhYd3B3S0lWdw?oc=5\" target=\"_blank\">Why tech volatility is rising ahead of mega-cap earnings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finimize</font>",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iT3RmNVFzNGVxQXQ1UVhWZzZHeXVXWGNWckpMT2llVVFHT0R2U3Jna2VHcnIwYWFlMU1xRy12aXpheTJJbFM4NTA0QXowY0RhMU1SanpJT0tyc1ZZRDZkWWM3NldDdEhjNDhYd3B3S0lWdw?oc=5",
-      "published": "Tue, 27 Oct 2026 01:56:16 GMT"
-    },
-    {
       "title": "Wall Street indexes fall, with Iran and earnings season in focus - Reuters",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOakxUc2hmUzNWRUJsczdpQTNsVHY4ZURqeFpTOEZkSFlGMk8zRFZxZHE5aHNIRUtTYzAwejgweG55eXNZQTc5S083Vm9HbGQ4T1E1S1RBbjcxQVJGdGFwcnNJM0pIbzRZZGtSV3hBQUZLSVp4V0pXUFRKMGZyZ0xqY0VIaHBtUjItQUY5dXgzREZYT0xUNWJJTkxlSUhrUS1FczhIYkV6VDJHQndKOFJJUm5zYy1OdVV3dVlUWGFrQjB2OGN0TUE?oc=5\" target=\"_blank\">Wall Street indexes fall, with Iran and earnings season in focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOakxUc2hmUzNWRUJsczdpQTNsVHY4ZURqeFpTOEZkSFlGMk8zRFZxZHE5aHNIRUtTYzAwejgweG55eXNZQTc5S083Vm9HbGQ4T1E1S1RBbjcxQVJGdGFwcnNJM0pIbzRZZGtSV3hBQUZLSVp4V0pXUFRKMGZyZ0xqY0VIaHBtUjItQUY5dXgzREZYT0xUNWJJTkxlSUhrUS1FczhIYkV6VDJHQndKOFJJUm5zYy1OdVV3dVlUWGFrQjB2OGN0TUE?oc=5",
       "published": "Mon, 20 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "title": "2026 Midyear Investment Outlook: In a Resilient Equity Market, Selectivity Matters - Lord, Abbett & Co LLC",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxNWjBkNUtVSGFMNXRnLXZMTUh6cnJBbnE0U0w5Z0RLU0hlNE1PV1ZxUi1faThnckRjS2VYUVBiWWpLUEJOSkcxcWFfd19ZelkyVFR4Y0N3bm5aYUQ5THVRcHhrZGo5TEtBSl9TbEZ6ZVpWTnR0Mzg5VXROdHcyYmd0UDNndEdhNERyOGs0a21XdnVWX3EwOXhMNmg3cndUN0pCXzVhd1NLeVdHTzZOUDRzcXEyUVF0a0N5SDc2eHI0ZlM1SDh5cnVTTGNVWXNUaEgzVzg3RkRpZmR3MXdKdzYwaXd0RDVta2hhYWlWZ3p2YnlSbG1rNUVPYjNuM1d2MVlVZ2c?oc=5\" target=\"_blank\">2026 Midyear Investment Outlook: In a Resilient Equity Market, Selectivity Matters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lord, Abbett & Co LLC</font>",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNWjBkNUtVSGFMNXRnLXZMTUh6cnJBbnE0U0w5Z0RLU0hlNE1PV1ZxUi1faThnckRjS2VYUVBiWWpLUEJOSkcxcWFfd19ZelkyVFR4Y0N3bm5aYUQ5THVRcHhrZGo5TEtBSl9TbEZ6ZVpWTnR0Mzg5VXROdHcyYmd0UDNndEdhNERyOGs0a21XdnVWX3EwOXhMNmg3cndUN0pCXzVhd1NLeVdHTzZOUDRzcXEyUVF0a0N5SDc2eHI0ZlM1SDh5cnVTTGNVWXNUaEgzVzg3RkRpZmR3MXdKdzYwaXd0RDVta2hhYWlWZ3p2YnlSbG1rNUVPYjNuM1d2MVlVZ2c?oc=5",
-      "published": "Thu, 04 Jun 2026 07:00:00 GMT"
-    },
-    {
-      "title": "Goldman’s Wilson picks two trades: US megacap tech and German fiscal winners - investingLive",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNd05sOWU0aUFuQUczdlFWMHluOXZURkJhU0ZUTlhiVzgwZ2ZxdERINWJvUmEwMkk4bW13bWxHSzVlUFFRbzVuSktIZTQ5QXAtZk42Q2NEZHo3TXZaMW54aW9uenhmbnlaSElJS0FZQnU2TVRYRGpEYjR0dlZaeW9ZZm1OaWI1WThWWERLNUxadXZsdWczRjZBbzl4YUQ2OTRETkdTNjRSQnVnQlNXUWc?oc=5\" target=\"_blank\">Goldman’s Wilson picks two trades: US megacap tech and German fiscal winners</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">investingLive</font>",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNd05sOWU0aUFuQUczdlFWMHluOXZURkJhU0ZUTlhiVzgwZ2ZxdERINWJvUmEwMkk4bW13bWxHSzVlUFFRbzVuSktIZTQ5QXAtZk42Q2NEZHo3TXZaMW54aW9uenhmbnlaSElJS0FZQnU2TVRYRGpEYjR0dlZaeW9ZZm1OaWI1WThWWERLNUxadXZsdWczRjZBbzl4YUQ2OTRETkdTNjRSQnVnQlNXUWc?oc=5",
-      "published": "Tue, 13 Oct 2026 07:00:00 GMT"
     },
     {
       "title": "Evercore's Top Strategist Says the Best Earnings Are Behind Us. He Still Wants You Buy Tech - 24/7 Wall St.",
@@ -243,10 +213,16 @@
       "published": "Tue, 18 Aug 2026 07:00:00 GMT"
     },
     {
-      "title": "United States Dollar Index struggles due to weak tech earnings - www.tmgm.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQQzNKTHMxTklBYmgyRXdXcWlGUVFqZWNOWVFkRTdBRHBYR3ZCSGpuV3hpTFNSOGdQd3VYblE0RkJWR1VpYWh2Yi0ya1UzX21KTmx6T2pKOXpTdWsta0duOXVqWTJYbmc4MGFXa2JfclA1TDNRNVJqUnZaa2U3Z1NoNlRTVGptU3JXUXI0V2x2aEFnSHhaSHBfWVMyLTc1NnRJWGNvSTdaWmJ0U2U4SWc2QzNDZUVBZmNlRmdheWlidlBfUHlwU0pn?oc=5\" target=\"_blank\">United States Dollar Index struggles due to weak tech earnings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">www.tmgm.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQzNKTHMxTklBYmgyRXdXcWlGUVFqZWNOWVFkRTdBRHBYR3ZCSGpuV3hpTFNSOGdQd3VYblE0RkJWR1VpYWh2Yi0ya1UzX21KTmx6T2pKOXpTdWsta0duOXVqWTJYbmc4MGFXa2JfclA1TDNRNVJqUnZaa2U3Z1NoNlRTVGptU3JXUXI0V2x2aEFnSHhaSHBfWVMyLTc1NnRJWGNvSTdaWmJ0U2U4SWc2QzNDZUVBZmNlRmdheWlidlBfUHlwU0pn?oc=5",
-      "published": "Fri, 23 Oct 2026 07:00:00 GMT"
+      "title": "‘All-In Wednesday’ to Test Stock Market Where ‘Everyone’s Long’ - Bloomberg.com",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQN3l6SXBlaEJENEp5YkNMM1FCbW9yZmpDb1g4UlJ3dkhEQWFRNnVQTW5YbmQ0MkpFWXJhTXNuMGVoVS1hODhNOHJUamdicVE2Q1ZGXzhkMjR0bVZsSWtZcjY1dUxqYW9jeEtDanQ4MkZjNE83WFN2aUlsX2drTFU0ZWk4R2F0SUdDLWN4aWVzcV84bk9kX1NIcjhBUWdzdTFoZVpVNC1JbU9pZlF3ZjNDYg?oc=5\" target=\"_blank\">‘All-In Wednesday’ to Test Stock Market Where ‘Everyone’s Long’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN3l6SXBlaEJENEp5YkNMM1FCbW9yZmpDb1g4UlJ3dkhEQWFRNnVQTW5YbmQ0MkpFWXJhTXNuMGVoVS1hODhNOHJUamdicVE2Q1ZGXzhkMjR0bVZsSWtZcjY1dUxqYW9jeEtDanQ4MkZjNE83WFN2aUlsX2drTFU0ZWk4R2F0SUdDLWN4aWVzcV84bk9kX1NIcjhBUWdzdTFoZVpVNC1JbU9pZlF3ZjNDYg?oc=5",
+      "published": "Wed, 29 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Tech Weekly: Mega-cap Earnings Dominate Narrow Trading Week - Investing News Network",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE15S1VOeWllRGE3MHN6eDU5SmwtS2tJSjJSbFVaNC1idkRwbWJzVV9mT29nbVJOQjJSR2xfRDN0cWpQZlBfLWZ0eWItNm5KSlAzQUlGQVA3ZGJYeXhwWDc4SndaR0FrRG8tS3RfNmNWVkRHeDEtcGc?oc=5\" target=\"_blank\">Tech Weekly: Mega-cap Earnings Dominate Narrow Trading Week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing News Network</font>",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15S1VOeWllRGE3MHN6eDU5SmwtS2tJSjJSbFVaNC1idkRwbWJzVV9mT29nbVJOQjJSR2xfRDN0cWpQZlBfLWZ0eWItNm5KSlAzQUlGQVA3ZGJYeXhwWDc4SndaR0FrRG8tS3RfNmNWVkRHeDEtcGc?oc=5",
+      "published": "Fri, 30 Jan 2026 08:00:00 GMT"
     },
     {
       "title": "Magnificent 7 results set to test broadening US stock market - Reuters",
@@ -255,22 +231,46 @@
       "published": "Wed, 29 Jul 2026 07:00:00 GMT"
     },
     {
-      "title": "US Equity Futures Rise as Mega-Cap Earnings Lift Tech, Oil Drops - Bloomberg.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOb2djLXJGVVBRTGNxRlQwVUhjZC05Ykdyb2ZZdWlOWGNGOTM4UWlFdlFFT1pZbHlfZnd6X3R2MW5aYU9weUhwQV9zcG9FOEZwZlV1NlUzRzF5TlB0SXBPeDllbVhfOFZlLUY0MGtuM3JaSEVQd1ZfQnBwNjAyRXdBR01lbHk2TW83bVdtRklhSUpxR1RuVjhfU2dVbzBtZ2NQS1l6YU5IeHdkN2w4cjV6a0NiRDM?oc=5\" target=\"_blank\">US Equity Futures Rise as Mega-Cap Earnings Lift Tech, Oil Drops</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOb2djLXJGVVBRTGNxRlQwVUhjZC05Ykdyb2ZZdWlOWGNGOTM4UWlFdlFFT1pZbHlfZnd6X3R2MW5aYU9weUhwQV9zcG9FOEZwZlV1NlUzRzF5TlB0SXBPeDllbVhfOFZlLUY0MGtuM3JaSEVQd1ZfQnBwNjAyRXdBR01lbHk2TW83bVdtRklhSUpxR1RuVjhfU2dVbzBtZ2NQS1l6YU5IeHdkN2w4cjV6a0NiRDM?oc=5",
-      "published": "Thu, 30 Apr 2026 07:00:00 GMT"
+      "title": "Mega-Cap Tech Still a Buy - BlackRock",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOZlJheHlHZnZybE1pNXQyWVN6NDVfMnpLWU5rR0YxYjZNOUprUmhoY3lnYUVSUDdiTFF0cVF0YXd0M1k2Y1dDbWZuRXpiTHcyOFVfbGJTOHUyeGh4bjljTXhTTi11RmZwVmFoYl9WUXVmN3p4RVF4YWVFM1JwSXNhcA?oc=5\" target=\"_blank\">Mega-Cap Tech Still a Buy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BlackRock</font>",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZlJheHlHZnZybE1pNXQyWVN6NDVfMnpLWU5rR0YxYjZNOUprUmhoY3lnYUVSUDdiTFF0cVF0YXd0M1k2Y1dDbWZuRXpiTHcyOFVfbGJTOHUyeGh4bjljTXhTTi11RmZwVmFoYl9WUXVmN3p4RVF4YWVFM1JwSXNhcA?oc=5",
+      "published": "Mon, 10 Nov 2025 08:00:00 GMT"
     },
     {
-      "title": "’Exceptionally strong’ U.S. earnings the driving force behind stock market rally - Yahoo! Finance Canada",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNU0pBdEcwWVlUREF0dFlFQVFmMG1pYTRWOFk0WXppaktxaUZWb3U4ZlRvdTdhN1NOMWlFOWV3N085SWZzSmhXX3hBbzBDY0lGUmpEa3g4VlAxOFZ5TUdxV1dNQVlGQTBPRzNHNm4wWFg3ekVaZG5GNWV2cW1XYVdjdmNwSGc1NGtkeVNYUWd1Z19fUQ?oc=5\" target=\"_blank\">’Exceptionally strong’ U.S. earnings the driving force behind stock market rally</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo! Finance Canada</font>",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU0pBdEcwWVlUREF0dFlFQVFmMG1pYTRWOFk0WXppaktxaUZWb3U4ZlRvdTdhN1NOMWlFOWV3N085SWZzSmhXX3hBbzBDY0lGUmpEa3g4VlAxOFZ5TUdxV1dNQVlGQTBPRzNHNm4wWFg3ekVaZG5GNWV2cW1XYVdjdmNwSGc1NGtkeVNYUWd1Z19fUQ?oc=5",
-      "published": "Mon, 04 May 2026 07:00:00 GMT"
+      "title": "JPMorgan and Goldman See US Earnings Broadening Beyond Big Tech - Bloomberg.com",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQV3pJdFJRcDFOc3hUSF9CcTRZNTFsMHAxaGNvTWpzdF9qTFdCeVIyMzRuZUlDZWlobFNpLThpSkoweVM5dGNrN040N2p6VWpfakhUWFRHRmFvQzdqSDJKQnppRFBybjhBUXVyT2g0QU5yV0QyT1puOVlCUWNReV9SeFlBQkEzVDRwQlBOekIzVEl6Y0ZBVEJIbmVzbU9iNTF0UzBXV1VBOVQ2aEdPU1Aw?oc=5\" target=\"_blank\">JPMorgan and Goldman See US Earnings Broadening Beyond Big Tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV3pJdFJRcDFOc3hUSF9CcTRZNTFsMHAxaGNvTWpzdF9qTFdCeVIyMzRuZUlDZWlobFNpLThpSkoweVM5dGNrN040N2p6VWpfakhUWFRHRmFvQzdqSDJKQnppRFBybjhBUXVyT2g0QU5yV0QyT1puOVlCUWNReV9SeFlBQkEzVDRwQlBOekIzVEl6Y0ZBVEJIbmVzbU9iNTF0UzBXV1VBOVQ2aEdPU1Aw?oc=5",
+      "published": "Mon, 26 Jan 2026 08:00:00 GMT"
     },
     {
       "title": "US megacap results to test market's tech trade, profit optimism - Reuters",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQZzduc1ZPUEpHaDQ4ZGcza0hsWlVWd0lnNU1yaW5YUVZFc29pOUJGUzVYVTluZ3FmdjZzUmtMWm9fQmV2MEl0eWpQdGZMVEwzbklYdFpyNjhVTURxbndwdlBYR200STZ6Rm1EcXdlZlZrWFFKN2g0ZTQyRlR1YnpHSnZTQWF6QlNNYkFPcjl2WV9NWVBFVnhvdDljYnRCakJDNmx3Sm1B?oc=5\" target=\"_blank\">US megacap results to test market's tech trade, profit optimism</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZzduc1ZPUEpHaDQ4ZGcza0hsWlVWd0lnNU1yaW5YUVZFc29pOUJGUzVYVTluZ3FmdjZzUmtMWm9fQmV2MEl0eWpQdGZMVEwzbklYdFpyNjhVTURxbndwdlBYR200STZ6Rm1EcXdlZlZrWFFKN2g0ZTQyRlR1YnpHSnZTQWF6QlNNYkFPcjl2WV9NWVBFVnhvdDljYnRCakJDNmx3Sm1B?oc=5",
       "published": "Wed, 28 Jan 2026 08:00:00 GMT"
+    },
+    {
+      "title": "Daily: Tech earnings face a market test - UBS",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOSGJMU2pZTE9hY0dDci02RWJ1NG5ZcWpGWFJrb2VIalJmVlVkYTJ5Y0JBcVVhbC1RVGhkMnNnUFEwMkFZM2hNV0tEUGN2TWZkUVI4Zmp3TGtTZ1N4V0wtd21BTnNocFkxZFNsOWIwUGZZSjViTTdLYXJFTXR2aTIteVNtOXdMTjRNNVBaMnMwT0NKR19OMEtEYkJzVkRBZEM5RElvWTAtNl9kMTJzMU14ZW1ZWmROQjRuMlExVUpTZw?oc=5\" target=\"_blank\">Daily: Tech earnings face a market test</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UBS</font>",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSGJMU2pZTE9hY0dDci02RWJ1NG5ZcWpGWFJrb2VIalJmVlVkYTJ5Y0JBcVVhbC1RVGhkMnNnUFEwMkFZM2hNV0tEUGN2TWZkUVI4Zmp3TGtTZ1N4V0wtd21BTnNocFkxZFNsOWIwUGZZSjViTTdLYXJFTXR2aTIteVNtOXdMTjRNNVBaMnMwT0NKR19OMEtEYkJzVkRBZEM5RElvWTAtNl9kMTJzMU14ZW1ZWmROQjRuMlExVUpTZw?oc=5",
+      "published": "Wed, 29 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Hidden Risks Beneath the Bullish Narrative - Morgan Stanley",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNNzZ6Wldrc1hMMWFkejJMY2p4UmZvWTlDSTF3eEVDaW45RXRIek1SWS1IMHBMblJqY05IUDNuZFFFVlpUNkJDeWhTVkNENTBYakVYLUxuSmo0ZWFFYUxzbUZtRW1zNXltVE8yQk5yaGdCM0I5dWJYaDFMNk9ZZ25HclNBZHV3WVBMaUlYU3FnMA?oc=5\" target=\"_blank\">Hidden Risks Beneath the Bullish Narrative</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Morgan Stanley</font>",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNzZ6Wldrc1hMMWFkejJMY2p4UmZvWTlDSTF3eEVDaW45RXRIek1SWS1IMHBMblJqY05IUDNuZFFFVlpUNkJDeWhTVkNENTBYakVYLUxuSmo0ZWFFYUxzbUZtRW1zNXltVE8yQk5yaGdCM0I5dWJYaDFMNk9ZZ25HclNBZHV3WVBMaUlYU3FnMA?oc=5",
+      "published": "Wed, 20 Aug 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Weekly market commentary - BlackRock",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5\" target=\"_blank\">Weekly market commentary</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BlackRock</font>",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+      "published": "Mon, 02 Nov 2026 08:00:00 GMT"
+    },
+    {
+      "title": "Mega-Cap Exposure & S&P 500 Concentration - BlackRock",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOdExrWFBvZzYybzBCSXAyTVpIdThnQkppWDJvWVRUWFV6c0NZeWxkRmtXLXYxR0J2NEwySzhRclV5c0U5eDUxOEVKUDB3QnFQekw4OWtLOXdEQXZjcFA0Y3JTdzNobWpkTkg2MlhabHZ4NkFLU2dyVEczWkxDc1psTmV0VlBrUW5CNTV0RHlwQVFHbjZIUnUybA?oc=5\" target=\"_blank\">Mega-Cap Exposure & S&P 500 Concentration</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BlackRock</font>",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdExrWFBvZzYybzBCSXAyTVpIdThnQkppWDJvWVRUWFV6c0NZeWxkRmtXLXYxR0J2NEwySzhRclV5c0U5eDUxOEVKUDB3QnFQekw4OWtLOXdEQXZjcFA0Y3JTdzNobWpkTkg2MlhabHZ4NkFLU2dyVEczWkxDc1psTmV0VlBrUW5CNTV0RHlwQVFHbjZIUnUybA?oc=5",
+      "published": "Thu, 30 Apr 2026 07:00:00 GMT"
     }
   ]
 }

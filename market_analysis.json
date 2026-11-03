@@ -1,23 +1,17 @@
 {
-  "report_date": "2026-11-03",
+  "report_date": "2026-11-04",
   "drivers": [
     {
-      "title": "ハイテク株の調整と決算への警戒",
-      "detail": "主要ハイテク企業の四半期決算発表を控え、投資家の間で不透明感が高まっている。AIブームへの懸念が根強く残る中、相場全体が不安定な値動きとなっており、市場はさらなるボラティリティの上昇に備えている状況です。",
-      "source_title": "Nasdaq retreats following a red October, with elections and big tech earnings ahead",
-      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMDdhMGR4NHJxT2NtNEw3dlJXeWJuQ0VwX2J3Q0ZoQWNCMG9XYjlSZ1VlOTlhQkhCNS1yWDRjaEo5YXAyWEJPN2hreENpaDgyLWk2UXpObVNHVDZBdl9TOGgta1dwNzhmN3VEMU5uYkZ1YzRoSnNnalRzN3FRMjUtRXpiTmVWalBfVzhrUXNpNng?oc=5"
+      "title": "中間選挙控えハイテク株に買い戻し",
+      "detail": "米国の中間選挙の結果発表を控え、直近で下落していたAI関連銘柄や大型ハイテク株に押し目買いやショートカバーの動きが広がり、ナスダック総合指数の上昇を支える要因となりました。",
+      "source_title": "Nasdaq ends higher as AI heavyweights rebound ahead of midterm results",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5"
     },
     {
-      "title": "Apple株の軟調な動きが重石に",
-      "detail": "まもなく予定されている四半期決算の発表を前に、Apple株が下落傾向を示した。これがS&P 500指数の押し下げ要因の一つとなり、大型ハイテク株全体に対する投資家の慎重姿勢を浮き彫りにしています。",
-      "source_title": "S&P 500 ends down; Apple dips ahead of quarterly report",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnVDQzd0LTF3Vi1BMnJDLWpGaHNIMlJVTDNnVmplMzZnVjRxRTZUUTRsQkVvZ21EN3lXMzA4ZDJnOTQwc01ld2tqT1pGZVN6VmpuVWpzLVVMUU1qcDdnRFdEQUZoM0l6Ym9NYnhfWDctWkZnSC1fLUk0RGxtUmd3WU9zLXdhcTdGTkJvcUxaazZKZEliVjl3bVBfZldDajJMOXZtVkx0NVI4YWlwMkVFbXpMR0ZGQW9wOWxEcTM3QThSdk1fb2c?oc=5"
-    },
-    {
-      "title": "Microsoft株、詐欺懸念で下落",
-      "detail": "Microsoftに関連した新たな詐欺の発生が報じられ、同社の株価が下落した。個別企業の材料が悪材料視され、AI関連銘柄を中心とした市場のボラティリティ拡大に拍車をかける一因となった可能性がある。",
-      "source_title": "Microsoft Stock (NASDAQ:MSFT) Slips as New Scam Emerges",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ0QzLVJOaDZOaHlZNUxLczVHYmNpMTNPcERZb0FUQzdYcUYtajFjMkh5Mldvb3czZU16Wlh4a2pvWnRabVpLc1Iwa1h1MVMzRTRDeC1zU19IMDNmOWxoeFl2dk1zN0sxWGJNcGQ3bEVKRFV1cVY2NmdZZW1WRjR6SGFfbEhSWVJuSnc?oc=5"
+      "title": "半導体関連銘柄が市場全体の反発を主導",
+      "detail": "ナスダック指数の3日続落からの反発に際し、AI関連の需要を支える半導体銘柄が力強く買い戻されました。個別企業のポジティブな動向が市場全体のセンチメント改善に寄与した可能性があります。",
+      "source_title": "Nvidia and other Big Tech stocks lift as Wall Street waits on midterms",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOWo1N0tBZHVaUnVHSWZzVnNrQVQ5Z2FaU0x0LTB6b2FjUFlUMDdYTm8tMGFMUG9iWmh3MlFQT0dBVVRNMGdsT2JybXFHZUM3cXZTdEFJU0xHbVN4ejdmd2JDZVlPelEzc0FDc0V2blg2SllrVERjRzRLZjQwS1NlYTR1X3FfVXFoUDZWUHlMUzRTOFZkWFEwYzQ0d3JxZFNCS1BXd3Zn?oc=5"
     }
   ]
 }
