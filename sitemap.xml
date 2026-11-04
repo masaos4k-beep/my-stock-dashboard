@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- トップページ -->
+    <url>
+        <loc>https://www.beyondworklife.com/</loc>
+    </url>
+
+    <!-- 記事一覧 -->
+    <url>
+        <loc>https://www.beyondworklife.com/articles.html</loc>
+    </url>
+
+    <!-- 記事ページ -->
+    <url>
+        <loc>https://www.beyondworklife.com/articles/early-retirement-life-design.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/articles/stock_rally_conditions_ready.html</loc>
+    </url>
+
+    <!-- 市場分析 -->
+    <url>
+        <loc>https://www.beyondworklife.com/market_report.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/market_dashboard.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/market_dashboard_live.html</loc>
+    </url>
+
+    <!-- 主要指数分析 -->
+    <url>
+        <loc>https://www.beyondworklife.com/3indices_drawdown_report.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/3indices_drawdown_chart.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/3indices_eps_price_report.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/3indices_eps_price_chart.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/3indices_per_chart_report.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/3indices_per_chart_chart.html</loc>
+    </url>
+
+    <!-- S&P500分析 -->
+    <url>
+        <loc>https://www.beyondworklife.com/SP500_2026_target_report.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/SP500_2026_target.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/sp500_drawdown_style.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/sp500_eps_price_updated.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/sp500_per_chart_full.html</loc>
+    </url>
+
+    <!-- AIバリューチェーン分析 -->
+    <url>
+        <loc>https://www.beyondworklife.com/ai_value_chain_analysis_report.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/ai_value_chain_analysis.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/ai_value_chain_heatmap_report.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/ai_value_chain_heatmap.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/ai_value_chain.heatmap.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/ai_value_chain_global_map_report.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/ai_value_chain_global_map.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/ai_value_chain_category_ytd.html</loc>
+    </url>
+
+    <!-- 年初来指数比較 -->
+    <url>
+        <loc>https://www.beyondworklife.com/ytd_Index_comparison_report.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/ytd_Index_comparison.html</loc>
+    </url>
+    <url>
+        <loc>https://www.beyondworklife.com/ytd_animation_vertical.html</loc>
+    </url>
+
+</urlset>
