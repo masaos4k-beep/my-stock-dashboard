@@ -1,17 +1,23 @@
 {
-  "report_date": "2026-11-04",
+  "report_date": "2026-11-05",
   "drivers": [
     {
-      "title": "中間選挙控えハイテク株に買い戻し",
-      "detail": "米国の中間選挙の結果発表を控え、直近で下落していたAI関連銘柄や大型ハイテク株に押し目買いやショートカバーの動きが広がり、ナスダック総合指数の上昇を支える要因となりました。",
-      "source_title": "Nasdaq ends higher as AI heavyweights rebound ahead of midterm results",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5"
+      "title": "米中間選挙の結果で市場の不透明感が後退",
+      "detail": "米中間選挙において民主党が上下両院で勝利したことを受け、政治的な不透明感が払拭されたとして市場が好感した。リスクオンの動きが強まり、米国株市場全体が上昇する要因となった可能性がある。",
+      "source_title": "Stocks surge as ‘blue tsunami’ puts political uncertainty to rest",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd3ZnZlRJQm9TTnFUd19yM3hZeDFieUkwLW1lVHpSV1R4MW8zbmlTcEQyODA4bzZVS2o5bjFIdGVJNDZjZ2h4S0RiaTgtSHBEX216Y0czWGtfeERWY2REODZNUEhyclhqc1pCUTNfeUkweVAxdVNteXZmVTBNc2x0ZEcxZjBFSTl5VmdrVjNzVQ?oc=5"
     },
     {
-      "title": "半導体関連銘柄が市場全体の反発を主導",
-      "detail": "ナスダック指数の3日続落からの反発に際し、AI関連の需要を支える半導体銘柄が力強く買い戻されました。個別企業のポジティブな動向が市場全体のセンチメント改善に寄与した可能性があります。",
-      "source_title": "Nvidia and other Big Tech stocks lift as Wall Street waits on midterms",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOWo1N0tBZHVaUnVHSWZzVnNrQVQ5Z2FaU0x0LTB6b2FjUFlUMDdYTm8tMGFMUG9iWmh3MlFQT0dBVVRNMGdsT2JybXFHZUM3cXZTdEFJU0xHbVN4ejdmd2JDZVlPelEzc0FDc0V2blg2SllrVERjRzRLZjQwS1NlYTR1X3FfVXFoUDZWUHlMUzRTOFZkWFEwYzQ0d3JxZFNCS1BXd3Zn?oc=5"
+      "title": "データセンター株が軟調に推移する展開",
+      "detail": "民主党の勝利による規制強化やAI支出に対する市場の懸念が再燃したことで、半導体関連やデータセンター関連銘柄の一部が下落した。AIインフラ銘柄への重石となった示唆がある。",
+      "source_title": "Wall Street ends higher after Democrats win Congress; data center stocks tumble",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWpBY1VHMFd5a2tJXzM1RFFFQTl5Y09aVDgza095UkJKVzNnQ3F4VW1pMzBEazJKMGhlS21zUEdCLXJPOVhWdXRnZmlLRHliMDdqYmt2b2ZWYk5FeW85VnBSalpRd1E5b3BVSUZDU2VLMUNiQm41YWw1SUgxV2dWaUFZUkI2MllhY0Z5ZkZHcWNuQmdCaHBKbVRhck1meTRz?oc=5"
+    },
+    {
+      "title": "大型ハイテク株で業績への期待が交錯",
+      "detail": "AMDの好決算を受けたAI成長への期待感と、規制環境への警戒感が重なり、大手テック銘柄間では株価の動きが分かれた。投資家はAI支出の持続可能性について評価を見直している。",
+      "source_title": "Tech, AI Stocks Split After Democratic Sweep: Microsoft Jumps, Tesla and Nvidia Tank",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3RjYmxmdThlTVNiWTJuNDJjMklvaGlkdXBTTTVINm93enBGM2dKWHJQOE5YOGxSOWxuSUZLX0NmbHEzTE5YWk5qX0puRVRLNFZXM3pDWG14ZWhfMmt1WkYza25aSm5QTm1JalJpUTVfS2VaSEp4ME1pbnJ6Yk5nZnFpY3BmUzdfZjV0N2dEdEdfVzVRUUE?oc=5"
     }
   ]
 }
