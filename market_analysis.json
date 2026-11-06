@@ -1,23 +1,23 @@
 {
-  "report_date": "2026-11-05",
+  "report_date": "2026-11-07",
   "drivers": [
     {
-      "title": "米中間選挙の結果で市場の不透明感が後退",
-      "detail": "米中間選挙において民主党が上下両院で勝利したことを受け、政治的な不透明感が払拭されたとして市場が好感した。リスクオンの動きが強まり、米国株市場全体が上昇する要因となった可能性がある。",
-      "source_title": "Stocks surge as ‘blue tsunami’ puts political uncertainty to rest",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd3ZnZlRJQm9TTnFUd19yM3hZeDFieUkwLW1lVHpSV1R4MW8zbmlTcEQyODA4bzZVS2o5bjFIdGVJNDZjZ2h4S0RiaTgtSHBEX216Y0czWGtfeERWY2REODZNUEhyclhqc1pCUTNfeUkweVAxdVNteXZmVTBNc2x0ZEcxZjBFSTl5VmdrVjNzVQ?oc=5"
+      "title": "米中間選挙後の政権交代がAI銘柄に影",
+      "detail": "民主党の勝利という中間選挙の結果を受け、AI関連規制の強化を懸念する投資家が急増しました。この不透明感により、大手ハイテク株から資金を引き揚げる動きが加速し、市場全体で多額の時価総額が失われる事態となりました。",
+      "source_title": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZEdCMFRaekZrTFZVU3BYa25BTThUTTk2ZHJZWnFhLW03aUJlWGFxcG8tbFNaYlFrTlFzSXlqSDhtdGQ3c3VBUG42Mmg5TW9VWnI0X2FvMlBXcVZCMHJXT3hhMHduS0NiQXRhQ3dRTF9wemdLeXVuOVdfTEhnMFdQSFpZalJfQQ?oc=5"
     },
     {
-      "title": "データセンター株が軟調に推移する展開",
-      "detail": "民主党の勝利による規制強化やAI支出に対する市場の懸念が再燃したことで、半導体関連やデータセンター関連銘柄の一部が下落した。AIインフラ銘柄への重石となった示唆がある。",
-      "source_title": "Wall Street ends higher after Democrats win Congress; data center stocks tumble",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWpBY1VHMFd5a2tJXzM1RFFFQTl5Y09aVDgza095UkJKVzNnQ3F4VW1pMzBEazJKMGhlS21zUEdCLXJPOVhWdXRnZmlLRHliMDdqYmt2b2ZWYk5FeW85VnBSalpRd1E5b3BVSUZDU2VLMUNiQm41YWw1SUgxV2dWaUFZUkI2MllhY0Z5ZkZHcWNuQmdCaHBKbVRhck1meTRz?oc=5"
+      "title": "ハイテク株の急落でAIバブル懸念が浮上",
+      "detail": "中間選挙後の市場混乱により、AI関連株の強気相場が崩れ、2020年以来最大規模の急落を記録しました。AIに対する巨額の投資が継続できるかという資金繰りの懸念が投資家の心理を冷やし、株価下落を増幅させる結果となりました。",
+      "source_title": "Stocks plunge as election outcome and AI worries crush tech shares",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOTNfLWhKbG1YQW94UmZzUGpiYlNJUlNhZWstcGdKNE9mVnRlWDhTcE1FSW9iZkpwTDI3S1R2QWNoTFhndEN4bFpwMXQwQ1paZDlNbXNxSlBRNVh5MlVKOVNKMHowZVNiN00xX2FfcHVyeFBIVzhaVF96azRNWE5VZ1VndXItWmdwelE?oc=5"
     },
     {
-      "title": "大型ハイテク株で業績への期待が交錯",
-      "detail": "AMDの好決算を受けたAI成長への期待感と、規制環境への警戒感が重なり、大手テック銘柄間では株価の動きが分かれた。投資家はAI支出の持続可能性について評価を見直している。",
-      "source_title": "Tech, AI Stocks Split After Democratic Sweep: Microsoft Jumps, Tesla and Nvidia Tank",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3RjYmxmdThlTVNiWTJuNDJjMklvaGlkdXBTTTVINm93enBGM2dKWHJQOE5YOGxSOWxuSUZLX0NmbHEzTE5YWk5qX0puRVRLNFZXM3pDWG14ZWhfMmt1WkYza25aSm5QTm1JalJpUTVfS2VaSEp4ME1pbnJ6Yk5nZnFpY3BmUzdfZjV0N2dEdEdfVzVRUUE?oc=5"
+      "title": "押し目買いの動きで株価乱高下に一服感",
+      "detail": "週後半にかけて急激な下落が続いたものの、割安感を見出した投資家による押し目買いが入り、市場は落ち着きを取り戻す兆しを見せています。市場の過度な悲観論が緩和し、反発する可能性を示唆する動きが出ています。",
+      "source_title": "US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX2RxUlFvNmxoUFFUd2pmeUk3MTJoSkNvTkxwOS1TUlNFd1hDZkNZZ0huMHIxQXhDeWtpWVdVcmJGcDQwdVcwMFJTaHg2Q040OTBCZm5Ja2doTnpQcTh1OFFSdDNucHFXVzFRR2EyTEJfa3BRWDFUY19lcFNNXzRmR2F2UEw4dlVOUW1xSnFqNmI1Wmtr?oc=5"
     }
   ]
 }
