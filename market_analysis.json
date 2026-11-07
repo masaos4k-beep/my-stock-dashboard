@@ -1,23 +1,17 @@
 {
-  "report_date": "2026-11-07",
+  "report_date": "2026-11-08",
   "drivers": [
     {
-      "title": "米中間選挙後の政権交代がAI銘柄に影",
-      "detail": "民主党の勝利という中間選挙の結果を受け、AI関連規制の強化を懸念する投資家が急増しました。この不透明感により、大手ハイテク株から資金を引き揚げる動きが加速し、市場全体で多額の時価総額が失われる事態となりました。",
-      "source_title": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZEdCMFRaekZrTFZVU3BYa25BTThUTTk2ZHJZWnFhLW03aUJlWGFxcG8tbFNaYlFrTlFzSXlqSDhtdGQ3c3VBUG42Mmg5TW9VWnI0X2FvMlBXcVZCMHJXT3hhMHduS0NiQXRhQ3dRTF9wemdLeXVuOVdfTEhnMFdQSFpZalJfQQ?oc=5"
+      "title": "選挙後の政策懸念とAI減速への警戒",
+      "detail": "米中間選挙の結果を受け、民主党の躍進が今後のハイテク規制やAI関連投資への影響を与えるとの懸念が浮上した。市場ではAIブームの持続性に疑念が生じ、NASDAQが一時19カ月ぶりの大幅な下落を記録するなど、ハイテク株を中心に記録的な売りが加速した。",
+      "source_title": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMWdpd3MxX005Y1RwQUo5WkxPVzlNRGpxMGJPcWV4WHd6TWh4a1Y5YUdrLXhYTEplalpXSE03S0NqX0xLcHIwbzBOdjI1VEJGdVdmSDlhejNMd2lnb3lJQTBtT21yVkxSTGh3RFFGUXZ5UTRPa0tQSUZZRjJhbFBFTkJxWjkzaTFhanpScXU1Y0lYdElWNVJzMDB2UHVjSEZUZUJUdHpQSWd0c2IzX2ZhMGQ0dlluRU1OekpvOVVWN2g1aUxmTVZhUEVWLVA?oc=5"
     },
     {
-      "title": "ハイテク株の急落でAIバブル懸念が浮上",
-      "detail": "中間選挙後の市場混乱により、AI関連株の強気相場が崩れ、2020年以来最大規模の急落を記録しました。AIに対する巨額の投資が継続できるかという資金繰りの懸念が投資家の心理を冷やし、株価下落を増幅させる結果となりました。",
-      "source_title": "Stocks plunge as election outcome and AI worries crush tech shares",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOTNfLWhKbG1YQW94UmZzUGpiYlNJUlNhZWstcGdKNE9mVnRlWDhTcE1FSW9iZkpwTDI3S1R2QWNoTFhndEN4bFpwMXQwQ1paZDlNbXNxSlBRNVh5MlVKOVNKMHowZVNiN00xX2FfcHVyeFBIVzhaVF96azRNWE5VZ1VndXItWmdwelE?oc=5"
-    },
-    {
-      "title": "押し目買いの動きで株価乱高下に一服感",
-      "detail": "週後半にかけて急激な下落が続いたものの、割安感を見出した投資家による押し目買いが入り、市場は落ち着きを取り戻す兆しを見せています。市場の過度な悲観論が緩和し、反発する可能性を示唆する動きが出ています。",
-      "source_title": "US Stock Rout Pauses as Dip Buyers Offer Support: Markets Wrap",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX2RxUlFvNmxoUFFUd2pmeUk3MTJoSkNvTkxwOS1TUlNFd1hDZkNZZ0huMHIxQXhDeWtpWVdVcmJGcDQwdVcwMFJTaHg2Q040OTBCZm5Ja2doTnpQcTh1OFFSdDNucHFXVzFRR2EyTEJfa3BRWDFUY19lcFNNXzRmR2F2UEw4dlVOUW1xSnFqNmI1Wmtr?oc=5"
+      "title": "ハイテク株の急落で時価総額2.5兆ドル消失",
+      "detail": "AIへの過度な期待に対する現実的な見直しが強まり、米国株市場ではハイテク株の急激な売りが発生した。時価総額ベースで約2.5兆ドルが失われる異例の下げとなり、Magnificent 7をはじめとする大型ハイテク株が市場全体の押し下げ要因として機能した。",
+      "source_title": "Massive tech sell-off wipes $2.5 trillion from the stock market",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRNUYxQ2c5VUJvNkd2RExjdVJ1YU5UNmpYYzh2dzgzT2FOZFFaNmlpd0ZUSVViTzZkRG91RmRad3MxNXdncmt4aFFuR2U5di11dmlYSG9hODllU2RNZXFTUHR1UlhpYzhESlpfMS15OVdETTNP?oc=5"
     }
   ]
 }
