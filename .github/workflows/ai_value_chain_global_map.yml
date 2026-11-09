@@ -2,9 +2,7 @@ name: AIバリューチェーン・グローバルマップ生成
 
 on:
   workflow_dispatch:
-  # 毎日、日本時間の午前6時に実行（GitHub ActionsはUTC）
-  schedule:
-    - cron: "0 21 * * *"
+
 
 permissions:
   contents: write
