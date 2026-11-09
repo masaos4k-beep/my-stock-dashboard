@@ -1,23 +1,23 @@
 {
-  "report_date": "2026-11-09",
+  "report_date": "2026-11-10",
   "drivers": [
     {
-      "title": "米中間選挙後のAI規制懸念がハイテク株を圧迫",
-      "detail": "米中間選挙を経て、AI関連企業に対する規制強化の可能性が浮上したことが市場の懸念を呼び、ハイテク株全体の急落を招く主要な要因となりました。AI成長への持続性に対する疑念が投資家心理を冷え込ませています。",
-      "source_title": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZEdCMFRaekZrTFZVU3BYa25BTThUTTk2ZHJZWnFhLW03aUJlWGFxcG8tbFNaYlFrTlFzSXlqSDhtdGQ3c3VBUG42Mmg5TW9VWnI0X2FvMlBXcVZCMHJXT3hhMHduS0NiQXRhQ3dRTF9wemdLeXVuOVdfTEhnMFdQSFpZalJfQQ?oc=5"
+      "title": "NVIDIA CEOの調査による株価下落",
+      "detail": "NVIDIAのジェンスン・フアンCEOがスパイ疑惑に関連する不倫関係で調査を受けていることが嫌気され、同社株は急落しました。AI市場のリーダー企業の不祥事は投資家心理に影を落としています。",
+      "source_title": "Stock Market Today, Nov. 9: Nvidia Stock Plunges 4% on Jensen Huang Investigation as Nasdaq Surges Nearly 3%",
+      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObm1vbkY2NkhIYkc3S1VjUVF5T3hsZjlzb2ZFMlk2NGRtSVJqdkdCRDk1ZGJzTkVRX0pzUllucGdfUTN3aWFPVTdNcFk1RU52eF9YSDdzaS0xd2NHSWhCYzgya2k1VFlLdnB1TEQwUVBQUmRnZ1RueGg4ZlNTYXdYdnFnbXFmYWlUckNuaGJZSUU1aTBsQmJxWmdVRFJsdVR6NnRYYzFYMXh3Y1hteElHeENGaE1vUXFHUXpxUEYzazZlYk9CeHp2M0ZueWdMdC1qS2dfLWszdEZkN1dOS1hMenZRcFc3RDBxbjdCbzhjQlBVbFl0MXJv?oc=5"
     },
     {
-      "title": "システム運用ファンドによる大規模な売り",
-      "detail": "市場の一部では、高速取引を行うシステマティック・ファンドがハイテク株の広範な売却を主導したとの分析が示されています。これらファンドの機械的な売却行動が、株価下落を加速させ、市場に動揺を与えました。",
-      "source_title": "Fast-Money Systematic Funds Stoked $2.3 Trillion Tech-Stock Rout",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSnpxTy02U2otSEdDYVZBbjZycUR4N3NLUDBQM0x0bDFzcW9MTTRBdXNkS0ZFY3Y1UzNDb0VqaFdyZHNjZXlLSHRxbHJhdkxrWFNEalBLQklzNi1VdXRVbV9VTXU0SWdYUFNVZU9helRJLTl3Z3RaUXp1SUx6bFBqVlZlZ0FGVGNlMWt4VFdOaExXY2ptNFJxY3NvT1o2YTk0NWJZLWxNREVZWVpkX2pyMktwdk8?oc=5"
+      "title": "原油価格の下落がインフレ懸念緩和",
+      "detail": "原油価格が下落したことで、インフレ圧力の緩和が意識されました。これにより市場のセンチメントが改善し、NVIDIAを除くハイテク株を中心に押し目買いが入り、市場全体は大きく上昇しました。",
+      "source_title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNldnOF8ybWVHdkNyWXAxOG1mSFRERGpWNlpaM2N6R1ctTUk1MDZEWlR4aEtWZ1RlT092T1NtaVBfbDRtWmItVi01TWpzV3BIdTRDUDJUblRwSkFSZDl6S0J1NE42bzE4bEsxVGMyeURKR3lTbmlYNTRLQnM2TmFCQ1JUZkJ1aFppVURGQjkxSk1PVWtCcEF1Sy12SlB5a3UyaW5lVkhkMWZtTktaclE?oc=5"
     },
     {
-      "title": "AIデータセンター投資は消耗戦との指摘",
-      "detail": "データセンターの構築コストが「消耗戦」の様相を呈しているとの懸念が浮上し、AI関連銘柄の重石となりました。持続的な高コスト環境が、今後のAI投資収益率に対する不透明感を高めています。",
-      "source_title": "AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'",
-      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3NEIxWUZxNkZ1dHpkTlNSdWh3MTJSSTRNNzEyZmRBaTVPX05jVGlmQ2pkWVNaSXRlRjZiVXNkXy1NVjdZMnZ3NnlVNkFpVFc5Y2JSTUpGb1BHakFudjRQR1JwVGJXWmVkT3J2S2loNzl6eGFKTXBz0gF8QVVfeXFMTjhpMTg1Z042YVRVZU9RQVM5NUtRT1owMUU5cFJvVmd6TG9TUEtZSnY0dXJiQUdIVWxodGcxa2ZzYkNrRWs2ZUpBNTA3aEt0LTVMZHlBV0d3T3NzWHNlcnNiczBqOVpzeGJITEI0QU5Id2s3b3pEZVYxcVdwWg?oc=5"
+      "title": "ハイテク株の買い戻しとAI関連の堅調",
+      "detail": "NVIDIAが独自に下落する一方で、AI関連の半導体銘柄などには買いが入り、ハイテク株全般が押し目買いで上昇しました。前週までの売りに対する過熱感の剥落が市場の回復を後押ししました。",
+      "source_title": "Stock Indexes Sharply Higher as Tech Stocks Rally and Crude Oil Falls",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR19LN3lpRkRibGs3RWZIY3pycDRJSHB3ZzYtSVVTWE8zZnhKZjlDaWk0MkVxN0NXRFVVaEFfeXcySEJOemVaeEF3dnJWRjlVR1B2QnR2UlktaGVReXpQVG14cnctTGNMcFFNZ0dBLUh6dTFGQ1pLTHM1TnFLaDBsYjVsNkhGc2NhM0NsUXRJc1V5VHVqdmt6bzZQY0pvcnJLR3FmeTNYYVI1RWFKRy16UVY3VQ?oc=5"
     }
   ]
 }
