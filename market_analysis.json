@@ -1,23 +1,17 @@
 {
-  "report_date": "2026-11-10",
+  "report_date": "2026-11-12",
   "drivers": [
     {
-      "title": "NVIDIA CEOの調査による株価下落",
-      "detail": "NVIDIAのジェンスン・フアンCEOがスパイ疑惑に関連する不倫関係で調査を受けていることが嫌気され、同社株は急落しました。AI市場のリーダー企業の不祥事は投資家心理に影を落としています。",
-      "source_title": "Stock Market Today, Nov. 9: Nvidia Stock Plunges 4% on Jensen Huang Investigation as Nasdaq Surges Nearly 3%",
-      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObm1vbkY2NkhIYkc3S1VjUVF5T3hsZjlzb2ZFMlk2NGRtSVJqdkdCRDk1ZGJzTkVRX0pzUllucGdfUTN3aWFPVTdNcFk1RU52eF9YSDdzaS0xd2NHSWhCYzgya2k1VFlLdnB1TEQwUVBQUmRnZ1RueGg4ZlNTYXdYdnFnbXFmYWlUckNuaGJZSUU1aTBsQmJxWmdVRFJsdVR6NnRYYzFYMXh3Y1hteElHeENGaE1vUXFHUXpxUEYzazZlYk9CeHp2M0ZueWdMdC1qS2dfLWszdEZkN1dOS1hMenZRcFc3RDBxbjdCbzhjQlBVbFl0MXJv?oc=5"
+      "title": "CoreWeave好決算が牽引しハイテク株が大幅反発",
+      "detail": "CoreWeaveの良好な決算発表をきっかけに、AI関連銘柄への懸念が和らぎました。これに伴い、ハイテク株全般に押し目買いが入り、NASDAQなどの主要指数が3%近く上昇する堅調な展開となりました。",
+      "source_title": "Nasdaq 100 Advances 3% as Easing AI Anxiety Draws Dip Buyers In - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTWhFb0Z4UU5tNk9GTTVCYW9hallXVDZiRkhNMjFubzVVbmt1RXY4ekdtSFdZSTV4cEhqYkNrMlM0TW9keklFMHBOUDVzTTNhNXhJX2ZuVWRjSTFheURwb1NlU1F5b3Q0SXJWaGdzMzlEZHE5N3UzeE5jSzJIbkpoc2tqdkNKZG0zczBSYndTNm5GUFVUeEM1OHB2LUlnRktreFhueUxleGRwTWp0S1RZcWFQRQ?oc=5"
     },
     {
-      "title": "原油価格の下落がインフレ懸念緩和",
-      "detail": "原油価格が下落したことで、インフレ圧力の緩和が意識されました。これにより市場のセンチメントが改善し、NVIDIAを除くハイテク株を中心に押し目買いが入り、市場全体は大きく上昇しました。",
-      "source_title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNldnOF8ybWVHdkNyWXAxOG1mSFRERGpWNlpaM2N6R1ctTUk1MDZEWlR4aEtWZ1RlT092T1NtaVBfbDRtWmItVi01TWpzV3BIdTRDUDJUblRwSkFSZDl6S0J1NE42bzE4bEsxVGMyeURKR3lTbmlYNTRLQnM2TmFCQ1JUZkJ1aFppVURGQjkxSk1PVWtCcEF1Sy12SlB5a3UyaW5lVkhkMWZtTktaclE?oc=5"
-    },
-    {
-      "title": "ハイテク株の買い戻しとAI関連の堅調",
-      "detail": "NVIDIAが独自に下落する一方で、AI関連の半導体銘柄などには買いが入り、ハイテク株全般が押し目買いで上昇しました。前週までの売りに対する過熱感の剥落が市場の回復を後押ししました。",
-      "source_title": "Stock Indexes Sharply Higher as Tech Stocks Rally and Crude Oil Falls",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR19LN3lpRkRibGs3RWZIY3pycDRJSHB3ZzYtSVVTWE8zZnhKZjlDaWk0MkVxN0NXRFVVaEFfeXcySEJOemVaeEF3dnJWRjlVR1B2QnR2UlktaGVReXpQVG14cnctTGNMcFFNZ0dBLUh6dTFGQ1pLTHM1TnFLaDBsYjVsNkhGc2NhM0NsUXRJc1V5VHVqdmt6bzZQY0pvcnJLR3FmeTNYYVI1RWFKRy16UVY3VQ?oc=5"
+      "title": "AI銘柄の収益期待が再燃し投資家心理が大きく改善",
+      "detail": "AIセクターへの投資熱が再び活発化し、半導体株をはじめとする関連銘柄が反発しました。先週の下落局面を経て、市場全体でAI需要に対する楽観的な見方が回復したことが株価の上昇を後押ししています。",
+      "source_title": "US tech stocks rally as AI trade revives - Financial Times",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeFdTQTdsNlZNN1RrOFQ2SURTdFNGdVJqdlNCMm1pTUd0QzBYcWJxbFptWTNoMWYzRGtCRFk0Tmg0eUpOenZfV004STBHVG1oNnRVYzB3MzlINzFqcHA2dUw5UGpJdUpSMjhTckFwX09qUTZmWHFtYmlkZzdVbVNra3owVEM?oc=5"
     }
   ]
 }
