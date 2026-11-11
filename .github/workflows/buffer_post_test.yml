@@ -25,7 +25,7 @@ jobs:
           pip install yfinance requests
 
       - name: X投稿文を生成
-        run: python scripts/market_post_generator_v6.py
+        run: python scripts/market_post_generator_v7.py
 
       - name: Buffer予約投稿キューへ追加
         env:
