@@ -30,4 +30,4 @@ jobs:
       - name: Buffer予約投稿キューへ追加
         env:
           BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
-        run: python scripts/buffer_post_sender_v3.py
+        run: python scripts/buffer_post_sender_v4.py
