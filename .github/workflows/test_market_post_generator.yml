@@ -25,7 +25,7 @@ jobs:
           pip install yfinance
 
       - name: X投稿文を生成
-        run: python scripts/market_post_generator_v2.py
+        run: python scripts/market_post_generator_v3.py
 
       - name: 生成された投稿文を表示
         run: |
