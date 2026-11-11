@@ -1,1 +1,33 @@
+name: X投稿文生成テスト
 
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate-post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+
+      - name: Pythonをセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 必要ライブラリをインストール
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance
+
+      - name: X投稿文を生成
+        run: python scripts/market_post_generator.py
+
+      - name: 生成された投稿文を表示
+        run: |
+          echo "===== X投稿文 ====="
+          cat market_post.txt
