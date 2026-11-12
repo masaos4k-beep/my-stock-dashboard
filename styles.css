@@ -484,3 +484,25 @@ padding: 6px 0;
 font-size: 12px;
 }
 }
+
+/* Xロゴ：ヘッダー */
+.x-header-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin-left: 12px;
+  color: #263f3a;
+  transition: opacity 0.2s;
+}
+
+.x-header-link svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.x-header-link:hover {
+  opacity: 0.6;
+}
