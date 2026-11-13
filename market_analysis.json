@@ -2,20 +2,14 @@
   "report_date": "2026-11-14",
   "drivers": [
     {
-      "title": "NVIDIAの不透明感による重石",
-      "detail": "NVIDIAを巡る混乱や経営に関する不透明感が高まり、同社株の急落がテックセクター全体の重石となってハイテク株主導で株価が下落する要因となった。",
+      "title": "エヌビディアCEO辞任の波紋",
+      "detail": "ジェンスン・フアン氏の辞任により、AI業界の先行きに対する不透明感が強まっています。同社への依存度が高いAI関連株を中心に、市場全体のテック株への売り圧力が継続する要因となりました。",
       "source_title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
       "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0xIRkJ1T2xEOU9abUNDYi1vTlpmRWJzd0MyQkFqa2NSb1BkMEdUNDROMmVmaXo3bDVRdThuRDFRaWZySXAyRjN5d1NDNjhCclFJUDVxdG9CQ1dyWWpDbUEwVHVRaHpNWUg5SjdreUtMeHNHXy1feGNBVkFLN3Z4cGNTcGtyYXg2bXFHdlpZQWtneFJDSWVreFROZ09oamc?oc=5"
     },
     {
-      "title": "AI関連銘柄の売りの連鎖",
-      "detail": "NVIDIAの経営危機に関連した不透明感が、AI関連の半導体銘柄全体へ波及。AIトレードが後退し、関連銘柄に対する投資家の警戒感が強まったことで市場全体が圧迫された。",
-      "source_title": "US Tech Stocks Decline As Nvidia Uncertainty Pressures AI Trade",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTE0zNTJPci1ycHVRSHlNYU8xZElXaFFRdFAyTXpfX01SZnFLZndjeWRKdWZ4RW5VZEVIUUx3TU5Sci1HNE5zVS10endYN09vMWM5U2RJN3lkV0tFNVV3TjMxT19EN3lPaEVTSEE5TFlvSjN3cFFQVTNlcGZUV1JmaVZkWjlJRWVFUmYta1BiXzRucnBxRWhJUHY0QVVxWFNpOEtONzRfbkdiaVVY?oc=5"
-    },
-    {
-      "title": "米長期金利の上昇の影響",
-      "detail": "13日の市場では、米債券利回りが5%に達したことがハイテク株にとって逆風となり、NASDAQ指数の大幅な下落を招く主要な材料として意識された。",
+      "title": "米長期金利が5％へ急上昇",
+      "detail": "米国債利回りが5％に達したことが、ハイテク株の評価額に対する重石となりました。金利上昇は成長株の魅力を相対的に低下させ、ナスダックをはじめとする主要指数の下落を加速させています。",
       "source_title": "Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treasury Yields Hit 5%",
       "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMlpTZmZ4M3EtLUpsczhwZTlRN3ZvbmVERTU4QXpXQU5DdmxDX2tMcFBtdW1nc0RETm5sSzZsM2R1UGF6VGhRMFk0ZDNjQUhTU0RTR0Eta1pSd3BqWUI2RHpYSXBjdXl2SnhHS3dGaHk3Nkp6dkVST3oydUtQa09RU2pPckVtQnpSMlM3a2VCbkhjblBzUk02bmtJNTh5N0ZjMGNKREhYYnFNWHRhdFFoNVFGNGkyaFNjeUNxTHJPZWVmNjdLXzZEdV9QSjN5dnJqc1Z3WGs2OWw2NnllNlZaMENZWnNDZ3BoeHc?oc=5"
     }
