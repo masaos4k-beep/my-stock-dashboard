@@ -1,17 +1,23 @@
 {
-  "report_date": "2026-11-12",
+  "report_date": "2026-11-13",
   "drivers": [
     {
-      "title": "CoreWeave好決算でAI株が復活",
-      "detail": "米AI関連企業のCoreWeaveが発表した好調な業績を背景に、これまで懸念されていたAI投資への慎重論が緩和されました。これにより、ハイテク株全般に買いが広がり、NASDAQ指数が上昇したことが示唆されます。",
-      "source_title": "Nasdaq 100 Advances 3% as Easing AI Anxiety Draws Dip Buyers In - Bloomberg",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTWhFb0Z4UU5tNk9GTTVCYW9hallXVDZiRkhNMjFubzVVbmt1RXY4ekdtSFdZSTV4cEhqYkNrMlM0TW9keklFMHBOUDVzTTNhNXhJX2ZuVWRjSTFheURwb1NlU1F5b3Q0SXJWaGdzMzlEZHE5N3UzeE5jSzJIbkpoc2tqdkNKZG0zczBSYndTNm5GUFVUeEM1OHB2LUlnRktreFhueUxleGRwTWp0S1RZcWFQRQ?oc=5"
+      "title": "NvidiaのCEO退任が市場を揺るがす",
+      "detail": "Nvidiaのジェンスン・フアンCEOの辞任発表を受け、同社株が急落しました。このニュースはハイテク市場全体に波及し、半導体株やAI関連銘柄の重石となり、市場の不透明感を強める要因として機能しています。",
+      "source_title": "Nvidia CEO Jensen Huang resigns after mounting scandal upends US tech giant | CNN Business",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLXBTU3VDVzhyWkZsZWt4X3dGZkY5Q0tiMV83VkJzeHBPWTRvSGIyVTQ0TEdfRDJPVHVnRXVUZnhERnBKTjZtcUJrTVFQRW5idEk0UElvNjB5bENMTDdETkNDLU5nLU8wbUpPWUhKQlp0d01iTm01b3dJeEFLVzRuSGVrQUEwM0pUdF9VT05MM2FNSzBMS0E?oc=5"
     },
     {
-      "title": "NvidiaのCEO去就巡る報道",
-      "detail": "Nvidiaの取締役会がCEOであるジェンスン・フアン氏の解任を検討しているとの報道が市場に流れたことで、半導体関連セクターやハイテク市場全体に対して、先行き不透明感や投資家の不安を強める材料となった可能性があります。",
-      "source_title": "Nvidia stock drops as board reportedly weighs Jensen Huang’s future - CNN",
-      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoRUJ2MTBDV1lNNy1ETnc3cXEzM1dsMmJ4OEVfT2l2bDl1NnZMd1JWV00wX2VpUE9PdU00LV9xU0V3WXdIbnRNSVFyUUJtQ3BFckZRY05ObExzbjJyZlFWUUpveUJ3dXNyQ1lNQ2UyeGtMaURf?oc=5"
+      "title": "AI銘柄への警戒感と先行き懸念",
+      "detail": "Nvidiaを巡る混乱に加え、著名投資家がNASDAQ100のプットオプションを積み増すなど、AI関連銘柄に対する市場の警戒感が高まっています。この動向がハイテク株全般の上値を抑える要因となった可能性があります。",
+      "source_title": "Michael Burry Doubles Down On Nasdaq 100 Puts, Adds To Semiconductor Shorts As Nvidia Faces Scrutiny",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLXoyNzJMQ0JURGlJS3o0Wm0zRTMzTkVKc3Jpa1dZdlZSNzAzS1hqMlA2SGVpYzdIWW9oU3prY2l2RDdHY3J4b3VCYS1SNTBSc0VmNjlnV2o5ZUxDOUE0WmxNQk9ham5OSDI0TEtRZ1BhNHotN2FVanZ3b004a1NSdHRUSlU1cUxOaTdkM0ZUNTN4ZlJ2bXVyazNTRThaZE0?oc=5"
+    },
+    {
+      "title": "競合他社への資金シフトの示唆",
+      "detail": "Nvidiaの急落に関連し、投資家の資金がAMDやブロードコムなど、他の半導体・AIインフラ関連銘柄へ一時的にシフトする動きが見られました。市場内での銘柄選別が活発化していることが示唆されます。",
+      "source_title": "AMD and Broadcom Stock Get a Boost From Nvidia’s Loss",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMGJPR1pTTlRRSUZBTFNIZTZCd1JYRHltdEx2N2F3OVpvRzRDbFZ2UWlhR01SLWZadTlKNnRjbi1sQU5RazZKaDdReWZmdHhqOEVuemFRTlQ3dWk5SUt2RnMtTU1CcTlDbGctMWZGLUhNREtPNXNnZXNNRUJwQkpMQTVB?oc=5"
     }
   ]
 }
