@@ -1,23 +1,23 @@
 {
-  "report_date": "2026-11-13",
+  "report_date": "2026-11-14",
   "drivers": [
     {
-      "title": "NvidiaのCEO退任が市場を揺るがす",
-      "detail": "Nvidiaのジェンスン・フアンCEOの辞任発表を受け、同社株が急落しました。このニュースはハイテク市場全体に波及し、半導体株やAI関連銘柄の重石となり、市場の不透明感を強める要因として機能しています。",
-      "source_title": "Nvidia CEO Jensen Huang resigns after mounting scandal upends US tech giant | CNN Business",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLXBTU3VDVzhyWkZsZWt4X3dGZkY5Q0tiMV83VkJzeHBPWTRvSGIyVTQ0TEdfRDJPVHVnRXVUZnhERnBKTjZtcUJrTVFQRW5idEk0UElvNjB5bENMTDdETkNDLU5nLU8wbUpPWUhKQlp0d01iTm01b3dJeEFLVzRuSGVrQUEwM0pUdF9VT05MM2FNSzBMS0E?oc=5"
+      "title": "NVIDIAの不透明感による重石",
+      "detail": "NVIDIAを巡る混乱や経営に関する不透明感が高まり、同社株の急落がテックセクター全体の重石となってハイテク株主導で株価が下落する要因となった。",
+      "source_title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0xIRkJ1T2xEOU9abUNDYi1vTlpmRWJzd0MyQkFqa2NSb1BkMEdUNDROMmVmaXo3bDVRdThuRDFRaWZySXAyRjN5d1NDNjhCclFJUDVxdG9CQ1dyWWpDbUEwVHVRaHpNWUg5SjdreUtMeHNHXy1feGNBVkFLN3Z4cGNTcGtyYXg2bXFHdlpZQWtneFJDSWVreFROZ09oamc?oc=5"
     },
     {
-      "title": "AI銘柄への警戒感と先行き懸念",
-      "detail": "Nvidiaを巡る混乱に加え、著名投資家がNASDAQ100のプットオプションを積み増すなど、AI関連銘柄に対する市場の警戒感が高まっています。この動向がハイテク株全般の上値を抑える要因となった可能性があります。",
-      "source_title": "Michael Burry Doubles Down On Nasdaq 100 Puts, Adds To Semiconductor Shorts As Nvidia Faces Scrutiny",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLXoyNzJMQ0JURGlJS3o0Wm0zRTMzTkVKc3Jpa1dZdlZSNzAzS1hqMlA2SGVpYzdIWW9oU3prY2l2RDdHY3J4b3VCYS1SNTBSc0VmNjlnV2o5ZUxDOUE0WmxNQk9ham5OSDI0TEtRZ1BhNHotN2FVanZ3b004a1NSdHRUSlU1cUxOaTdkM0ZUNTN4ZlJ2bXVyazNTRThaZE0?oc=5"
+      "title": "AI関連銘柄の売りの連鎖",
+      "detail": "NVIDIAの経営危機に関連した不透明感が、AI関連の半導体銘柄全体へ波及。AIトレードが後退し、関連銘柄に対する投資家の警戒感が強まったことで市場全体が圧迫された。",
+      "source_title": "US Tech Stocks Decline As Nvidia Uncertainty Pressures AI Trade",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTE0zNTJPci1ycHVRSHlNYU8xZElXaFFRdFAyTXpfX01SZnFLZndjeWRKdWZ4RW5VZEVIUUx3TU5Sci1HNE5zVS10endYN09vMWM5U2RJN3lkV0tFNVV3TjMxT19EN3lPaEVTSEE5TFlvSjN3cFFQVTNlcGZUV1JmaVZkWjlJRWVFUmYta1BiXzRucnBxRWhJUHY0QVVxWFNpOEtONzRfbkdiaVVY?oc=5"
     },
     {
-      "title": "競合他社への資金シフトの示唆",
-      "detail": "Nvidiaの急落に関連し、投資家の資金がAMDやブロードコムなど、他の半導体・AIインフラ関連銘柄へ一時的にシフトする動きが見られました。市場内での銘柄選別が活発化していることが示唆されます。",
-      "source_title": "AMD and Broadcom Stock Get a Boost From Nvidia’s Loss",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMGJPR1pTTlRRSUZBTFNIZTZCd1JYRHltdEx2N2F3OVpvRzRDbFZ2UWlhR01SLWZadTlKNnRjbi1sQU5RazZKaDdReWZmdHhqOEVuemFRTlQ3dWk5SUt2RnMtTU1CcTlDbGctMWZGLUhNREtPNXNnZXNNRUJwQkpMQTVB?oc=5"
+      "title": "米長期金利の上昇の影響",
+      "detail": "13日の市場では、米債券利回りが5%に達したことがハイテク株にとって逆風となり、NASDAQ指数の大幅な下落を招く主要な材料として意識された。",
+      "source_title": "Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treasury Yields Hit 5%",
+      "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMlpTZmZ4M3EtLUpsczhwZTlRN3ZvbmVERTU4QXpXQU5DdmxDX2tMcFBtdW1nc0RETm5sSzZsM2R1UGF6VGhRMFk0ZDNjQUhTU0RTR0Eta1pSd3BqWUI2RHpYSXBjdXl2SnhHS3dGaHk3Nkp6dkVST3oydUtQa09RU2pPckVtQnpSMlM3a2VCbkhjblBzUk02bmtJNTh5N0ZjMGNKREhYYnFNWHRhdFFoNVFGNGkyaFNjeUNxTHJPZWVmNjdLXzZEdV9QSjN5dnJqc1Z3WGs2OWw2NnllNlZaMENZWnNDZ3BoeHc?oc=5"
     }
   ]
 }
