@@ -2,22 +2,16 @@
   "report_date": "2026-11-16",
   "drivers": [
     {
-      "title": "NVIDIAの経営不安が市場を圧迫",
-      "detail": "NVIDIAを巡る経営層の動向や不確実性が重しとなり、米国株式市場、特にハイテク株主体のNASDAQが軟調に推移しました。AI関連取引全体に対する懸念が広がり、投資家の慎重姿勢が強まっています。",
+      "title": "NVIDIAのCEO退任報道が波紋",
+      "detail": "NVIDIAのジェンスン・フアン氏の退任報道が、AI業界や半導体市場全体に不確実性をもたらしました。この経営体制の変化を巡る懸念が、金曜日のハイテク株全般の重石となり、NASDAQなどの株価を押し下げる要因となりました。",
       "source_title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
       "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0xIRkJ1T2xEOU9abUNDYi1vTlpmRWJzd0MyQkFqa2NSb1BkMEdUNDROMmVmaXo3bDVRdThuRDFRaWZySXAyRjN5d1NDNjhCclFJUDVxdG9CQ1dyWWpDbUEwVHVRaHpNWUg5SjdreUtMeHNHXy1feGNBVkFLN3Z4cGNTcGtyYXg2bXFHdlpZQWtneFJDSWVreFROZ09oamc?oc=5"
     },
     {
-      "title": "AI銘柄への警戒感と調整の動き",
-      "detail": "AIに関連する銘柄の取引が勢いを失い、市場全体に調整圧力がかかりました。一部の報じられたスキャンダルや先行きへの不透明感が、ハイテク株全般のボラティリティを高める要因となっています。",
-      "source_title": "U.S. Stocks Finish in the Red as the AI Trade Falters",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeEJldGZVaU5TTFN4QVFmOVpaM0pURXFGVDhwdkZsRVpySWx1X0VzRDN1VnhUUmNZeWpoYnd0RUtxUlZDYWlMc2NDVzJEdmI4M0k2Vnh2MTEzWEc0eUREMEdGc3BYUzVkTFhScHl2TGhxUHVQNDhiY0JWdTc5bFZZOTRWeGFTUzJDYUE?oc=5"
-    },
-    {
-      "title": "米長期金利上昇がテック株の重荷",
-      "detail": "米国債利回りが5％に達したことが、テック株を含む株式市場の重しとなりました。金利上昇とNVIDIAを巡る混乱が複合的に作用し、ナスダック指数などの主要指数が押し下げられました。",
-      "source_title": "Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treasury Yields Hit 5%",
-      "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMlpTZmZ4M3EtLUpsczhwZTlRN3ZvbmVERTU4QXpXQU5DdmxDX2tMcFBtdW1nc0RETm5sSzZsM2R1UGF6VGhRMFk0ZDNjQUhTU0RTR0Eta1pSd3BqWUI2RHpYSXBjdXl2SnhHS3dGaHk3Nkp6dkVST3oydUtQa09RU2pPckVtQnpSMlM3a2VCbkhjblBzUk02bmtJNTh5N0ZjMGNKREhYYnFNWHRhdFFoNVFGNGkyaFNjeUNxTHJPZWVmNjdLXzZEdV9QSjN5dnJqc1Z3WGs2OWw2NnllNlZaMENZWnNDZ3BoeHc?oc=5"
+      "title": "ハイテク株の調整と週次上昇",
+      "detail": "金曜日の市場ではNVIDIAに関連する不透明感からハイテク株が下落し、NASDAQを押し下げました。しかし、週間ベースでは主要指数は上昇を維持しており、強いボラティリティの中でも市場全体は底堅さを保ったとの見方が示唆されています。",
+      "source_title": "Stock Market Today: Indexes Trim Losses, Manage To Score Weekly Gains Despite Strong Volatility",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZUh4NjJPT0pObkx0WXBCcTVMRXgtX1RId0RYYXNhY0xadmpGeVBKT3lKOXVnQVRuX0gyRFZHeW5jcEc5Y09IdGFfY1RyenNMWG9LakhGR0ZrV3lpeVU5V2FzMXJhTWxtdXl4RzZCYnhWa0pMNk51bDQ2VFRCMXdNOWR3QUFvUUlWTElBbi1SN1g3aTR2Y2VuLU1kWXpCUGlwaE9OWVNEbDRnbVExUnV5QzE2WDc3QS13ZVE?oc=5"
     }
   ]
 }
