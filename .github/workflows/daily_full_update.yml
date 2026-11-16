@@ -21,23 +21,44 @@ jobs:
         with:
           ref: main
 
+      # ==========================================
+      # 新しい取引データがあるか確認
+      # ==========================================
+
+      - name: 新しい取引データを確認
+        id: trading_day
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas yfinance
+          python scripts/check_new_trading_day.py
+
+      # ==========================================
+      # ここから通常のDaily Update
+      # 新しいデータがある場合だけ実行
+      # ==========================================
+
       - name: Pythonをセットアップ
+        if: steps.trading_day.outputs.has_new_data == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: 必要なライブラリをインストール
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: |
           python -m pip install --upgrade pip
           pip install pandas numpy yfinance plotly playwright google-genai requests
 
       - name: Chromiumをインストール
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python -m playwright install --with-deps chromium
 
       - name: 市場ダッシュボードを生成
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/market_dashboard.py
 
       - name: 市場ニュース分析を生成
+        if: steps.trading_day.outputs.has_new_data == 'true'
         id: news_analysis
         continue-on-error: true
         env:
@@ -45,36 +66,51 @@ jobs:
         run: python scripts/market_news_analysis.py
 
       - name: 年初来指数比較を生成
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/ytd_Index_comparison.py
 
       - name: S&P500目標チャートを生成
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/SP500_2026_target.py
 
       - name: Forward PERデータを取得
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/3indices_per_capture.py
 
       - name: Forward PERチャートを生成
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/3indices_per_chart.py
 
       - name: 株価・EPSチャートを生成
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/3indices_eps_price_chart.py
 
       - name: ドローダウンチャートを生成
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/3indices_drawdown_chart.py
 
       - name: AIバリューチェーン分析を生成
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/ai_value_chain_analysis.py
 
       - name: AIヒートマップを生成
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/ai_value_chain_heatmap.py
 
       - name: AIグローバルマップを生成
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/ai_value_chain_global_map.py
 
       - name: 記事一覧JSONを生成
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/build_article_index.py
 
+      # ==========================================
+      # 生成ファイルをコミット
+      # ==========================================
+
       - name: 生成ファイルをまとめてコミット
+        if: steps.trading_day.outputs.has_new_data == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -108,12 +144,38 @@ jobs:
             git push origin HEAD:main
           fi
 
+      # ==========================================
+      # X投稿・Buffer登録
+      # ==========================================
+
       - name: X投稿文を生成
-        if: steps.news_analysis.outcome == 'success'
+        if: steps.trading_day.outputs.has_new_data == 'true' && steps.news_analysis.outcome == 'success'
         run: python scripts/market_post_generator_v9.py
 
       - name: Buffer予約投稿キューへ追加
-        if: steps.news_analysis.outcome == 'success'
+        if: steps.trading_day.outputs.has_new_data == 'true' && steps.news_analysis.outcome == 'success'
         env:
           BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
         run: python scripts/buffer_post_sender_v4.py
+
+      # ==========================================
+      # 正常終了後に処理済み取引日を保存
+      # ==========================================
+
+      - name: 処理済み取引日を保存
+        if: steps.trading_day.outputs.has_new_data == 'true'
+        run: |
+          mkdir -p data
+          echo "${{ steps.trading_day.outputs.latest_date }}" > data/last_processed_trading_day.txt
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/last_processed_trading_day.txt
+
+          if git diff --cached --quiet; then
+            echo "処理済み取引日に変更はありません。"
+          else
+            git commit -m "Update last processed trading day"
+            git push origin HEAD:main
+          fi
