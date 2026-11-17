@@ -1,17 +1,23 @@
 {
-  "report_date": "2026-11-16",
+  "report_date": "2026-11-18",
   "drivers": [
     {
-      "title": "NVIDIAのCEO退任報道が波紋",
-      "detail": "NVIDIAのジェンスン・フアン氏の退任報道が、AI業界や半導体市場全体に不確実性をもたらしました。この経営体制の変化を巡る懸念が、金曜日のハイテク株全般の重石となり、NASDAQなどの株価を押し下げる要因となりました。",
-      "source_title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0xIRkJ1T2xEOU9abUNDYi1vTlpmRWJzd0MyQkFqa2NSb1BkMEdUNDROMmVmaXo3bDVRdThuRDFRaWZySXAyRjN5d1NDNjhCclFJUDVxdG9CQ1dyWWpDbUEwVHVRaHpNWUg5SjdreUtMeHNHXy1feGNBVkFLN3Z4cGNTcGtyYXg2bXFHdlpZQWtneFJDSWVreFROZ09oamc?oc=5"
+      "title": "NVIDIA決算控えハイテク株に売り",
+      "detail": "NVIDIAの第3四半期決算発表を控え、AI関連銘柄を中心にハイテク株が広く売られました。投資家の間では決算に対する不透明感が高まっており、Nasdaq指数などの主要株価指数を押し下げる主因となっています。",
+      "source_title": "US tech stocks slide ahead of Nvidia results",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaGpqcXpGcmwtSWNzX2FvRDFXejF5TktMbktSemlOZ3pRc0FYNmRiUk1qM0dCdXphenJFWnU0bTZNc1NZWEdVVUV4N1F1YzRNOUtvdUE4UVoxWUxJUWt1Zk9kVklyam9JZlFKeU9yWXJfS1pBQ2lNRjFYUUY0WkV3MWx2aG0?oc=5"
     },
     {
-      "title": "ハイテク株の調整と週次上昇",
-      "detail": "金曜日の市場ではNVIDIAに関連する不透明感からハイテク株が下落し、NASDAQを押し下げました。しかし、週間ベースでは主要指数は上昇を維持しており、強いボラティリティの中でも市場全体は底堅さを保ったとの見方が示唆されています。",
-      "source_title": "Stock Market Today: Indexes Trim Losses, Manage To Score Weekly Gains Despite Strong Volatility",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZUh4NjJPT0pObkx0WXBCcTVMRXgtX1RId0RYYXNhY0xadmpGeVBKT3lKOXVnQVRuX0gyRFZHeW5jcEc5Y09IdGFfY1RyenNMWG9LakhGR0ZrV3lpeVU5V2FzMXJhTWxtdXl4RzZCYnhWa0pMNk51bDQ2VFRCMXdNOWR3QUFvUUlWTElBbi1SN1g3aTR2Y2VuLU1kWXpCUGlwaE9OWVNEbDRnbVExUnV5QzE2WDc3QS13ZVE?oc=5"
+      "title": "対中AI半導体規制強化で関連株下落",
+      "detail": "米国政府がAI向け半導体の対中輸出規制を強化する方針を示したことを受け、半導体関連株が急落しました。この政策はAIインフラ需要やテック企業の成長見通しに対するリスクとして意識され、市場全体の重石となっています。",
+      "source_title": "Tech Stocks Lose $960B as US Shuts China AI Chip Loophole - NVIDIA (NASDAQ:NVDA)",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSEtSVUJBeFZxN2syN0dGTW9pZGtzaWd0YjFjcFFJUVVod2hkSThfTHhoUUpZcWV4Y3BFTG9NWGoxVU1iVnJPTkt0d0xJN2Z4MHlqVUFlOTVQbENnRkNlRVJtUGtoeDVFek1tNEtwU3JhRFBveEZfeXNTRjU5eG02dEVZOUJ2T01aNVlRQWp6c0h0NGVZM25NbVgxV05YQ295NXZXaHJFSlBXWks2UW9JUDBBTFU?oc=5"
+    },
+    {
+      "title": "Anthropic新規上場への警戒感",
+      "detail": "AI企業Anthropicの新規株式公開（IPO）を目前に控え、投資家心理が悪化しています。AIセクター全体における評価額の調整懸念やボラティリティの上昇が、大手ハイテク株から資金を引き揚げる動きを加速させている可能性があります。",
+      "source_title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEJobHpHMl90WUdVbnpzSGxLb1l3bi1BczhrN29iVW9rUzBtQWE4aFNuM2ZGS1RIQThLdEZPWmZjeExVaHhRaXBubkdqR3R3TXJYTlRqUmRYcXZxYS1pV1lyRlExUDdEUWJ3cTg4aktJVWcxbkg5UW9oeVRXLXhCZjdRQmFNeFJlLXhpWTRMM1lEUVlodGwxVHNCSE9ONTlnem0yekw1dDNraElYZGc?oc=5"
     }
   ]
 }
