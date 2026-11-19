@@ -1,23 +1,17 @@
 {
-  "report_date": "2026-11-19",
+  "report_date": "2026-11-20",
   "drivers": [
     {
-      "title": "エヌビディア決算がAI需要懸念を緩和",
-      "detail": "エヌビディアの好調な決算発表が投資家のAI関連株に対する懸念を和らげ、米国株の先物市場が上昇する動きが見られました。ハイテク株市場にとって重要な節目を通過したことが市場のセンチメントを改善させました。",
-      "source_title": "US Stock Futures Rally as Nvidia Results Ease AI Trade Worries - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRi1ZbVpsWDREeUZoOV8tRHkxLVZ2WnNtaFdXWENZbkVWVHRITUNZRmFFX1V1X2RCV1ctdWFBMk14emVFTEl0eDV0cERXU0ZmN3A5NnphRDZkU3FEdmpCSXpJRU5HMnFHbENrbmhoYkhsX2VIZUxrU0VlUTUycFo0a3l0UFoxaEVOS2ZxaGxwRmdRd3lJSktTZy14VUdRTVJCNlVTb3BmZW44ankzblhKWFZ6dw?oc=5"
+      "title": "Anthropic上場でAI熱は再燃せず",
+      "detail": "Anthropicの新規株式公開（IPO）は成功したものの、市場全体のAI銘柄に対する楽観的な見方を復活させるには至りませんでした。投資家の期待と乖離した結果となり、ハイテク株を中心に売り圧力が強まる要因となりました。",
+      "source_title": "Wall St slides as Anthropic's debut fails to revive AI trade optimism",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5"
     },
     {
-      "title": "Anthropicの市場デビューへ注目",
-      "detail": "Anthropic社のウォール街へのデビューが注目されており、AIセクターの新たな章として市場の関心を集めています。同社のIPOに向けた動きが、今後のAI関連銘柄の値動きを占う試金石となることが示唆されています。",
-      "source_title": "Anthropic’s Wall Street debut marks a new chapter for AI - CNN",
-      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwN3RZUUlsZ2xnX2REUk5uSEh0RTdScHBHQVd5X1J2dk1Eams5c1pDaHlWM3pJNkl3MXR0ZzR3QzRIOWY3a24zbTZpb21qVlRZMHlVYjMtTTNyOWs1cmozWHNEYXpLS1Z6RWtYOElVRmI1NFA0MGpVYw?oc=5"
-    },
-    {
-      "title": "連邦準備制度の議事要旨による影響",
-      "detail": "FOMC議事要旨の公表やFRB関係者からのタカ派的なコメント（ショックを伴う利上げ警告など）が、市場の不透明感として意識されました。エヌビディア決算への好反応がある一方で、金融政策の先行きが相場の重石となっています。",
-      "source_title": "Futures Mixed; Nvidia Tops, Fed's Waller Warns Of 'Shock' Rate Hike - Investor's Business Daily",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM2s3XzVKLXc1azMwV2VhVlhPalU1a2UxbDY5aW9XejYxRDlwbHhvdkc2aVhYd1ZLaGx2ZU5nVm1KWWhXd2FXeTMyZDQycXU4Z0RPMEZ6MUo2Z0p1dHV5anBMZmNIQ0M3WExTbUJzd08wRVAxdzNmMGgyU1ZWRXlQYWpudmhDREhneU9BVkt2WDZHaWtmZldHQmx6N3QzQlh1UTBSYnoxR28tZTlBeDR5WnB0Zw?oc=5"
+      "title": "Nvidia株売却の動きが重石に",
+      "detail": "Nvidiaの決算が期待通りにAI取引の不安を払拭しきれず、主要な半導体・ハイテク銘柄が利益確定売りや調整売りに押されました。市場ではAI関連株の先行きに対する慎重な見方が強まっています。",
+      "source_title": "Dow drops more than 500 points; S&P 500 falls for fifth day as Nvidia sells off",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwTDVScDA1ZzNHQi1GT1RaRFVzYTJPa2lHVVJyVzR6RlhfaGZNbG5Va1BFblNtYm54eG82YWl4dlA3SkltcC1WSmdCVEUtMlVKNXlCVDNVcG8wRnBaNkc0UVctakctUDdZUDJsNEp4dWN0Z0Vsczlv0gF8QVVfeXFMT014TXpKZ2hKbVhJT0dVekl1Z2tCbjE3MnMtLWhMUG1DaUc3UUd0emE1R2xPd2pDZXMzVXhGbHFVRmdWRm1iRWJnejN6YjJJYlpDWkxJOVhDS3RuRGUyQkhHZ2wzSzJJdnVrNDVqcHQxb2ZXVkUwSVRJcjE4RA?oc=5"
     }
   ]
 }
