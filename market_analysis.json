@@ -1,23 +1,17 @@
 {
-  "report_date": "2026-11-21",
+  "report_date": "2026-11-22",
   "drivers": [
     {
-      "title": "ハイテク株の調整と市場の下落",
-      "detail": "AIセクターへの懸念の高まりを背景にハイテク株が急落し、市場全体が調整局面入りした。Nasdaqは2026年の上昇分をすべて吐き出すなど、大型ハイテク株を中心に売りが加速し、指数が大幅に下落した。",
-      "source_title": "Markets plunge: Nasdaq erases 2026 gains, S&P and Dow enter corrections",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRTk1MEVuRzZfdUVPMG9Mc3c4VFlvRUJRTGl0WUxTWVFOUG41LWJwWTFsbnNwcnktNjh5VE9IMUdLbHRuRnlEbUFZNlUyZGgxMG5admdobWx6R3VBU2VCb3BBczlUZU9sdmctenh6c2laaUpWSzYzWTBHaUh6UWhSWmVmOTRnRWdoVDM2MjRoWkM0LXU4cmc?oc=5"
-    },
-    {
-      "title": "Anthropic社のIPOとAI期待の剥落",
-      "detail": "期待を集めていたAnthropic社の新規株式公開（IPO）がAIセクターの懸念を払拭できず、かえって同社の株価が下落した。これにより、これまで市場を牽引してきたAI関連銘柄に対する投資家の強気な見方が修正された。",
+      "title": "AI関連銘柄の急落でNASDAQ急降下",
+      "detail": "AnthropicのIPO後、AIセクターに対する投資家の懸念が強まり、大型ハイテク株が広範囲で売られた。これによりNASDAQは2026年の上昇分をすべて吐き出し、市場全体が調整局面に突入した。",
       "source_title": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves",
       "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mdllsNUVFYnVqeDVsNWpGX1U5ckw2RURWWUc0ZDdaWksyYzF0c3JJUjAxaHRCbFR2a3F6R1RsLVhSRjBoTngtZWNSRHVybWd4cUN0STB2VWhQSDVtZTBIVG9jMFp0WHBrSGpydlhNTWI?oc=5"
     },
     {
-      "title": "主要半導体株の急落が市場を牽引",
-      "detail": "NVIDIAの株価が12%急落したほか、BroadcomやAMDなど主要半導体銘柄が広範に下落した。AI関連の売買が収束に向かうとの懸念が広がり、ハイテク株を中心に市場全体の売り圧力が強まっている。",
-      "source_title": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHB0U3N0WnlCMjZCUFZ3QlNZSEhXZnVVbUdMSElkZTJ3TkszdTFxQnlpMkpZV05ZajNXM0VJYXlDM293OEdkUWl4RHVTZXRvSG1rQnJMWVJrMEp3a00zSm9VbTF6eHByZmpwNGMxcFlEQ3ZFSDQwU0FpNHlzV2xDRndWMnVzdDUzbkdDamxKX2FZeWNBbTJBamg2SVFwamZWdEh1elZ3?oc=5"
+      "title": "AI銘柄への警戒感で投資家が資産逃避",
+      "detail": "AIブームの持続性に対する市場の懐疑論が急激に広まり、ハイテク株からバリュー株への投資資金のシフトが加速した。市場関係者の間でAIトレードの終焉を懸念する声が強まっている。",
+      "source_title": "AI tech rout prompts US investors to rush into value stocks",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdDhJbUROT2pNZjBobFFBeFlGWU5HRS1PZFNydV9OdHpJbEttV2ZDVElPaGNhNnE3cGlnYUlZOTR3ZC1KZGNIX0pJbExiMzBWa3lxTHpZeUtBYjFtSXJwN3FpZWhjNnUwSklvVmZlRGdEQmNFSlFVcldhXzJsbk1hUlNUMXY0Q0Fjajc0c1ZlQTY0a0FFdUlyRzg4UWQ3M1d5WjFMTjhzRWtlS2VxNnc?oc=5"
     }
   ]
 }
