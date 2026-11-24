@@ -174,9 +174,13 @@ jobs:
 
           git add data/last_processed_trading_day.txt
 
+          if [ -f data/last_posted_trading_day.txt ]; then
+            git add data/last_posted_trading_day.txt
+          fi
+
           if git diff --cached --quiet; then
-            echo "処理済み取引日に変更はありません。"
+            echo "保存する変更はありません。"
           else
-            git commit -m "Update last processed trading day"
+            git commit -m "Update processed and posted trading days"
             git push origin HEAD:main
           fi
