@@ -73,17 +73,17 @@ jobs:
         if: steps.trading_day.outputs.has_new_data == 'true'
         run: python scripts/SP500_2026_target.py
 
-      - name: Forward PERデータを取得
-        if: steps.trading_day.outputs.has_new_data == 'true'
-        run: python scripts/3indices_per_capture.py
+      # - name: Forward PERデータを取得
+      #  if: steps.trading_day.outputs.has_new_data == 'true'
+      #  run: python scripts/3indices_per_capture.py
 
-      - name: Forward PERチャートを生成
-        if: steps.trading_day.outputs.has_new_data == 'true'
-        run: python scripts/3indices_per_chart.py
+      # - name: Forward PERチャートを生成
+      #  if: steps.trading_day.outputs.has_new_data == 'true'
+      #  run: python scripts/3indices_per_chart.py
 
-      - name: 株価・EPSチャートを生成
-        if: steps.trading_day.outputs.has_new_data == 'true'
-        run: python scripts/3indices_eps_price_chart.py
+      # - name: 株価・EPSチャートを生成
+      #  if: steps.trading_day.outputs.has_new_data == 'true'
+      #  run: python scripts/3indices_eps_price_chart.py
 
       - name: ドローダウンチャートを生成
         if: steps.trading_day.outputs.has_new_data == 'true'
@@ -118,9 +118,6 @@ jobs:
           git add \
             ytd_Index_comparison.html \
             SP500_2026_target.html \
-            data/forward_pe_3indices_2026.csv \
-            3indices_per_chart_chart.html \
-            3indices_eps_price_chart.html \
             3indices_drawdown_chart.html \
             ai_value_chain_analysis.html \
             ai_value_chain_heatmap.html \
