@@ -1,17 +1,23 @@
 {
-  "report_date": "2026-11-22",
+  "report_date": "2026-11-25",
   "drivers": [
     {
-      "title": "AI関連銘柄の急落でNASDAQ急降下",
-      "detail": "AnthropicのIPO後、AIセクターに対する投資家の懸念が強まり、大型ハイテク株が広範囲で売られた。これによりNASDAQは2026年の上昇分をすべて吐き出し、市場全体が調整局面に突入した。",
-      "source_title": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves",
-      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mdllsNUVFYnVqeDVsNWpGX1U5ckw2RURWWUc0ZDdaWksyYzF0c3JJUjAxaHRCbFR2a3F6R1RsLVhSRjBoTngtZWNSRHVybWd4cUN0STB2VWhQSDVtZTBIVG9jMFp0WHBrSGpydlhNTWI?oc=5"
+      "title": "Nvidia株の急落で市場が調整",
+      "detail": "Nvidiaのジェンスン・フアン氏の復帰を好感した前日の急騰から一転、投資家の熱狂が冷めたことで利益確定売りが優勢となりました。この動きがハイテク株全般の重石となり、NASDAQなどの主要指数が下落に転じました。",
+      "source_title": "Stocks Turn Lower as Nvidia Euphoria Wears Off: Markets Wrap",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVVBVLTBQYkhINGhEXzM0b3k1ZjV2b25YWmVNMzFuVl9EbkhNWlV1OUtGVVk4YTRLV01lMFZXRGpDLURZVkVJZy15MkZQNUZxYnRhQV9pLXFRQl9EaHlzemVJTmFUQ1VhTUxNUXd0bGxwZm4yLUJMVXdPeHJ2OWdDSkFOTml2a3NRM3VWcThHWGpJVDNi?oc=5"
     },
     {
-      "title": "AI銘柄への警戒感で投資家が資産逃避",
-      "detail": "AIブームの持続性に対する市場の懐疑論が急激に広まり、ハイテク株からバリュー株への投資資金のシフトが加速した。市場関係者の間でAIトレードの終焉を懸念する声が強まっている。",
-      "source_title": "AI tech rout prompts US investors to rush into value stocks",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdDhJbUROT2pNZjBobFFBeFlGWU5HRS1PZFNydV9OdHpJbEttV2ZDVElPaGNhNnE3cGlnYUlZOTR3ZC1KZGNIX0pJbExiMzBWa3lxTHpZeUtBYjFtSXJwN3FpZWhjNnUwSklvVmZlRGdEQmNFSlFVcldhXzJsbk1hUlNUMXY0Q0Fjajc0c1ZlQTY0a0FFdUlyRzg4UWQ3M1d5WjFMTjhzRWtlS2VxNnc?oc=5"
+      "title": "AI銘柄の不確実性が意識され下落",
+      "detail": "NvidiaなどのAI関連株の乱高下が続き、市場にはAIブームの持続性に対する懸念が再燃しています。Anthropic株のIPO割れなども重なり、投資家はテクノロジーセクター全般に対して慎重な姿勢を強めています。",
+      "source_title": "Nasdaq slides as AI trade uncertainty remains despite explosive Nvidia-led rally",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMHJSc1lQSFFnSU90UmhzTDNkRHo0NG1PUXF4eW1IejA5dXg2UkEwWGpCNmxNUVFKRVZYNzNZWi1waHljeEluVW56bWg4b25uTDN3dXA2WUtXcXRtVEVBdm1oUzNhQVBfVnZGMExxYWh2bS1vOWxtU3g0R2d4eGtPMjZ0N2hhd084R1pFUHdDVTluc1Z3aGlWX0RndG1OX0s1cUZCNm9WbG9RckllWDNKSlRxSmI?oc=5"
+    },
+    {
+      "title": "半導体株の全面安が指数を下押し",
+      "detail": "Nvidiaの6%超の下落に加え、AMDが9%以上急落するなど、米国半導体セクター全体で売りが広がりました。このセクターの軟調さが、ハイテク株比率の高いNASDAQ指数の押し下げ要因となりました。",
+      "source_title": "US semiconductor stocks plunge across the board; AMD falls over 9%, Nvidia down more than 6%",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wSzF6VmN1eUU5SUdNWmVtV3o5QmtfYWo0TWpsUHFjdFN2S3lvbXUwWjFINE80VlhxekYzQl9ldHZFNzdTbDJMOVlNRF81WVRHQ0JoQkJ0WG5mbVF6ZWlKS0VIeXNhRDBodHduNEpYdHVwZWNlU2c?oc=5"
     }
   ]
 }
