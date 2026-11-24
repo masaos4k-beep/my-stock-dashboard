@@ -156,7 +156,8 @@ jobs:
         if: steps.trading_day.outputs.has_new_data == 'true' && steps.news_analysis.outcome == 'success'
         env:
           BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
-        run: python scripts/buffer_post_sender_v4.py
+          LATEST_TRADING_DATE: ${{ steps.trading_day.outputs.latest_date }}
+        run: python scripts/buffer_post_sender_v5.py
 
       # ==========================================
       # 正常終了後に処理済み取引日を保存
