@@ -1,23 +1,17 @@
 {
-  "report_date": "2026-11-26",
+  "report_date": "2026-11-28",
   "drivers": [
     {
-      "title": "AI銘柄への警戒感が高まり市場が下落",
-      "detail": "生成AIブームの過熱感に対する懸念が強まり、米国株市場ではハイテク株を中心に売りが先行した。NVIDIAなど主要AI関連銘柄が下落し、投資家のリスク回避姿勢が強まったことが指数を押し下げた。",
-      "source_title": "US stocks fall further as fears over AI intensify",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ENVVNamVYdzF3V0tzVDBVWlVHWEV3WE9Wem5kMVgxRkNOQjI3Y0Nla0YzOFczWk5QbmhnSjk0LU5xTXUzeGdOY05IOVQ2ZE9YY3ExdG9WdE1NME0?oc=5"
+      "title": "AI関連銘柄の反発が市場を下支え",
+      "detail": "感謝祭休暇明けの米国株市場は、週を通じて乱高下したものの、AI関連株が買戻しを誘発したことで主要指数は上昇した。投資家心理の改善がハイテク銘柄の回復を後押ししたと報じられている。",
+      "source_title": "US Stocks Set to Bounce as Risk Appetite Returns After Holiday - Bloomberg",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWkJ0R2dQX1BpbGtNRlNncDF1aTdiMW9zNlJpQ2VXQXhvQV9aYkt5bE1HdXQ5cF9fYlNlNGFha1BDZkNOeDJrS2RkVk5UbmZaeW16N3RWZ19jUmhVYk5TLVY2ZUI3dkVVbUNhRkJMZXRMSVpuZks2SzAybFJPTGVhOXk0dFhWYTBadDlBamstd2FYaWlNUjd1VkpRRGpUdVEtaWJ2Z3d2SGNQTFpocjNLRTNoZw?oc=5"
     },
     {
-      "title": "NVIDIAの株価急落で半導体株が軟調",
-      "detail": "半導体大手NVIDIAの株価が急落したことで、市場全体のセンチメントが悪化した。また、米政府による対中AI半導体規制への懸念なども重なり、関連する半導体銘柄全体に売り圧力が波及する展開となった。",
-      "source_title": "NVIDIA Shares Plunge 6% Amid AI Profitability Concerns",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ2IwQXdjdnFHb3BUdERCV1pxOVp3WW5fZGdCUkpzUEdJM29lQmxlcDlJNG1FeWdNeDZVVjlua1FMMlZ1OFphZUxSS0VoRU5zamwzdEpJNjZZZml4dTFielREM0pBbGswaFJHeFJNQmJJdm5laFdVeUdwdFk4NE1sRU1PVE84MHFp?oc=5"
-    },
-    {
-      "title": "関税リスクやインフレ懸念が市場に重石",
-      "detail": "AI関連株への警戒感に加え、トランプ次期政権が示唆する関税引き上げへの懸念が投資家の心理を圧迫した。また、今後のインフレ動向を巡る不透明感も加わり、米国株市場全体でボラティリティの高い状況が続いている。",
-      "source_title": "US stocks tumble as AI rout and Trump tariffs rattle markets",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1I0OVRsTUdvRUFJbnVucmthbXpiRWZHSHRuNmNFVDVMR1pjdGNqc09MTHBlMW42UFpzc0NDdTNjcFVMcjhkdWlTLThmaDloZGFVenFhdG1iVWItQmhfS282MzN0b3BjdTB1SnJSRW1VZ29iTmUyX3lQVDJ4WUdNam1UOVplMXBz?oc=5"
+      "title": "ハイテク株のボラティリティ継続",
+      "detail": "AIセクターを巡る不透明感が根強く、ハイテク株の動きには引き続き高いボラティリティが見られる。市場では、今後のAI開発の行方や規制リスクを懸念する専門家の慎重な見方も依然として残っている。",
+      "source_title": "Experts say AI stocks aren’t out of the woods yet as Huang’s hearings near - Fox Business",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiRmtmamp5LWlScm51NmwwZTZYMlh2aEVJd19MVHcwUVpZSWx3RXhCakNqYUZFMWRFSXNpY2FpUU05cjlFN2RCWlNrRW9XUDBFbmxMWDZJOHZDUEU?oc=5"
     }
   ]
 }
